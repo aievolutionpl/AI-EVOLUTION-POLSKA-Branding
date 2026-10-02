@@ -95,6 +95,28 @@ temat dotyczy kodu.
 
 ---
 
+## 4a. 🎯 POZYCJONOWANIE — kim jesteśmy na rynku
+
+**Nasz filtr:** najniższa bariera wejścia w AI w Polsce.
+
+| | Oni | **My** |
+|---|---|---|
+| **Wejście** | 147–6 500 zł | **0 zł** |
+| **Język** | mix PL/EN, „prompt engineering" | **w pełni po polsku** |
+| **Dla kogo** | programiści ML, liderzy, enterprise | **zwykli ludzie po pracy** |
+| **Format** | 40 h wykładów, certyfikat | **zadanie do zrobienia w 15 min** |
+
+**Nasze 4 wyróżnienia:**
+1. **Bariera wejścia = 0** — kurs darmowy, bez konta i karty
+2. **Po polsku, dla dorosłych** — nie dla nastolatka z IT, lecz dla 40-latka z pracą
+3. **Efekt pierwszego dnia** — nie obietnica, tylko konkretne zadanie
+4. **Ścieżka** — darmowe → płatne → szkolenie firmy
+
+🚫 **Konkurentów nie atakujemy.** Pokazujemy, kim **JESTEŚMY**.
+Pełna analiza: `docs/STRATEGY.md`
+
+---
+
 ## 5. ✍️ JAK PISZEĆ
 
 ### Ton
@@ -127,18 +149,18 @@ temat dotyczy kodu.
 
 ## 6. 📚 PRODUKTY I CENY
 
-> Ceny są **publiczne** (są na stronie). Źródło: `src/translations/pl.ts`, weryfikacja 30.09.2026.
-> **Podawaj tylko te kwoty. Nie zaokrąglaj, nie improwizuj, nie dopisuj warunków.**
+> **Agent podaje tylko te kwoty.** Nie zaokrąglaj, nie improwizuj, nie dopisuj warunków.
+> 🚫 **Nie ujawniaj w treściach warunków promocji ani dat jej ważności.**
 
 | Produkt | Cena | Uwagi |
 |---|---|---|
 | **Darmowy kurs AI** | **0 zł** | bez konta, bez karty, po polsku |
-| **Kurs Premium (PRO)** | **1 499 zł** (regularnie 1 999 zł) | 25% zniżki, oferta limitowana |
-| **Szkolenia dla firm** | **od 4 999 zł** | `/kursy` — **osobna oferta na `/uslugi`** |
-| **Warsztaty** | **od 2 499 zł / osoba** | start: czerwiec 2026 |
+| **Kurs Premium (PRO)** | **1 499 zł** (regularnie 1 999 zł) | cena promocyjna |
+| **Szkolenia dla firm** | **od 4 999 zł** | wycena wg zakresu |
+| **Warsztaty** | **od 2 499 zł / osoba** | termin ustalany |
 
-🚫 **Nie dopisuj** daty końca promocji ani liczby miejsc — nie są potwierdzone.
-🚫 **Nie mieszaj** ceny 4 999 zł z ofertą szkoleń na `/uslugi`.
+🚫 **Nie wymyślaj** procenta zniżki, daty jej końca ani liczby miejsc.
+🚫 **Nie mieszaj** kursów ze szkoleniami dla firm — to osobne oferty.
 
 ### Gdzie
 | | |

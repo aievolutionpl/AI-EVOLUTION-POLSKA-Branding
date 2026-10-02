@@ -1,8 +1,7 @@
 # OFER — co sprzedajemy
 
-> Ceny poniżej są **publiczne** — są na stronie `aievolutionpolska.pl`.
-> Źródło: `src/translations/pl.ts`. Weryfikacja: 30.09.2026.
-> **Agent: podawaj tylko te kwoty. Nie zaokrąglaj i nie improwizuj.**
+> **Agent podaje tylko te kwoty. Nie zaokrąglaj, nie improwizuj.**
+> 🚫 Nie ujawniaj warunków promocji ani dat ich ważności.
 
 ---
 
@@ -22,21 +21,21 @@
 | | |
 |---|---|
 | **Cena** | **1 499 zł** przy zapisie teraz · regularna **1 999 zł** |
-| **Zniżka** | 25% · oferta limitowana |
-| **Uwaga** | **nie dopisuj daty końca promocji ani liczby miejsc** — nie są potwierdzone |
+| **Uwaga** | cena promocyjna |
+
 
 ### Szkolenia dla firm
 | | |
 |---|---|
 | **Cena wstępna** | **od 4 999 zł** |
 | **Dla kogo** | firmy wdrażające AI w procesy |
-| **Uwaga** | `/uslugi` ma **osobną** ofertę szkoleń — **nie mieszaj tych dwóch cen** |
+| **Uwaga** | wycena zależy od zakresu i liczby osób |
 
 ### Warsztaty i prezentacje
 | | |
 |---|---|
 | **Cena** | **od 2 499 zł / osoba** |
-| **Termin** | start: czerwiec 2026 · wstępne zapisy |
+| **Termin** | ustalany indywidualnie |
 | **Format** | live demo narzędzi AI, dla zespołów |
 
 ---
@@ -48,7 +47,7 @@
 
 ### Budowa agentów AI
 Agentów budujemy pod konkretny proces klienta.
-W portfolio: **Agent Czesiek**.
+
 
 ### Usługi w portfolio
 | Obszar | Co robimy |
@@ -102,5 +101,5 @@ To repo jest **publiczne**. Nigdy nie trań tu:
 
 ---
 
-*Źródło cen: `aievolutionpolska.pl` · weryfikacja 30.09.2026*
+*Ceny zweryfikowane 30.09.2026*
 *Agent: przed cytowaniem ceny zawsze sprawdź, czy oferta się nie zmieniła.*

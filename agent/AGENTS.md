@@ -13,10 +13,10 @@ Ten plik jest skróconą wersją zasad. **Pełna wiedza: [`../BRAND.md`](../BRAN
 |---|---|
 | Darmowy kurs AI | **0 zł** |
 | Kurs Premium (PRO) | **1 499 zł** (regularnie 1 999 zł) |
-| Szkolenia dla firm (`/kursy`) | **od 4 999 zł** |
+| Szkolenia dla firm | **od 4 999 zł** |
 | Warsztaty | **od 2 499 zł / osoba** |
 
-🚫 Nie dopisuj warunków promocji. 🚫 Nie mieszaj 4 999 zł z ofertą `/uslugi`.
+🚫 Nie wymyślaj zniżek i terminów. 🚫 Nie mieszaj kursów ze szkoleniami dla firm.
 
 ## 8 zasad, które nie łamiesz
 

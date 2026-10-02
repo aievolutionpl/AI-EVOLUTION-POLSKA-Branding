@@ -1,68 +1,106 @@
-# CLIENTS — ⏳ DO UZUPEŁNNIENIA
+# CLIENTS — dla kogo to jest i czy pracujemy
 
-> **Status: szkielet gotowy, treści brak.**
-> Ten plik uzupełnia **właściciel (Chris)** — agent nie zmyśla nazwisk ani wyników.
-> Poniżej są **gotowe sekcje** do wypełnienia.
-
----
-
-## Dlaczego to jest puste
-
-Repo jest **publiczne**. Publikujemy tylko to, co:
-- ✅ jest prawdą
-- ✅ firma chce upublicznić
-- ✅ **nie ujawnia danych klientów** (RODO)
-
-Jeśli klient nie wyraził zgody na wystawienie nazwy — **nie publikujemy go**.
+> **Kto jest naszym klientem** i **czego świadomie nie robimy.**
+> Pełna analiza konkurencji: [`STRATEGY.md`](STRATEGY.md)
 
 ---
 
-## Gotowe sekcje do wypełnienia
+## 🟢 Idealny klient (ICP)
 
-### 1. Case studies
-
-Dla każdego: **kto** (branża, nie nazwa), **co miał**, **co zrobiliśmy**, **jaki efekt**.
-
-```markdown
-### [Branża] — [Problem w 3 słowach]
-
-**Było:** [sytuacja przed]
-**Zrobiliśmy:** [co konkretnie]
-**Efekt:** [liczba, nie „znacznie lepiej"]
-```
-
-### 2. Case studies — publiczne
-
-Tylko klienci, którzy **wyrazili zgodę** na upublicznienie nazwy.
-
-| Klient | Branża | Zakres | Efekt |
-|---|---|---|---|
-| *uzupełnij* | | | |
-
-### 3. Partnerzy
-
-| Partner | Zakres współpracy |
+### 1. Przedsiębiorca MŚP — **główny**
+| | |
 |---|---|
-| *uzupełnij* | |
+| **Profil** | właściciel firmy do 50 osób, 25–55 lat |
+| **Branże** | usługi, e-commerce, produkcja, biznes lokalny |
+| **Ból** | „nie wiem, co z AI zrobić", „pracuję 3× dłużej niż trzeba" |
+| **Szuka** | gotowego rozwiązania **na dziś**, bez własnego IT |
+| **Nasza cena wejścia** | 0 zł — kurs darmowy |
 
-### 4. Case studies — anonimowe
+### 2. Marketer / właściciel agencji
+| | |
+|---|---|
+| **Ból** | generuje treści, ale nie wie, co z nimi robić; traci tempo |
+| **Nasza odpowiedź** | uczymy **prowadzić** AI, nie tylko generować nim tekst |
 
-Dla klientów bez zgody — **branża zamiast nazwy**.
+### 3. Programista chcący AI w pracy
+| | |
+|---|---|
+| **Ból** | chce realnych workflow, nie zabawki |
+| **Nasza odpowiedź** | narzędzia, integracje, ograniczenia — konkret |
+
+---
+
+## 🔴 Kogo **nie** uczymy — świadomy wybór
+
+| | Dlaczego nie |
+|---|---|
+| **Programiści ML / MLOps** | chcą głębokiej techniki — inny produkt, inna cena |
+| **Korporacje 500+ osób** | wymagają programu rozwojowego, nie kursu |
+| **Szukający certyfikatu** | sprzedajemy umiejętność, nie papier |
+| **Robiący memy promptami** | AI jest dla nas narzędziem pracy, nie rozrywką |
+
+> **Zasada:** lepiej odmówić niż sprzedać zły produkt złemu klientowi.
+> Zły klient to reputacja, która sprzedaje się sama — w złą stronę.
+
+---
+
+## 🤝 Nasza społeczność
+
+- **AI Poland** — grupa na Facebooku
+- Newsletter
+- Cotygodniowe treści edukacyjne
+
+Tu **nie ma klientów** — są ludzie, którzy dopiero zaczynają.
+To jest nasz **lejek**: darmowy kurs → społeczność → Premium → szkolenia firm.
+
+---
+
+## 📋 Jak rozpoznawać dopasowanie
+
+Zanim napiszesz do klienta — sprawdź, czy to dla nas:
+
+| Pytanie | ✅ Tak | ❌ Nie |
+|---|---|---|
+| Chce **nauczyć się** AI? | kurs, Premium | — |
+| Firma chce **wdrożyć** AI? | szkolenie, consulting | — |
+| Szuka **promptu do mema**? | — | nie nasz klient |
+| Chce **certyfikatu**? | — | nie sprzedajemy papieru |
+| Pyta o **modele ML na GPU**? | — | inny produkt |
+
+---
+
+## 📝 Case studies — szkielet
+
+> **Uzupełnia właściciel.** Agent nie zmyśla nazwisk ani wyników.
 
 ```markdown
-### Produkcja — 40 osób
+### [Branża] — [problem w 3 słowach]
 
-**Było:** 6 h tygodniowo na raportowanie ręczne
-**Zrobiliśmy:** agent zbiera dane i generuje raport
-**Efekt:** 6 h → 40 min tygodniowo
+**Było:** sytuacja przed
+**Zrobiliśmy:** co konkretnie
+**Efekt:** liczba, nie „znacznie lepiej"
 ```
 
+### Zasady publikacji
+- ✅ **Nazwy firm tylko z pisemną zgodą**
+- ✅ Bez zgody → **branża zamiast nazwy**
+- ❌ Zero zmyślonych klientów, wyników i liczb
+- ❌ Bez podstawy w danych → **nie publikujemy**
+
+> Pusty case study to porażka.
+> Lepiej napisać „3 branże, 20+ firm" niż zmyślić historię.
+
 ---
 
-## Zasada
-> **Zero zmyślonych klientów, wyników i liczb.**
-> Pusty przypadek to porażka — lepsze than napisać „3 branże, 20+ firm".
+## 🚫 Czego NIGDY nie publikujemy
+
+Repo jest **publiczne**. Nigdy nie trań tu:
+- ❌ danych osobowych i nazw klientów bez pisemnej zgody
+- ❌ umów, faktur, wewnętrznych materiałów
+- ❌ nazw wewnętrznych projektów i ścieżek w kodzie
+- ❌ warunków promocji ani terminów, których nie potwierdziliśmy
 
 ---
 
-*Właściciel uzupełnia ten plik. Agent: nie uzupełniaj sam.*
+*Analiza konkurencji i pozycjonowania: [`STRATEGY.md`](STRATEGY.md)*
+*Właściciel uzupełnia case studies. Agent: nie uzupełniaj sam.*

@@ -23,6 +23,8 @@ Kto jesteśmy · czym się zajmujemy · komu uczymy · jak o nas pisać · czego
 zanim napisze post, ofertę, maila albo wygeneruje grafikę dla marki.
 
 > **Zamiast tłumaczyć markę agentowi za każdym razem — klonujesz repo i agent już wie.**
+> W tym repo: **pozycjonowanie, konkurencja, cennik i zasady** — czyli wszystko,
+> czego agent potrzebuje, żeby pisać i sprzedawać za markę.
 
 | | |
 |---|---|
@@ -30,6 +32,7 @@ zanim napisze post, ofertę, maila albo wygeneruje grafikę dla marki.
 | **Co robimy** | kursy online, warsztaty, szkolenia dla firm, społeczność |
 | **Komu uczymy** | przedsiębiorcy, marketerzy, programiści, firmy |
 | **Nasza obietnica** | każdy może zacząć używać AI **dzisiaj**, nie za rok |
+| **Nasza pozycja** | **najniższa bariera wejścia** na polskim rynku — 0 zł, po polsku, bez kodowania |
 
 ---
 
@@ -69,7 +72,8 @@ Skill aktywuje się przy każdej prośbie o content dla AI Evolution Polska.
 | **[`docs/AUDIENCE.md`](docs/AUDIENCE.md)** | 5 segmentów i co mówimy każdemu z nich |
 | **[`docs/OFFER.md`](docs/OFFER.md)** | produkty, usługi i **realny cennik** |
 | **[`docs/TOOLS.md`](docs/TOOLS.md)** | 13 narzędzi, o których mówimy |
-| **[`docs/CLIENTS.md`](docs/CLIENTS.md)** | case studies i branże |
+| **[`docs/STRATEGY.md`](docs/STRATEGY.md)** | ⭐ **pozycjonowanie** · konkurencja · pozycja cenowa |
+| **[`docs/CLIENTS.md`](docs/CLIENTS.md)** | idealny klient (ICP) · kogo **nie** uczymy |
 | **[`agent/AGENTS.md`](agent/AGENTS.md)** | 8 zasad twardych dla agentów |
 | **[`agent/SKILL.md`](agent/SKILL.md)** | gotowy skill do wgrania |
 | **`brand/`** | logo, cover i materiały marki |

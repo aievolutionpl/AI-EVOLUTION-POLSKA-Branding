@@ -1,82 +1,52 @@
 # BRAND.md — AI Evolution Polska
 
-> **Kompletna wiedza o marce w jednym pliku.**
-> Agent, który przeczytał ten plik, umie napisać post, karuzelę i ofertę
-> dokładnie tak, jak chce to marka.
-
 **Tagline:** Ucz się AI mądrzej. Buduj szybciej.
-**Język:** polski
-**Właściciel:** Chris (CEO)
+**Język:** polski · **Właściciel:** Chris (CEO)
+
+> Agent, który przeczytał ten plik, umie napisać post, karuzelę i ofertę tak, jak chce marka.
 
 ---
 
 ## 1. KIM JESTEŚMY
 
-AI Evolution Polska to **polska marka edukacyjna**. Uczymy ludzi AI — od zera do
-zaawansowanego poziomu — **bez żargonu i bez teoretycznego bełkotu**.
+**Polska marka edukacyjna.** Uczymy AI od zera do zaawansowanego — **bez żargonu i teorii**.
 
-**Nasza obietnica:** każdy przedsiębiorca, marketer czy programista w Polsce
-może zacząć używać AI **dzisiaj**, nie za rok.
+**Obietnica:** każdy przedsiębiorca, marketer czy programista w Polsce zacznie używać AI **dzisiaj**, nie za rok.
 
-### Czym się zajmujemy
-- **Uczymy AI** — kursy od podstaw po zaawansowane zastosowania
-- **Tworzymy kursy online** — moduły z realnym, natychmiastowym zastosowaniem
-- **Budujemy społeczność** — AI Poland na Facebooku
-- **Pokazujemy AI w praktyce** — live demo, case study, konkretne narzędzia
+**Filosofia:** AI nie jest straszne — jest **praktyczne**. Każdy temat kończy się konkretnym „zrób to teraz".
 
-### Nasza filozofia
-> AI nie jest straszne. Jest **praktyczne**.
-
-Różnicę robimy tak, że **każdy temat kończ się konkretnym „zrób to teraz"**,
-a nie teorią i literaturą.
+Zajmujemy się: kursami AI · kursami online · społecznością (AI Poland, Facebook) · praktyką (demo, case study).
 
 ---
 
-## 2. 🚨 NAJWAŻNIEJSZA ZASADA — NIE MIESZAJ MARK
-
-Są **dwie** marki i to zupełnie różne biznesy:
+## 2. 🚨 NIE MIESZAJ MARK
 
 | | **AI Evolution Polska** | **AI Evolution Labs** |
 |---|---|---|
 | **Domena** | `aievolutionpolska.pl` | `aievolutionlabs.io` |
-| **Tytuł strony** | „Sztuczna inteligencja po polsku — kursy AI" | „AI Agents & AI Marketing Agency" |
-| **Sprzedaje** | wiedzę, kursy, społeczność | agentów AI, marketing i usługi B2B |
+| **Sprzedaje** | wiedzę, kursy, społeczność | agentów AI, marketing, usługi B2B |
 | **Odbiorca** | człowiek chcący się nauczyć | firma wdrażająca AI |
-| **Ton** | przyjazny ekspert, nauczyciel | profesjonalny partner technologiczny |
-| **Role** | edukacja | usługi |
+| **Ton** | przyjazny ekspert, nauczyciel | profesjonalny partner techniczny |
 
-**Post o budowaniu agenta AI za 20 000 zł nie pojawi się na profilu AIEP.**
-Mieszanie niszczy zaufanie i myli odbiorcę.
+Post o agencie AI za 20 000 zł **nie pojawi się** na profilu AIEP.
 
-🚫 **`aievolution.pl` to ZAPARKOWANA domena — nie jest nasza. Nie linkuj jej.**
+🚫 `aievolution.pl` to **zaparkowana domena — nie linkuj jej.**
 
 ---
 
-## 3. 🎨 IDENTYFIKACJA WIZUALNA
-
-### Kolory
+## 3. 🎨 IDENTYFIKACJA
 
 | Marka | Paleta |
 |---|---|
 | **AIEP** | Navy `#0E1330` · Indigo `#5B4DFF` · Blue `#2FA8FF` · Violet `#B18CFF` |
 | **AI Evolution Labs** | Void Black `#000000` · Cyan `#00E7FF` · Lime `#7CFF1E` |
 
-### Typografia
-- **Inter** — body i UI
-- **Manrope** — nagłówki alternatywne
-- **DM Serif Display** — edycja, premium
+**Fonty:** Inter (body) · Manrope (nagłówki) · DM Serif Display (edycja).
+⚠️ **Orbitron i Montserrat NIE MAJĄ polskich diakrytyk** — nigdy w materiałach PL.
 
-⚠️ **Orbitron i Montserrat NIE MAJĄ polskich diakrytyk** — brakuje im litery „ć".
-Nigdy nie używaj ich w materiałach z polskim tekstem.
+**Logo:** `brand/logo/` — 🚫 **robot, logo i wizerunek foundera nigdy AI-redraw.**
 
-### Logo i zdjęcia
-- Logo: `brand/logo/` — **oryginalny plik, nigdy nie redrawuj przez AI**
-- 🚫 **Robot, logo i wizerunek foundera nigdy nie są generowane przez AI.**
-  Używaj wyłącznie plików źródłowych z `brand/`.
-
-### Formaty social
-- Karuzela / post: **1080×1350 px (4:5)**
-- Reels: **1080×1920 px (9:16)**
+**Formaty:** karuzela/post **1080×1350 (4:5)** · reels **1080×1920 (9:16)**.
 
 ---
 
@@ -84,73 +54,55 @@ Nigdy nie używaj ich w materiałach z polskim tekstem.
 
 | Segment | Czego szuka |
 |---|---|
-| **Przedsiębiorcy** | przewaga konkurencyjna, oszczędność czasu |
+| **Przedsiębiorcy** | przewaga, oszczędność czasu |
 | **Marketerzy** | automatyzacja powtarzalnej pracy |
 | **Ludzie od zera** | „czy to coś dla mnie?" |
 | **Programiści** | AI w codziennej pracy z kodem |
 | **Firmy** | wdrożenie AI w procesy |
 
-**Bez żargonu.** Zakładamy, że czytelnik **nie jest programistą** — chyba że
-temat dotyczy kodu.
+**Bez żargonu** — zakładamy, że czytelnik nie jest programistą.
+
+**Idealny klient:** przedsiębiorca MŚP do 50 osób, chce zacząć **dziś**, bez własnego IT.
+🚫 **Nie uczymy:** ML/MLOps, korporacji 500+, szukających certyfikatu.
 
 ---
 
-## 4a. 🎯 POZYCJONOWANIE — kim jesteśmy na rynku
+## 5. 🎯 POZYCJONOWANIE
 
-**Nasz filtr:** najniższa bariera wejścia w AI w Polsce.
+**Nasz filtr: najniższa bariera wejścia w AI w Polsce.**
 
 | | Oni | **My** |
 |---|---|---|
 | **Wejście** | 147–6 500 zł | **0 zł** |
-| **Język** | mix PL/EN, „prompt engineering" | **w pełni po polsku** |
-| **Dla kogo** | programiści ML, liderzy, enterprise | **zwykli ludzie po pracy** |
-| **Format** | 40 h wykładów, certyfikat | **zadanie do zrobienia w 15 min** |
+| **Język** | „prompt engineering", mix PL/EN | **w pełni po polsku** |
+| **Dla kogo** | ML, liderzy, enterprise | **zwykli ludzie po pracy** |
+| **Format** | 40 h wykładów, certyfikat | **zadanie w 15 minut** |
 
-**Nasze 4 wyróżnienia:**
-1. **Bariera wejścia = 0** — kurs darmowy, bez konta i karty
-2. **Po polsku, dla dorosłych** — nie dla nastolatka z IT, lecz dla 40-latka z pracą
-3. **Efekt pierwszego dnia** — nie obietnica, tylko konkretne zadanie
-4. **Ścieżka** — darmowe → płatne → szkolenie firmy
+1. **Wejście 0 zł** — bez konta, bez karty
+2. **Po polsku, dla dorosłych** — 40-latek z pracą, nie nastolatek z IT
+3. **Efekt pierwszego dnia** — zadanie, nie obietnica
+4. **Ścieżka** — darmowe → Premium → szkolenia firm
 
-🚫 **Konkurentów nie atakujemy.** Pokazujemy, kim **JESTEŚMY**.
-Pełna analiza: `docs/STRATEGY.md`
+🚫 **Konkurentów nie atakujemy** — pokazujemy, kim JESTEŚMY. → `docs/STRATEGY.md`
 
 ---
 
-## 5. ✍️ JAK PISZEĆ
+## 6. ✍️ JAK PISZEĆ
 
-### Ton
-- Po polsku
-- **Prosto, jak przyjazny ekspert — nigdy jak profesor**
-- Z energią, ale konkretnie
-- **Zawsze z realnym zastosowaniem**, nie teorią
-- Zero korporacyjnego bełkotu
+**Ton:** polski, prosty jak przyjazny ekspert — nigdy jak profesor. Z energią, ale konkretnie. Zero korporacyjnego bełkotu. Zawsze z realnym zastosowaniem.
 
-### ❌ Nigdy tak
-- ❌ „innowacyjna platforma edukacyjna"
-- ❌ „cutting edge technology"
-- ❌ „leveraging AI capabilities"
-- ❌ „wykorzystując sztuczną inteligencję, rewolucjonizujemy sposób pracy"
-- ❌ **Zmyślone benchmarki, liczby, daty i ceny**
-- ❌ **Premiery modeli AI, których jeszcze nie ma**
+❌ „innowacyjna platforma edukacyjna" · „cutting edge technology" · „leveraging AI capabilities" · zmyślone liczby, daty, benchmarki · premiery modeli, których jeszcze nie ma
 
-### ✅ Tak
-- ✅ „Pokażę Ci, jak w 5 minut zrobić to, na co wcześniej potrzebowałeś 3 godziny"
-- ✅ „Ten tool zmieni sposób, w jaki pracujesz — serio"
-- ✅ „Nie musisz być programistą, żeby używać AI"
-- ✅ „Wklej to do ChatGPT i zobacz, co się stanie"
+✅ „Pokażę Ci, jak w 5 minut zrobić to, na co wcześniej potrzebowałeś 3 godziny" · „Wklej to do ChatGPT i zobacz, co się stanie" · „Nie musisz być programistą"
 
-### Zasada weryfikacji faktów
-> Przed postem o nowym modelu AI, narzędziu, cenie lub dacie — **sprawdź źródło**.
-> Leaki z Reddit, X czy YouTube **nie są premierą**.
-> Jeśli czegoś nie potwierdziłeś — napisz to wprost, nie zmyślaj.
+> Przed postem o modelu, narzędziu, cenie lub dacie — **sprawdź źródło**. Leaki z Reddit/X/YouTube nie są premierą.
 
 ---
 
-## 6. 📚 PRODUKTY I CENY
+## 7. 📚 PRODUKTY I CENY
 
-> **Agent podaje tylko te kwoty.** Nie zaokrąglaj, nie improwizuj, nie dopisuj warunków.
-> 🚫 **Nie ujawniaj w treściach warunków promocji ani dat jej ważności.**
+> **Podawaj tylko te kwoty.** Nie zaokrąglaj, nie improwizuj.
+> 🚫 Nie ujawniaj warunków promocji ani dat ich ważności.
 
 | Produkt | Cena | Uwagi |
 |---|---|---|
@@ -159,90 +111,65 @@ Pełna analiza: `docs/STRATEGY.md`
 | **Szkolenia dla firm** | **od 4 999 zł** | wycena wg zakresu |
 | **Warsztaty** | **od 2 499 zł / osoba** | termin ustalany |
 
-🚫 **Nie wymyślaj** procenta zniżki, daty jej końca ani liczby miejsc.
-🚫 **Nie mieszaj** kursów ze szkoleniami dla firm — to osobne oferty.
+🚫 Nie wymyślaj procenta zniżki, daty końca ani liczby miejsc.
+🚫 Nie mieszaj kursów ze szkoleniami dla firm.
 
-### Gdzie
-| | |
+| Gdzie | |
 |---|---|
 | **Darmowy kurs** | `ai-evolution.online` |
 | **Kursy i blog** | `aievolutionpolska.pl` |
-| **Szkolenia, konsulting, agenci** | `aievolutionlabs.io` (osobna marka) |
+| **Szkolenia, agenci** | `aievolutionlabs.io` (osobna marka) |
 
-### Pozostało
-- **Społeczność** — AI Poland na Facebooku, newsletter, treści cotygodniowe
-- **Merch** — t-shirty i materiały z logo marki
+**Pozostało:** społeczność AI Poland + newsletter · treści cotygodniowe · merch z logo.
 
 ---
 
-## 7. 🛠️ NARZĘDZIA, O KTÓRYCH MÓWIMY
+## 8. 🛠️ NARZĘDZIA
 
-Używaj **tych nazw produktowych**, nie ogólnych kategorii.
+Używaj **nazw produktowych**, nie kategorii.
 
-| Narzędzie | Kiedy o nim mówimy |
-|---|---|
-| **Claude** | długie, złożone zadania, praca ze źródłami |
-| **ChatGPT** | codzienność, szybkie pytania, obraz |
-| **Gemini** | ekosystem Google, duży kontekst |
-| **Codex** | programowanie z AI — od kodu po testy |
-| **Cursor** | praca z kodem w środowisku IDE |
-| **Lovable** | aplikacje bez kodowania |
-| **n8n** | automatyzacja procesów, łączenie narzędzi |
-| **Apify** | zbieranie danych i treści w skali |
-| **Apollo.io** | baza firm i kontaktów B2B |
-| **Instantly** | wysyłka cold emaili |
-| **Resend** | wysyłka maili transakcyjnych |
-| **Figma** | projektowanie |
-| **Notion** | baza wiedzy marki |
+| Narzędzie | Kiedy | Narzędzie | Kiedy |
+|---|---|---|---|
+| **Claude** | długie, złożone zadania | **n8n** | automatyzacja procesów |
+| **ChatGPT** | codzienność, obraz | **Apify** | dane i treści w skali |
+| **Gemini** | ekosystem Google | **Apollo.io** | baza firm B2B |
+| **Codex** | programowanie z AI | **Instantly** | cold emaile |
+| **Cursor** | praca z kodem w IDE | **Resend** | maile transakcyjne |
+| **Lovable** | aplikacje bez kodowania | **Figma** · **Notion** | projekt · baza wiedzy |
 
 **Nie obiecuj narzędzia, którego nie sprawdzisz.**
 
 ---
 
-## 8. 📱 CONTENT — 5 KIERUNKÓW
+## 9. 📱 CONTENT
 
 | Kierunek | Przykład |
 |---|---|
-| **Tutorial / how-to** | „3 kroki, żeby napisać pierwszy prompt" |
+| **Tutorial** | „3 kroki, żeby napisać pierwszy prompt" |
 | **Case study** | „Firma X zaoszczędziła 5 h tygodniowo" |
-| **Newsy AI** | nowe modele, narzędzia — **po weryfikacji** |
+| **Newsy AI** | nowe modele — **po weryfikacji** |
 | **Porównania** | „Claude czy ChatGPT do [zadanie]?" |
-| **Bezpieczeństwo AI** | RODO, dane, ryzyka w firmie |
+| **Bezpieczeństwo AI** | RODO, dane, ryzyka |
 
-### Formaty
-- **Karuzela** 5–7 slajdów, 1080×1350, **max 30 słów na slajd**
-- **Reels** — krótkie, konkretne, z czytelnym napisem PL
-- **Post** — jedna myśl, jeden CTA
+**Formaty:** karuzela 5–7 slajdów, **max 30 słów na slajd** · reels krótkie, czytelny napis PL · post jedna myśl, jeden CTA.
 
-### CTA
-Zawsze prowadź do **konkretnej akcji** i **konkretnej nagrody**:
-> „Napisz **ARGON** w komentarzu, a wyślę ci checklistę wdrożenia AI w firmie."
+**CTA** zawsze konkretne: „Napisz **ARGON** w komentarzu, a wyślę ci checklistę wdrożenia AI w firmie."
 
 ---
 
-## 9. 🚫 ZASADY TWARDE — NIE ŁAM
+## 10. 🚫 ZASADY TWARDE
 
-1. **Nie zmyślaj liczb.** Benchmarki, ceny, daty — tylko ze źródła.
-2. **Nie mieszaj AIEP z AI Evolution Labs.** To dwa różne biznesy.
-3. **Linkuj tylko 3 domeny:** `aievolutionpolska.pl`, `ai-evolution.online`, `aievolutionlabs.io`.
-4. **Fonty muszą mieć polskie diakrytyki.** Orbitron i Montserrat ich nie mają.
+1. **Nie zmyślaj** liczb, benchmarków, cen i dat — tylko ze źródła.
+2. **Nie mieszaj** AIEP z AI Evolution Labs.
+3. **Linkuj tylko 3 domeny:** `aievolutionpolska.pl` · `ai-evolution.online` · `aievolutionlabs.io`
+4. **Fonty muszą mieć polskie diakrytyki.**
 5. **Logo, robot i founder — nigdy AI-redraw.**
 6. **Obcięcia mierzysz kodem, nie wzrokiem** — narzędzia wizyjne zgłaszają fałszywe obcięcia.
-7. **Materiały dla firm poza IT:** prosty język, zysk i konkret — **nie technologia**.
-8. **Repo jest publiczne** — nigdy nie trań tam danych klientów, cenników ani wewnętrznych materiałów.
+7. **Dla firm poza IT:** prosty język, zysk i konkret — **nie technologia**.
+8. **Repo publiczne** — nigdy nie trań danych klientów ani materiałów wewnętrznych.
 
 ---
 
-## 10. 🔗 STRONY
+*Wersja 2.1 · 30 września 2026 · Repo publiczne. Treści mogą mieć błędy — weryfikuj fakty.*
 
-| Domena | Rola |
-|---|---|
-| **aievolutionpolska.pl** | strona marki + blog |
-| **ai-evolution.online** | darmowy kurs AI od podstaw |
-| **aievolutionlabs.io** | AI Evolution Labs — agencja AI |
-
----
-
-*Wersja 1.0 · 30 września 2026*
-*Repo publiczne. Treści mogą zawierać błędy — weryfikuj fakty.*
-*Właściciel: Chris, CEO · [aievolutionpolska.pl](https://aievolutionpolska.pl)*
+Właściciel: Chris, CEO · [aievolutionpolska.pl](https://aievolutionpolska.pl)

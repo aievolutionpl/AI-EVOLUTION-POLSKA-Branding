@@ -1,55 +1,28 @@
 # OFER — co sprzedajemy
 
-> **Agent podaje tylko te kwoty. Nie zaokrąglaj, nie improwizuj.**
+> **Podawaj tylko te kwoty.** Nie zaokrąglaj, nie improwizuj.
 > 🚫 Nie ujawniaj warunków promocji ani dat ich ważności.
 
 ---
 
 ## 1. 🎓 Edukacja — AI Evolution Polska
 
-### Darmowy kurs AI
-**0 zł** · bez konta · bez karty · całkowicie po polsku · natychmiastowy dostęp
-→ `ai-evolution.online`
-
-| | |
-|---|---|
-| **Kto** | człowiek wchodzący w AI od zera |
-| **Co** | praktyczne moduły, od podstaw |
-| **Gdzie** | `ai-evolution.online` |
-
-### Kurs Premium (PRO)
-| | |
-|---|---|
-| **Cena** | **1 499 zł** przy zapisie teraz · regularna **1 999 zł** |
-| **Uwaga** | cena promocyjna |
-
-
-### Szkolenia dla firm
-| | |
-|---|---|
-| **Cena wstępna** | **od 4 999 zł** |
-| **Dla kogo** | firmy wdrażające AI w procesy |
-| **Uwaga** | wycena zależy od zakresu i liczby osób |
-
-### Warsztaty i prezentacje
-| | |
-|---|---|
-| **Cena** | **od 2 499 zł / osoba** |
-| **Termin** | ustalany indywidualnie |
-| **Format** | live demo narzędzi AI, dla zespołów |
+| Produkt | Cena | Dla kogo / gdzie |
+|---|---|---|
+| **Darmowy kurs AI** | **0 zł** | od zera · bez konta i karty · po polsku · `ai-evolution.online` |
+| **Kurs Premium (PRO)** | **1 499 zł** (regularnie 1 999 zł) | cena promocyjna |
+| **Szkolenia dla firm** | **od 4 999 zł** | firmy wdrażające AI · wycena wg zakresu i liczby osób |
+| **Warsztaty i prezentacje** | **od 2 499 zł / osoba** | live demo narzędzi AI · termin ustalany |
 
 ---
 
 ## 2. 🤖 AI Evolution Labs — OSOBNA MARKA
 
 > To **nie jest** oferta AIEP. Nie mieszaj ich w treściach edukacyjnych.
-> Domena: `aievolutionlabs.io` · „AI Agents & AI Marketing Agency"
+> Domena: `aievolutionlabs.io`
 
-### Budowa agentów AI
-Agentów budujemy pod konkretny proces klienta.
+**Budowa agentów AI** pod konkretny proces klienta:
 
-
-### Usługi w portfolio
 | Obszar | Co robimy |
 |---|---|
 | **Obsługa skrzynki** | kategoryzacja, odpowiedzi, pilne sprawy |
@@ -59,47 +32,30 @@ Agentów budujemy pod konkretny proces klienta.
 | **Obsługa klienta** | pierwsza linia wsparcia, routing zapytań |
 | **Oferty i prezentacje** | generowanie ofert na podstawie zapytań |
 
-### Konsulting i automatyzacja
-- Doradztwo i dobór narzędzi
-- Automatyzacja procesów (n8n, integracje)
-- Wdrożenia krok po kroku
+**Konsulting:** doradztwo i dobór narzędzi · automatyzacja procesów (n8n, integracje) · wdrożenia krok po kroku.
 
 ---
 
-## 3. 👥 Społeczność
+## 3. 👥 Społeczność i merch
 
-- **AI Poland** — grupa na Facebooku
-- Cotygodniowe treści edukacyjne
-- Newsletter
-
-## 4. 👕 Merch
-
-- T-shirty i materiały z logo marki
+**AI Poland** (Facebook) · cotygodniowe treści · newsletter · t-shirty z logo marki.
 
 ---
 
-## 5. 🧭 Jak pracujemy — 4 kroki
+## 4. 🧭 Jak pracujemy — 4 kroki
 
-> „Przejrzysty proces od konsultacji do wdrożenia — bez niespodzianek."
-
-1. **Konsultacja** — rozumiemy problem i cel
-2. **Propozycja** — zakres, termin, cena
-3. **Wdrożenie** — budujemy i testujemy
-4. **Przekazanie** — szkolenie zespołu i wsparcie
+**Konsultacja** → **Propozycja** (zakres, termin, cena) → **Wdrożenie** (budowa i testy) → **Przekazanie** (szkolenie zespołu, wsparcie).
 
 ---
 
-## 6. 🔒 Czego NIE ma w tym repo
+## 5. 🔒 Czego NIGDY nie ma w tym repo
 
-To repo jest **publiczne**. Nigdy nie trań tu:
-- ❌ danych osobowych i nazw klientów bez ich pisemnej zgody
-- ❌ umów, faktur, danych wewnętrznych
-- ❌ materiałów wewnętrznych firmy
+Repo jest **publiczne**. Nie trań tu:
+❌ danych osobowych i nazw klientów bez pisemnej zgody · ❌ umów, faktur, danych wewnętrznych · ❌ materiałów wewnętrznych firmy
 
 > **Ceny są publiczne** (są na stronie) — dlatego są tutaj.
 > **Nazwiska klientów są prywatne** — dlatego ich nie ma.
 
 ---
 
-*Ceny zweryfikowane 30.09.2026*
-*Agent: przed cytowaniem ceny zawsze sprawdź, czy oferta się nie zmieniła.*
+*Ceny zweryfikowane 30.09.2026 · Przed cytowaniem ceny sprawdź, czy oferta się nie zmieniła.*

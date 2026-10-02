@@ -1,63 +1,45 @@
 # CLIENTS — dla kogo to jest i czy pracujemy
 
-> **Kto jest naszym klientem** i **czego świadomie nie robimy.**
 > Pełna analiza konkurencji: [`STRATEGY.md`](STRATEGY.md)
 
 ---
 
 ## 🟢 Idealny klient (ICP)
 
-### 1. Przedsiębiorca MŚP — **główny**
-| | |
-|---|---|
-| **Profil** | właściciel firmy do 50 osób, 25–55 lat |
-| **Branże** | usługi, e-commerce, produkcja, biznes lokalny |
-| **Ból** | „nie wiem, co z AI zrobić", „pracuję 3× dłużej niż trzeba" |
-| **Szuka** | gotowego rozwiązania **na dziś**, bez własnego IT |
-| **Nasza cena wejścia** | 0 zł — kurs darmowy |
+**1. Przedsiębiorca MŚP — główny**
+Właściciel firmy do 50 osób, 25–55 lat · usługi, e-commerce, produkcja, biznes lokalny.
+Ból: *„nie wiem, co z AI zrobić"*, *„pracuję 3× dłużej"*. Szuka rozwiązania **na dziś**, bez własnego IT.
+Wejście: **0 zł** — kurs darmowy.
 
-### 2. Marketer / właściciel agencji
-| | |
-|---|---|
-| **Ból** | generuje treści, ale nie wie, co z nimi robić; traci tempo |
-| **Nasza odpowiedź** | uczymy **prowadzić** AI, nie tylko generować nim tekst |
+**2. Marketer / właściciel agencji**
+Ból: generuje treści, nie wie co z nimi robić, traci tempo. Uczymy **prowadzić** AI, nie tylko generować.
 
-### 3. Programista chcący AI w pracy
-| | |
-|---|---|
-| **Ból** | chce realnych workflow, nie zabawki |
-| **Nasza odpowiedź** | narzędzia, integracje, ograniczenia — konkret |
+**3. Programista chcący AI w pracy**
+Szuka realnych workflow, nie zabawek. Narzędzia, integracje, ograniczenia.
 
 ---
 
-## 🔴 Kogo **nie** uczymy — świadomy wybór
+## 🔴 Kogo NIE uczymy — świadomy wybór
 
 | | Dlaczego nie |
 |---|---|
-| **Programiści ML / MLOps** | chcą głębokiej techniki — inny produkt, inna cena |
+| **Programiści ML/MLOps** | chcą głębokiej techniki — inny produkt, inna cena |
 | **Korporacje 500+ osób** | wymagają programu rozwojowego, nie kursu |
 | **Szukający certyfikatu** | sprzedajemy umiejętność, nie papier |
-| **Robiący memy promptami** | AI jest dla nas narzędziem pracy, nie rozrywką |
+| **Robiący memy promptami** | AI jest narzędziem pracy, nie rozrywką |
 
-> **Zasada:** lepiej odmówić niż sprzedać zły produkt złemu klientowi.
-> Zły klient to reputacja, która sprzedaje się sama — w złą stronę.
-
----
-
-## 🤝 Nasza społeczność
-
-- **AI Poland** — grupa na Facebooku
-- Newsletter
-- Cotygodniowe treści edukacyjne
-
-Tu **nie ma klientów** — są ludzie, którzy dopiero zaczynają.
-To jest nasz **lejek**: darmowy kurs → społeczność → Premium → szkolenia firm.
+> Lepiej odmówić niż sprzedać zły produkt złemu klientowi.
 
 ---
 
-## 📋 Jak rozpoznawać dopasowanie
+## 🤝 Społeczność ≠ klienci
 
-Zanim napiszesz do klienta — sprawdź, czy to dla nas:
+**AI Poland** (Facebook) · newsletter · treści cotygodniowe.
+Tu są ludzie, którzy **dopiero zaczynają** — to nasz lejek: darmowy kurs → społeczność → Premium → szkolenia firm.
+
+---
+
+## 📋 Rozpoznawanie dopasowania
 
 | Pytanie | ✅ Tak | ❌ Nie |
 |---|---|---|
@@ -81,26 +63,18 @@ Zanim napiszesz do klienta — sprawdź, czy to dla nas:
 **Efekt:** liczba, nie „znacznie lepiej"
 ```
 
-### Zasady publikacji
-- ✅ **Nazwy firm tylko z pisemną zgodą**
-- ✅ Bez zgody → **branża zamiast nazwy**
-- ❌ Zero zmyślonych klientów, wyników i liczb
-- ❌ Bez podstawy w danych → **nie publikujemy**
+✅ Nazwy firm **tylko z pisemną zgodą** · bez zgody → **branża zamiast nazwy**
+❌ Zero zmyślonych klientów, wyników i liczb · bez podstawy w danych → **nie publikujemy**
 
-> Pusty case study to porażka.
-> Lepiej napisać „3 branże, 20+ firm" niż zmyślić historię.
+> Pusty case study to porażka — lepiej napisać „3 branże, 20+ firm" niż zmyślić historię.
 
 ---
 
 ## 🚫 Czego NIGDY nie publikujemy
 
-Repo jest **publiczne**. Nigdy nie trań tu:
-- ❌ danych osobowych i nazw klientów bez pisemnej zgody
-- ❌ umów, faktur, wewnętrznych materiałów
-- ❌ nazw wewnętrznych projektów i ścieżek w kodzie
-- ❌ warunków promocji ani terminów, których nie potwierdziliśmy
+Repo jest **publiczne**. Nie trań tu:
+❌ danych osobowych i nazw klientów bez pisemnej zgody · ❌ umów, faktur, wewnętrznych materiałów · ❌ nazw wewnętrznych projektów i ścieżek w kodzie · ❌ warunków promocji ani niepotwierdzonych terminów
 
 ---
 
-*Analiza konkurencji i pozycjonowania: [`STRATEGY.md`](STRATEGY.md)*
 *Właściciel uzupełnia case studies. Agent: nie uzupełniaj sam.*

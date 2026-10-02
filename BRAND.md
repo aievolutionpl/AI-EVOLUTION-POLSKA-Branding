@@ -125,22 +125,31 @@ temat dotyczy kodu.
 
 ---
 
-## 6. 📚 PRODUKTY I USŁUGI
+## 6. 📚 PRODUKTY I CENY
 
-### 📚 Edukacja
-- **Darmowy kurs AI od podstaw** — `ai-evolution.online`
-- **Kursy Pro** — ścieżka dla zaawansowanych
-- **Warsztaty i prezentacje** — live demo narzędzi AI
-- **Starter Pack** — przewodnik wprowadzający w PDF
+> Ceny są **publiczne** (są na stronie). Źródło: `src/translations/pl.ts`, weryfikacja 30.09.2026.
+> **Podawaj tylko te kwoty. Nie zaokrąglaj, nie improwizuj, nie dopisuj warunków.**
 
-### 👥 Społeczność
-- **AI Poland** — grupa na Facebooku
-- Cotygodniowe treści edukacyjne
+| Produkt | Cena | Uwagi |
+|---|---|---|
+| **Darmowy kurs AI** | **0 zł** | bez konta, bez karty, po polsku |
+| **Kurs Premium (PRO)** | **1 499 zł** (regularnie 1 999 zł) | 25% zniżki, oferta limitowana |
+| **Szkolenia dla firm** | **od 4 999 zł** | `/kursy` — **osobna oferta na `/uslugi`** |
+| **Warsztaty** | **od 2 499 zł / osoba** | start: czerwiec 2026 |
 
-### 👕 Merch
-- T-shirty i materiały brandowe
+🚫 **Nie dopisuj** daty końca promocji ani liczby miejsc — nie są potwierdzone.
+🚫 **Nie mieszaj** ceny 4 999 zł z ofertą szkoleń na `/uslugi`.
 
-> Szkolenia korporacyjne i warsztaty realizujemy **na zamówienie** — zapytanie indywidualne.
+### Gdzie
+| | |
+|---|---|
+| **Darmowy kurs** | `ai-evolution.online` |
+| **Kursy i blog** | `aievolutionpolska.pl` |
+| **Szkolenia, konsulting, agenci** | `aievolutionlabs.io` (osobna marka) |
+
+### Pozostało
+- **Społeczność** — AI Poland na Facebooku, newsletter, treści cotygodniowe
+- **Merch** — t-shirty i materiały z logo marki
 
 ---
 

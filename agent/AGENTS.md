@@ -8,9 +8,19 @@ Ten plik jest skróconą wersją zasad. **Pełna wiedza: [`../BRAND.md`](../BRAN
 2. Sprawdź, czy nie mieszasz **AIEP** (edukacja) z **Labs** (agencja)
 3. Upewnij się, że każda liczba i data ma **źródło**
 
+## 💰 CENY (publiczne — podawaj tylko te)
+| Produkt | Cena |
+|---|---|
+| Darmowy kurs AI | **0 zł** |
+| Kurs Premium (PRO) | **1 499 zł** (regularnie 1 999 zł) |
+| Szkolenia dla firm (`/kursy`) | **od 4 999 zł** |
+| Warsztaty | **od 2 499 zł / osoba** |
+
+🚫 Nie dopisuj warunków promocji. 🚫 Nie mieszaj 4 999 zł z ofertą `/uslugi`.
+
 ## 8 zasad, które nie łamiesz
 
-1. **Zero zmyślonych liczb.** Benchmark, cena, data — tylko źródło.
+1. **Zero zmyślonych liczb.** Benchmark, data — tylko źródło. **Ceny podawaj z tabeli wyżej.**
 2. **Nie mieszaj marek.** AIEP ≠ AI Evolution Labs.
 3. **3 domeny, nie więcej:** `aievolutionpolska.pl`, `ai-evolution.online`, `aievolutionlabs.io`.
    ❌ `aievolution.pl` jest **zaparkowana** — nie linkuj.

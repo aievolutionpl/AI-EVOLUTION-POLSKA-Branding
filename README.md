@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="brand/cover.png" alt="AI Evolution Polska — Brand Brain" width="100%">
+<img src="brand/cover.jpg" alt="AI Evolution Polska — Brand Brain Repo: wiedza, branding i zasady dla agentów AI" width="100%">
 
 # 🧠 AI Evolution Polska — Brand Brain
 

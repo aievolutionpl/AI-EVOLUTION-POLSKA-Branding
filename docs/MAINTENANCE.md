@@ -3,32 +3,47 @@
 ## Jedno źródło
 
 Wiedzę edytuj w [COMPANY_BRAIN.md](../COMPANY_BRAIN.md). Skrypt generuje BRAND.md,
-snapshot `agent/references/COMPANY_BRAIN.md` i sześć widoków w docs.
-Obie pełne kopie są identyczne bajtowo. Widoki zawierają hash źródła,
-wybrane sekcje oraz rekordy i ich pochodzenie. Nie zmieniaj ich ręcznie.
+snapshot `agent/references/COMPANY_BRAIN.md` i trzynaście indeksów w docs.
+Obie pełne kopie są identyczne bajtowo. Indeksy zawierają hash źródła,
+odnośniki do sekcji oraz identyfikatory rekordów i źródeł. Nie zawierają własnego
+cennika ani drugiej wersji faktów. Nie zmieniaj ich ręcznie.
 
 AGENTS.md opisuje pracę, nie ceny. `agent/AGENTS.md` jest kopią kompatybilną
-tej samej instrukcji; utrzymuj oba pliki identycznie. Instrukcje i kod nie są
-źródłem faktów o firmie. Po migracji stare integracje muszą pobrać nowy eksport.
+tej samej instrukcji; generator synchronizuje ją z plikiem głównym.
+Instrukcje i kod nie są źródłem faktów o firmie. Po migracji stare integracje
+muszą pobrać nowy pełny eksport, nie sam indeks tematyczny.
 
 ## Aktualizacja danych
 
 W źródle dopisz publiczny dowód i jego typ. W rekordzie wpisz rzeczywistą datę
 potwierdzenia, status i zgodę na publikację. Dla danych zmiennych ustal datę
 ponownego przeglądu. Nie wpisuj daty modyfikacji jako daty weryfikacji.
-Sam wpis historyczny nie odblokowuje publikacji. Warunki i źródła potwierdza
-właściciel lub odpowiedni dowód, nie walidator.
+Sam wpis historyczny lub szablon metody nie odblokowują publikacji.
+Warunki i źródła potwierdza właściciel lub odpowiedni dowód, nie walidator.
 
 ```bash
 python3 scripts/brain.py build
 python3 scripts/brain.py check
 python3 -m unittest discover -s tests -v
+python3 scripts/brain.py report
 ```
 
 `check` nie naprawia plików. Zwraca kod 1 przy błędach. Ostrzeżenia o brakach
 zwracają kod 0, jeżeli rekord jest poprawnie zablokowany do publikacji.
 Opcja `--today YYYY-MM-DD` służy powtarzalnym testom; nie używaj starej daty,
 żeby ukrywać przedawnione dane. Domyślnie używana jest bieżąca data systemu.
+
+`report` odczytuje rejestr i pokazuje braki oraz do pięciu pytań właściciela.
+Nie zmienia plików, nie łączy się z kontami, nie wykonuje researchu i nie działa
+w tle. Daty w review_policy są regułami przeglądu, nie aktywnym harmonogramem.
+
+## Reguły kontekstu 3.1
+
+Źródła typu methodology i oznaczone usable_for_facts=false nie potwierdzają
+faktów firmy. Propozycja lub hipoteza nie staje się faktem przez nadanie statusu.
+Pomiar SEO potrzebuje źródła, daty, narzędzia i regionu. Aktywny system wymaga
+potwierdzenia, a kampania dodatkowo właściwej oferty, budżetu i zatwierdzeń.
+Brak wyniku KPI to null, nie zero. Szczegóły: [adaptacja szablonu](TEMPLATE_IMPLEMENTATION.md).
 
 ## Codex
 
@@ -89,5 +104,5 @@ Walidator sprawdza strukturę, identyfikatory, statusy, metadane, lokalne
 odwołania inline Markdown / HTML, ścieżki assetów i aktualność eksportów.
 Nie jest pełnym parserem Markdown. Nie sprawdza dostępności zewnętrznych URL,
 prawdziwości informacji, zgód, poprawności prawnej, renderu fontów i grafiki
-ani zgodności odpowiedzi modelu z instrukcją. Nie jest skanerem sekretów.
-Scenariusze agentowe wymagają osobnego wykonania i oceny.
+ani zgodności odpowiedzi modelu z instrukcją. Nie jest skanerem sekretów
+ani systemem kontroli dostępu. Scenariusze agentowe wymagają osobnego wykonania.

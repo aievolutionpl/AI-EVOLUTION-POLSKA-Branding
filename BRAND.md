@@ -59,18 +59,20 @@ Post o agencie AI za 20 000 zł **nie pojawi się** na profilu AIEP.
 
 ### Typografia
 
-⚠️ **Dwa brand booki podają różne fonty** — do rozstrzygnięcia:
+**Wszystkie trzy fonty są dozwolone** — oba brand booki są z rocznika 2024/2025, wybór zależy od materiału.
 
-| Źródło | Font |
-|---|---|
-| Brand book **1** (`brand-guidelines.jpg`) | **Space Grotesk** (nagłówki) + **Inter** (tekst, UI) |
-| Brand book **2** (`brand-guidelines-2.jpg`) | **Sora** — Light, Regular, Medium, SemiBold, Bold |
+| Rola | Font | Wagi |
+|---|---|---|
+| **Nagłówki / display** | **Space Grotesk** | Bold, Medium |
+| **Tekst / UI** | **Inter** | Regular, Medium, SemiBold |
+| **Alternatywa** | **Sora** | Light, Regular, Medium, SemiBold, Bold |
 
-**Na razie stosujemy: Space Grotesk + Inter** (brand book 1). Jeśli Sora jest nowsza — powiedz, to przestawimy.
-
-✅ **Space Grotesk i Inter mają polskie diakrytyki.**
+✅ Wszystkie trzy mają **polskie diakrytyki** — bezpieczne w materiałach PL.
 ❌ **Orbitron i Montserrat NIE MAJĄ diakrytyk** — nigdy w materiałach PL.
 ❌ **Manrope i DM Serif Display** — wycofane.
+
+**Domyślnie:** Space Grotesk (nagłówki) + Inter (tekst).
+**Sora** — do projektów, które mają pasować wizualnie do brand booka 2.
 
 ### Styl marki
 

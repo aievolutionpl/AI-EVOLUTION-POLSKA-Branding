@@ -13,8 +13,8 @@ Wgrywasz ten plik, żeby agent pisał dla marki **AI Evolution Polska**
 
 - **Tagline:** Ucz się AI mądrzej. Buduj szybciej.
 - **Kolory:** Deep Navy `#050505` · Surface `#0B0D10` · Primary Purple `#7C5CFF` · Accent Blue `#00B7FF` · Light Violet `#B18CFF` · Success Green `#29E68C` · Light `#F5F7FA`
-- **Fonty:** **Space Grotesk** (nagłówki) · **Inter** (tekst, UI)
-- ⚠️ **Drugi brand book podaje Sora** — rozstrzygnięcie w toku, na razie używaj Space Grotesk + Inter
+- **Fonty (wszystkie dozwolone):** **Space Grotesk** (nagłówki) · **Inter** (tekst, UI) · **Sora** (alternatywa)
+- Domyślnie: Space Grotesk + Inter. Sora do projektów pasujących do brand booka 2.
 - **Styl wizualny:** minimalistyczne tła · glassmorphism · subtelne gradienty · nowoczesne UI
 - **Styl:** nowoczesny · profesjonalny · praktyczny · wiarygodny · skoncentrowany na ludziach
 - **Motto:** „Technologia ma sens, gdy pomaga ludziom."

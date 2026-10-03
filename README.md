@@ -139,7 +139,7 @@ Dwa oficjalne dokumenty — kolory i fonty pochodzą z nich:
 
 </div>
 
-⚠️ Oba są z rocznika 2024/2025. Palety **zgodne** (6 kolorów). Fonty **różne** — patrz wyżej.
+Oba są z rocznika 2024/2025. Palety **zgodne** (6 kolorów). Fonty ** dopełnione** — wszystkie trzy dozwolone.
 
 ---
 

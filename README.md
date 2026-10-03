@@ -6,7 +6,8 @@
 
 **Kompletna wiedza o firmie dla agentów AI.**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-5B4DFF.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-marketing%20use-7C5CFF.svg)](LICENSE.md)
+[![Brand 2024/25](https://img.shields.io/badge/brand-book-2024%2F2025-00B7FF.svg)](brand/photos/brand-guidelines.jpg)
 [![Version](https://img.shields.io/badge/version-2.2-B18CFF.svg)](BRAND.md)
 [![Language](https://img.shields.io/badge/lang-PL-2FA8FF.svg)](BRAND.md)
 [![For agents](https://img.shields.io/badge/%F0%9F%A4%96-dla%20agent%C3%B3w%20AI-00E7FF.svg)](agent/AGENTS.md)
@@ -64,20 +65,7 @@ Skill aktywuje się przy każdej prośbie o content dla AI Evolution Polska.
 | **[`agent/AGENTS.md`](agent/AGENTS.md)** | 8 zasad twardych dla agentów |
 | **[`agent/SKILL.md`](agent/SKILL.md)** | gotowy skill do wgrania |
 | **`brand/`** | logo, cover i materiały marki |
-
----
-
-## ⚠️ Najczęstszy błąd — nie mieszaj marek
-
-| | **AI Evolution Polska** | **AI Evolution Labs** |
-|---|---|---|
-| **Domena** | `aievolutionpolska.pl` | `aievolutionlabs.io` |
-| **Sprzedaje** | wiedzę, kursy, społeczność | agentów AI, marketing, usługi B2B |
-| **Odbiorca** | chce się **nauczyć** | firma **wdraża** AI |
-
-Post o budowaniu agenta AI za kilka tysięcy **nie pojawi się** na profilu edukacyjnym.
-
-🚫 **`aievolution.pl` to zaparkowana domena — nie jest nasza. Nie linkuj jej.**
+| **[`LICENSE.md`](LICENSE.md)** | licencja — użycie komercyjne i współprace |
 
 ---
 
@@ -96,16 +84,84 @@ Post o budowaniu agenta AI za kilka tysięcy **nie pojawi się** na profilu eduk
 
 ## 🎨 Identyfikacja
 
-**Tagline:** Ucz się AI mądrzej. Buduj szybciej.
-**Kolory:** Navy `#0E1330` · Indigo `#5B4DFF` · Blue `#2FA8FF` · Violet `#B18CFF`
-**Fonty:** Inter · Manrope · DM Serif Display
-**Social:** 1080×1350 (4:5) · Reels 1080×1920 (9:16)
+<div align="center">
+
+<img src="brand/logo/ai-evolution-polska-logo.png" alt="AI Evolution Polska — logo" width="260">
+
+**„Ucz się AI mądrzej. Buduj szybciej."**
+
+*Praktyczna edukacja AI dla biznesu, marketingu i automatyzacji.*
+
+</div>
+
+### 🎨 Kolory
+
+| | Kolor | Hex | Rola |
+|:---:|---|---|---|
+| ⬛ | **Deep Navy** | `#050505` | tło główne |
+| ⬛ | **Surface** | `#0B0D10` | karty, UI |
+| 🟣 | **Primary Purple** | `#7C5CFF` | innowacja, AI |
+| 🟦 | **Accent Blue** | `#00B7FF` | energia, akcja |
+| 🟩 | **Success Green** | `#29E68C` | sukces, CTA |
+| ⬜ | **Light** | `#F5F7FA` | tekst na ciemnym tle |
+
+### ✒️ Typografia
+
+**Nagłówki:** Space Grotesk · **Tekst i UI:** Inter
+
+### 🧭 Styl marki
+
+**Nowoczesny** · **profesjonalny** · **praktyczny** · **wiarygodny** · **skoncentrowany na ludziach**
+
+> „Technologia ma sens, gdy pomaga ludziom."
+> *A smarter tomorrow together.*
+
+**Formaty:** karuzela/post **1080×1350 (4:5)** · Reels **1080×1920 (9:16)**
+
+---
+
+## 📘 Brand book
+
+Oryginalna wytyczna marki, z której pochodzą powyższe kolory, fonty i zasady:
+
+<div align="center">
+
+<img src="brand/photos/brand-guidelines.jpg" alt="AI Evolution Polska — brand book 2024/2025" width="100%">
+
+</div>
 
 ---
 
 ## 📄 Licencja
 
-MIT — możesz używać, zmieniać i zaczepiać się z tego. Pod warunkiem, że **nie wyciągniesz** tego repo do klienta, który ma z nami konflikt. 😄
+**Tak — możesz używać naszego brandingu komercyjnie, w tym we współpracach marketingowych.**
+
+Przy wskazaniu źródła i bez deformowania logo. Możesz używać tego w kampaniach,
+projektach dla klientów, prezentacjach i materiałach dla zespołu.
+
+✅ **Wolno** — projekty dla klientów i partnerów · kampanie współbrane · prezentacje · modyfikowanie kolorów i układu · udostępnianie w zespole
+
+⚠️ **Musisz** — podać źródło („AI Evolution Polska") · nie deformuj logo · nie sugeruj współpracy, której nie ma
+
+❌ **Nie wolno** — podszywanie się pod nas · odsprzedawanie kursów · fałszowanie AI · dane osobowe i finansowe
+
+📧 Współpraca pisemna: **[kontakt@aievolutionpolska.pl](mailto:kontakt@aievolutionpolska.pl)** · umowa ma pierwszeństwo przed licencją
+
+**[Pełny tekst licencji →](LICENSE.md)**
+
+---
+
+## ⚠️ Nie mieszaj marek
+
+| | **AI Evolution Polska** | **AI Evolution Labs** |
+|---|---|---|
+| **Domena** | `aievolutionpolska.pl` | `aievolutionlabs.io` |
+| **Sprzedaje** | wiedzę, kursy, społeczność | agentów AI, marketing, usługi B2B |
+| **Odbiorca** | chce się **nauczyć** | firma **wdraża** AI |
+
+Post o budowaniu agenta AI za kilka tysięcy **nie pojawi się** na profilu edukacyjnym.
+
+🚫 **`aievolution.pl` to zaparkowana domena — nie jest nasza. Nie linkuj jej.**
 
 ---
 

@@ -36,16 +36,48 @@ Post o agencie AI za 20 000 zł **nie pojawi się** na profilu AIEP.
 
 ## 3. 🎨 IDENTYFIKACJA
 
-| Marka | Paleta |
-|---|---|
-| **AIEP** | Navy `#0E1330` · Indigo `#5B4DFF` · Blue `#2FA8FF` · Violet `#B18CFF` |
-| **AI Evolution Labs** | Void Black `#000000` · Cyan `#00E7FF` · Lime `#7CFF1E` |
+> Źródło: **oficjalny brand book AIEP 2024/2025** (`brand/photos/brand-guidelines.jpg`).
+> Wartości poniżej są kanoniczne — jeśli gdzieś kiedyś pojawią się stare kolory, to one są błędne.
 
-**Fonty:** Inter (body) · Manrope (nagłówki) · DM Serif Display (edycja).
-⚠️ **Orbitron i Montserrat NIE MAJĄ polskich diakrytyk** — nigdy w materiałach PL.
+### Paleta
+
+| Kolor | Hex | Rola |
+|---|---|---|
+| **Deep Navy** | `#050505` | tło główne · profesjonalizm, kontrast |
+| **Surface** | `#0B0D10` | powierzchnie, karty, UI |
+| **Primary Purple** | `#7C5CFF` | innowacja, AI, technologia |
+| **Accent Blue** | `#00B7FF` | energia, rozwój, akcja |
+| **Success Green** | `#29E68C` | postęp, sukces, CTA |
+| **Light** | `#F5F7FA` | tekst na ciemnym tle |
+
+⚠️ **Uwaga:** w brand bookie Deep Navy ma wartość **`#050505`**. W praktyce wygląda to jak granat — rendery dają ok. `#0B0F1E`. Trzymaj się **`#050505`** z brand booka; to wartość oficjalna.
+
+> **Wcześniejsze wartości są nieaktualne:** Navy `#0E1330`, Indigo `#5B4DFF`, Blue `#2FA8FF`, Violet `#B18CFF`. Nie używaj ich w nowych materiałach.
+
+**AI Evolution Labs** (osobna marka): Void Black `#000000` · Cyan `#00E7FF` · Lime `#7CFF1E`.
+
+### Typografia
+
+| Rola | Font |
+|---|---|
+| **Nagłówki** | **Space Grotesk** |
+| **Tekst / akapity / UI** | **Inter** |
+
+⚠️ **Space Grotesk ma polskie diakrytyki** — to teraz bezpieczny font na nagłówki PL.
+❌ **Orbitron i Montserrat NIE MAJĄ diakrytyk** — nigdy w materiałach PL.
+❌ **Manrope i DM Serif Display** — wycofane, zastąpione przez Space Grotesk + Inter.
+
+### Styl marki
+
+**Nowoczesny** · **profesjonalny** · **praktyczny** · **wiarygodny** · **skoncentrowany na ludziach**
+
+> „Technologia ma sens, gdy pomaga ludziom."
+> Tagline: **„Ucz się AI mądrzej. Buduj szybciej."**
+> W motywie: **„A smarter tomorrow together."**
+> Rozwinięcie: „Praktyczna edukacja AI dla biznesu, marketingu i automatyzacji."
+> Wartości: **LUDZIE · NARZĘDZIA · WIEDZA · ROZWÓJ**
 
 **Logo:** `brand/logo/` — 🚫 **robot, logo i wizerunek foundera nigdy AI-redraw.**
-
 **Formaty:** karuzela/post **1080×1350 (4:5)** · reels **1080×1920 (9:16)**.
 
 ---

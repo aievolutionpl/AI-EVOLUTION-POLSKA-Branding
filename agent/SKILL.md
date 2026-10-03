@@ -9,9 +9,14 @@ Wgrywasz ten plik, żeby agent pisał dla marki **AI Evolution Polska**
 (`.pl`, edukacja i kursy — **nie** AI Evolution Labs).
 
 ## Identyfikacja
+> Źródło: oficjalny **brand book 2024/2025** (`brand/photos/brand-guidelines.jpg`)
+
 - **Tagline:** Ucz się AI mądrzej. Buduj szybciej.
-- **Kolory:** Navy `#0E1330` · Indigo `#5B4DFF` · Blue `#2FA8FF` · Violet `#B18CFF`
-- **Fonty:** Inter, Manrope, DM Serif Display
+- **Kolory:** Deep Navy `#050505` · Surface `#0B0D10` · Primary Purple `#7C5CFF` · Accent Blue `#00B7FF` · Success Green `#29E68C` · Light `#F5F7FA`
+- **Fonty:** **Space Grotesk** (nagłówki) · **Inter** (tekst, UI)
+- **Styl:** nowoczesny · profesjonalny · praktyczny · wiarygodny · skoncentrowany na ludziach
+- **Motto:** „Technologia ma sens, gdy pomaga ludziom."
+- 🚫 **Wycofane — nie używaj:** `#0E1330`, `#5B4DFF`, `#2FA8FF`, `#B18CFF`, Manrope, DM Serif Display
 - ⚠️ **Orbitron i Montserrat nie mają polskiej litery „ć"** — nie używaj
 
 ## Dwie marki — nie mieszaj

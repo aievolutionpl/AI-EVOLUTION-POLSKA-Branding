@@ -110,9 +110,13 @@ Skill aktywuje się przy każdej prośbie o content dla AI Evolution Polska.
 
 **Nagłówki:** Space Grotesk · **Tekst i UI:** Inter
 
+> ⚠️ **Drugi brand book podaje Sora** (Light–Bold). Na razie stosujemy Space Grotesk + Inter — jeśli Sora jest nowsza, powiedz i to przestawimy.
+
 ### 🧭 Styl marki
 
 **Nowoczesny** · **profesjonalny** · **praktyczny** · **wiarygodny** · **skoncentrowany na ludziach**
+
+**Styl wizualny:** minimalistyczne tła · glassmorphism · subtelne gradienty · nowoczesne UI
 
 > „Technologia ma sens, gdy pomaga ludziom."
 > *A smarter tomorrow together.*

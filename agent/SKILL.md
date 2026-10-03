@@ -9,14 +9,16 @@ Wgrywasz ten plik, żeby agent pisał dla marki **AI Evolution Polska**
 (`.pl`, edukacja i kursy — **nie** AI Evolution Labs).
 
 ## Identyfikacja
-> Źródło: oficjalny **brand book 2024/2025** (`brand/photos/brand-guidelines.jpg`)
+> Źródło: 2 oficjalne **brand booki 2024/2025** (`brand/photos/brand-guidelines.jpg`, `brand-guidelines-2.jpg`)
 
 - **Tagline:** Ucz się AI mądrzej. Buduj szybciej.
-- **Kolory:** Deep Navy `#050505` · Surface `#0B0D10` · Primary Purple `#7C5CFF` · Accent Blue `#00B7FF` · Success Green `#29E68C` · Light `#F5F7FA`
+- **Kolory:** Deep Navy `#050505` · Surface `#0B0D10` · Primary Purple `#7C5CFF` · Accent Blue `#00B7FF` · Light Violet `#B18CFF` · Success Green `#29E68C` · Light `#F5F7FA`
 - **Fonty:** **Space Grotesk** (nagłówki) · **Inter** (tekst, UI)
+- ⚠️ **Drugi brand book podaje Sora** — rozstrzygnięcie w toku, na razie używaj Space Grotesk + Inter
+- **Styl wizualny:** minimalistyczne tła · glassmorphism · subtelne gradienty · nowoczesne UI
 - **Styl:** nowoczesny · profesjonalny · praktyczny · wiarygodny · skoncentrowany na ludziach
 - **Motto:** „Technologia ma sens, gdy pomaga ludziom."
-- 🚫 **Wycofane — nie używaj:** `#0E1330`, `#5B4DFF`, `#2FA8FF`, `#B18CFF`, Manrope, DM Serif Display
+- 🚫 **Wycofane — nie używaj:** `#0E1330`, `#5B4DFF`, `#2FA8FF`, Manrope, DM Serif Display
 - ⚠️ **Orbitron i Montserrat nie mają polskiej litery „ć"** — nie używaj
 
 ## Dwie marki — nie mieszaj

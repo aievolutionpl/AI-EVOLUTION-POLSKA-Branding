@@ -36,7 +36,7 @@ Post o agencie AI za 20 000 zł **nie pojawi się** na profilu AIEP.
 
 ## 3. 🎨 IDENTYFIKACJA
 
-> Źródło: **oficjalny brand book AIEP 2024/2025** (`brand/photos/brand-guidelines.jpg`).
+> Źródło: **2 oficjalne brand booki AIEP 2024/2025** (`brand/photos/brand-guidelines.jpg` i `brand-guidelines-2.jpg`).
 > Wartości poniżej są kanoniczne — jeśli gdzieś kiedyś pojawią się stare kolory, to one są błędne.
 
 ### Paleta
@@ -47,29 +47,39 @@ Post o agencie AI za 20 000 zł **nie pojawi się** na profilu AIEP.
 | **Surface** | `#0B0D10` | powierzchnie, karty, UI |
 | **Primary Purple** | `#7C5CFF` | innowacja, AI, technologia |
 | **Accent Blue** | `#00B7FF` | energia, rozwój, akcja |
+| **Light Violet** | `#B18CFF` | akcenty, gradienty |
 | **Success Green** | `#29E68C` | postęp, sukces, CTA |
 | **Light** | `#F5F7FA` | tekst na ciemnym tle |
 
+**AI Evolution Labs** (osobna marka): Void Black `#000000` · Cyan `#00E7FF` · Lime `#7CFF1E`.
+
 ⚠️ **Uwaga:** w brand bookie Deep Navy ma wartość **`#050505`**. W praktyce wygląda to jak granat — rendery dają ok. `#0B0F1E`. Trzymaj się **`#050505`** z brand booka; to wartość oficjalna.
 
-> **Wcześniejsze wartości są nieaktualne:** Navy `#0E1330`, Indigo `#5B4DFF`, Blue `#2FA8FF`, Violet `#B18CFF`. Nie używaj ich w nowych materiałach.
-
-**AI Evolution Labs** (osobna marka): Void Black `#000000` · Cyan `#00E7FF` · Lime `#7CFF1E`.
+> **Wcześniejsze wartości są nieaktualne:** Navy `#0E1330`, Indigo `#5B4DFF`, Blue `#2FA8FF`. Nie używaj ich w nowych materiałach.
 
 ### Typografia
 
-| Rola | Font |
-|---|---|
-| **Nagłówki** | **Space Grotesk** |
-| **Tekst / akapity / UI** | **Inter** |
+⚠️ **Dwa brand booki podają różne fonty** — do rozstrzygnięcia:
 
-⚠️ **Space Grotesk ma polskie diakrytyki** — to teraz bezpieczny font na nagłówki PL.
+| Źródło | Font |
+|---|---|
+| Brand book **1** (`brand-guidelines.jpg`) | **Space Grotesk** (nagłówki) + **Inter** (tekst, UI) |
+| Brand book **2** (`brand-guidelines-2.jpg`) | **Sora** — Light, Regular, Medium, SemiBold, Bold |
+
+**Na razie stosujemy: Space Grotesk + Inter** (brand book 1). Jeśli Sora jest nowsza — powiedz, to przestawimy.
+
+✅ **Space Grotesk i Inter mają polskie diakrytyki.**
 ❌ **Orbitron i Montserrat NIE MAJĄ diakrytyk** — nigdy w materiałach PL.
-❌ **Manrope i DM Serif Display** — wycofane, zastąpione przez Space Grotesk + Inter.
+❌ **Manrope i DM Serif Display** — wycofane.
 
 ### Styl marki
 
 **Nowoczesny** · **profesjonalny** · **praktyczny** · **wiarygodny** · **skoncentrowany na ludziach**
+**Ton komunikacji:** profesjonalny, ale ludzki — *Edukacja · Społeczność · Rozwój · Praktyka*
+
+### Styl wizualny
+**Minimalistyczne tła** · **glassmorphism** · **subtelne gradienty** · **nowoczesne UI**
+*Opis: czysty, nowoczesny, premium. Spójna identyfikacja we wszystkich kanałach.*
 
 > „Technologia ma sens, gdy pomaga ludziom."
 > Tagline: **„Ucz się AI mądrzej. Buduj szybciej."**

@@ -102,6 +102,7 @@ Skill aktywuje się przy każdej prośbie o content dla AI Evolution Polska.
 | ⬛ | **Surface** | `#0B0D10` | karty, UI |
 | 🟣 | **Primary Purple** | `#7C5CFF` | innowacja, AI |
 | 🟦 | **Accent Blue** | `#00B7FF` | energia, akcja |
+| 🟪 | **Light Violet** | `#B18CFF` | akcenty, gradienty |
 | 🟩 | **Success Green** | `#29E68C` | sukces, CTA |
 | ⬜ | **Light** | `#F5F7FA` | tekst na ciemnym tle |
 
@@ -124,11 +125,17 @@ Skill aktywuje się przy każdej prośbie o content dla AI Evolution Polska.
 
 Oryginalna wytyczna marki, z której pochodzą powyższe kolory, fonty i zasady:
 
+Dwa oficjalne dokumenty — kolory i fonty pochodzą z nich:
+
 <div align="center">
 
-<img src="brand/photos/brand-guidelines.jpg" alt="AI Evolution Polska — brand book 2024/2025" width="100%">
+<img src="brand/photos/brand-guidelines.jpg" alt="AI Evolution Polska — brand book 2024/2025 (1)" width="100%">
+
+<img src="brand/photos/brand-guidelines-2.jpg" alt="AI Evolution Polska — brand book 2024/2025 (2)" width="100%">
 
 </div>
+
+⚠️ Oba są z rocznika 2024/2025. Palety **zgodne** (6 kolorów). Fonty **różne** — patrz wyżej.
 
 ---
 

@@ -108,9 +108,11 @@ Skill aktywuje się przy każdej prośbie o content dla AI Evolution Polska.
 
 ### ✒️ Typografia
 
-**Nagłówki:** Space Grotesk · **Tekst i UI:** Inter
+**Nagłówki:** Space Grotesk · **Tekst i UI:** Inter · **Alternatywa:** Sora
 
-> ⚠️ **Drugi brand book podaje Sora** (Light–Bold). Na razie stosujemy Space Grotesk + Inter — jeśli Sora jest nowsza, powiedz i to przestawimy.
+Wszystkie trzy fonty mają polskie diakrytyki i są dozwolone.
+**Domyślnie:** Space Grotesk (nagłówki) + Inter (tekst).
+**Sora** — do projektów, które mają pasować wizualnie do brand booka 2.
 
 ### 🧭 Styl marki
 

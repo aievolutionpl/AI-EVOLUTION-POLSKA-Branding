@@ -1,71 +1,65 @@
 <div align="center">
-<img src="brand/cover.jpg" alt="AI Evolution Polska | Company Brain: wiedza i zasady pracy dla agentów" width="100%">
+<img src="brand/cover.jpg" alt="AI Evolution Polska Brand Brain: wiedza i zasady dla agentów AI" width="100%">
 
 # AI Evolution Polska | Company Brain
 
-Publiczna wiedza o firmie, procedury pracy i kontrola jakości dla agentów AI.
+Kontekst firmy, z którego agent korzysta przed przygotowaniem treści, oferty lub procesu.
+
 </div>
 
 ## Zacznij tutaj
 
-**[COMPANY_BRAIN.md](COMPANY_BRAIN.md)** to jedyne edytowane źródło wiedzy firmy.
-Opisuje markę, ofertę, odbiorców, komunikację, branding, procesy i granice działania.
-Wersja struktury: **3.0.0**. [Historia zmian](CHANGELOG.md).
+Przekaż agentowi [COMPANY_BRAIN.md](COMPANY_BRAIN.md) i oryginalne materiały potrzebne
+do zadania. W repo instrukcją wejścia jest [AGENTS.md](AGENTS.md).
+Sklonowanie repo samo w sobie nie dowodzi przeczytania wiedzy.
 
-Nie wszystko jest potwierdzone. Historyczne warunki ofert zachowano bez zmiany
-kwot, ale wymagają aktualnej weryfikacji. Brakujący dowód nie jest zastępowany
-obietnicą. Przeczytaj [audyt i decyzje właściciela](docs/AUDIT.md).
-
-## Podłącz do pracy
-
-Sklonuj repo i uruchom agenta w jego katalogu. Poleć mu przeczytać
-[AGENTS.md](AGENTS.md) oraz Company Brain. Samo klonowanie nie wczytuje wiedzy.
-
-```bash
-git clone https://github.com/aievolutionpl/brand-brain.git
-cd brand-brain
+```text
+Przeczytaj COMPANY_BRAIN.md.
+Przygotuj brief posta dla AI Evolution Polska o porządkowaniu wiedzy firmy.
+Nie wymyślaj wyników. Oddziel szkic od informacji wymagających potwierdzenia.
 ```
 
-Test kontekstu: „Podaj wersję Company Brain, trzy zasady dotyczące mojego zadania
-oraz jedną rzecz wymagającą potwierdzenia. Nie traktuj cen historycznych jako aktualnych.”
+## Co zawiera wersja 3.1
 
-Do ręcznego załącznika wystarczy COMPANY_BRAIN.md. `BRAND.md` pozostaje pełnym,
-identycznym eksportem dla starszych integracji. [Instrukcje Codex / Claude / Hermes](docs/MAINTENANCE.md)
-opisują oddzielnie sposób podłączenia i ograniczenia pakietu.
+Tożsamość, oferta, odbiorcy, komunikacja, branding i procedury pracy.
+Do tego START/research, mapa strony, content, obsługa zapytań, hipotezy SEO,
+brief reklamowy, mapa systemów, definicje KPI i plan rozwoju.
 
-## Mapa repo
+To wiedza i procedury, nie uruchomione kampanie, crawler lub integracje.
+Źródła, statusy i braki są jawne. Szablon metody nie jest dowodem faktów o firmie.
 
-| Plik / katalog | Rola |
-|---|---|
-| [COMPANY_BRAIN.md](COMPANY_BRAIN.md) | wiedza, procedury, rejestr źródeł i statusów |
-| [AGENTS.md](AGENTS.md) | instrukcja pracy w całym repo |
-| [BRAND.md](BRAND.md) | generowany, samodzielny eksport kompatybilny |
-| [agent/SKILL.md](agent/SKILL.md) | skill z dołączonym snapshotem wiedzy |
-| [docs/OFFER.md](docs/OFFER.md) | generowany widok oferty, nie drugi cennik |
-| [docs/VOICE.md](docs/VOICE.md) | generowany widok komunikacji i CTA |
-| [docs/AUDIENCE.md](docs/AUDIENCE.md) | generowany widok odbiorców |
-| [docs/CLIENTS.md](docs/CLIENTS.md) | generowany widok kwalifikacji i dowodów |
-| [docs/STRATEGY.md](docs/STRATEGY.md) | generowany widok zakresu i kierunków |
-| [docs/TOOLS.md](docs/TOOLS.md) | tematy narzędziowe, bez fikcyjnych integracji |
-| [tests/README.md](tests/README.md) | testy struktury i scenariusze agentowe |
-| `brand/` | oryginalne, niezmienione materiały marki |
+## Widoki tematyczne
 
-## Aktualizacja i sprawdzenie
+[START](docs/START_HERE.md) · [oferta](docs/OFFER.md) · [głos](docs/VOICE.md) ·
+[odbiorcy](docs/AUDIENCE.md) · [klienci](docs/CLIENTS.md) · [strategia](docs/STRATEGY.md) ·
+[narzędzia](docs/TOOLS.md) · [strona](docs/WEBSITE.md) · [marketing](docs/MARKETING.md) ·
+[sprzedaż](docs/SALES.md) · [SEO](docs/SEO.md) · [systemy](docs/SYSTEMS.md) · [plan](docs/PLANNING.md).
 
-Python 3.10+ i standardowa biblioteka. Bez zależności, płatnych usług i kluczy API.
+Widoki to generowane indeksy: prowadzą do sekcji głównego pliku i wskazują źródła.
+Nie są odrębną bazą wiedzy. Nie edytuj ich ręcznie.
+BRAND.md pozostaje pełną kopią dla starszych integracji. Skill ma pełny snapshot
+w agent/references/COMPANY_BRAIN.md; przenoś cały katalog agent, nie sam SKILL.md.
+Automatyczne rozpoznanie instrukcji zależy od używanego klienta i jego konfiguracji.
 
+## Aktualizacja i testy
+
+Edytuj COMPANY_BRAIN.md, następnie:
 ```bash
 python3 scripts/brain.py build
-python3 scripts/brain.py check
 python3 -m unittest discover -s tests -v
+python3 scripts/brain.py check
+python3 scripts/brain.py report
 ```
 
-Edytuj COMPANY_BRAIN.md, a potem przebuduj eksporty. CI wykonuje kontrolę,
-nie nadpisuje ani nie zatwierdza danych biznesowych. Ostrzeżenia o niepotwierdzonych
-rekordach są jawne; błędna struktura lub nieaktualny eksport powodują błąd testu.
+Python 3.10+; standardowa biblioteka, bez nowych usług i opłat.
+Raport jest odczytem offline i pokazuje do pięciu pytań do właściciela.
+Nie aktualizuje faktów i nie działa w tle. Check sprawdza strukturę, ścieżki,
+eksporty i hashe assetów, nie prawdziwość biznesowych danych.
 
-## Dane i licencja
+[Utrzymanie](docs/MAINTENANCE.md) · [audyt migracji](docs/AUDIT.md) ·
+[adaptacja szablonu](docs/TEMPLATE_IMPLEMENTATION.md) · [testy](tests/README.md) ·
+[zmiany](CHANGELOG.md).
 
-Repo jest publiczne. Nie umieszczaj tu prywatnych danych, umów i sekretów.
-Zasady wykorzystania określa niezmieniona [LICENSE.md](LICENSE.md).
-Tekst lub symbol na istniejącym banerze nie zastępuje postanowień licencji.
+Logo, baner i [licencja](LICENSE.md) pozostają bez zmian. Nie przenoś do
+publicznego repo prywatnych danych klientów, sekretów i wewnętrznych wycen.
+Niepotwierdzone warunki oferty nie są nowym publicznym cennikiem.

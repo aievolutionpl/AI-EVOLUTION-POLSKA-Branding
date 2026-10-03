@@ -1,48 +1,13 @@
-# TOOLS — narzędzia, o których mówimy
+<!-- GENERATED: COMPANY_BRAIN.md | sha256:66e37dd31a4c1dce3fdb5d0509c840c825dd1bd9c114e0fe9a2767f49f0182fd -->
+# TOOLS | indeks Company Brain
 
-Używaj **nazw produktowych**, nie ogólnych kategorii typu „narzędzie AI".
+Nie edytuj ręcznie. To indeks, nie samodzielna baza faktów.
+Pełne dane: [COMPANY_BRAIN.md](../COMPANY_BRAIN.md).
+Odświeżenie: `python3 scripts/brain.py build`.
 
-## Modele i rozmowa
+- [9. Cele, narzędzia i odpowiedzialność](../COMPANY_BRAIN.md#operations)
 
-| Narzędzie | Kiedy mówimy o nim |
-|---|---|
-| **Claude** | długie, złożone zadania, praca ze źródłami, pisanie |
-| **ChatGPT** | codzienność, szybkie pytania, obraz, multimedia |
-| **Gemini** | ekosystem Google, duży kontekst, integracje z Google |
+Rekordy: `TOOLS-DEPLOYMENT`
+Źródła w rejestrze: `SRC-TOOLS`
 
-## Kodowanie
-
-| Narzędzie | Kiedy mówimy o nim |
-|---|---|
-| **Codex** | programowanie z AI — od pomysłu, przez kod, po testy |
-| **Cursor** | praca z kodem w środowisku IDE |
-| **Lovable** | aplikacje bez kodowania — dla osób nietechnicznych |
-
-## Automatyzacja
-
-| Narzędzie | Kiedy mówimy o nim |
-|---|---|
-| **n8n** | łączenie narzędzi, automatyzacja procesów, roboty |
-| **Apify** | zbieranie danych i treści w skali, scraping |
-| **Resend** | wysyłka maili transakcyjnych |
-
-## Sprzedaż B2B
-
-| Narzędzie | Kiedy mówimy o nim |
-|---|---|
-| **Apollo.io** | baza firm i kontaktów, research |
-| **Instantly** | wysyłka cold emaili w skali |
-
-## Praca i wiedza
-
-| Narzędzie | Kiedy mówimy o nim |
-|---|---|
-| **Figma** | projektowanie |
-| **Notion** | baza wiedzy, dokumentacja |
-
----
-
-## Zasada
-> **Nie obiecuj narzędzia, którego nie sprawdziłeś.**
-> Przed postem o funkcji — potwierdź, że ona działa.
-> Funkcje AI zmieniają się z tygodnia na tydzień; nazwa narzędzia zostaje.
+Sprawdź status, źródło, datę i ważność przed użyciem wartości.

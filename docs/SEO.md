@@ -1,13 +1,13 @@
 <!-- GENERATED: COMPANY_BRAIN.md | sha256:66e37dd31a4c1dce3fdb5d0509c840c825dd1bd9c114e0fe9a2767f49f0182fd -->
-# OFFER | indeks Company Brain
+# SEO | indeks Company Brain
 
 Nie edytuj ręcznie. To indeks, nie samodzielna baza faktów.
 Pełne dane: [COMPANY_BRAIN.md](../COMPANY_BRAIN.md).
 Odświeżenie: `python3 scripts/brain.py build`.
 
-- [2. Oferta i warunki](../COMPANY_BRAIN.md#offers)
+- [15. SEO i porównanie rynku](../COMPANY_BRAIN.md#seo)
 
-Rekordy: `OFFER-FREE`, `OFFER-PRO`, `OFFER-BUSINESS`, `OFFER-WORKSHOPS`, `CLAIM-FREE-ACCESS`
-Źródła w rejestrze: `SRC-OFFER`
+Rekordy: `COMPETITOR-RESEARCH`, `SEO-TRAINING`, `SEO-COURSE`, `SEO-MARKETING`, `SEO-AGENT`, `SEO-AUTOMATION`, `SEO-BRAIN`
+Źródła w rejestrze: `SRC-TEMPLATE`
 
 Sprawdź status, źródło, datę i ważność przed użyciem wartości.

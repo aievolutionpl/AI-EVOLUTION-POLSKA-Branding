@@ -1,34 +1,13 @@
-# AUDIENCE — do kogo mówimy
+<!-- GENERATED: COMPANY_BRAIN.md | sha256:66e37dd31a4c1dce3fdb5d0509c840c825dd1bd9c114e0fe9a2767f49f0182fd -->
+# AUDIENCE | indeks Company Brain
 
-## 5 segmentów
+Nie edytuj ręcznie. To indeks, nie samodzielna baza faktów.
+Pełne dane: [COMPANY_BRAIN.md](../COMPANY_BRAIN.md).
+Odświeżenie: `python3 scripts/brain.py build`.
 
-### 1. Przedsiębiorcy
-Szukają **przewagi konkurencyjnej**. Nie myślą o AI — myślą o kosztach i przychodach.
-**Mów o:** oszczędności czasu, pieniądze, konkretne zastosowanie w ich branży.
-**Nie mów o:** architekturze, modelach, parametrach.
+- [3. Odbiorcy i ich potrzeby](../COMPANY_BRAIN.md#audience)
 
-### 2. Marketerzy
-Chcą **zautomatyzować powtarzalną pracę**. To nasza najbardziej aktywna grupa.
-**Mów o:** content, kampanie, leady, czas oszczędzony na tygodniu.
-**Nie mów o:** „uczeniu się programowania".
+Rekordy: `DECISION-SCOPE`
+Źródła w rejestrze: `SRC-CLIENTS`, `SRC-STRATEGY`
 
-### 3. Ludzie wchodzący w AI od zera
-Bohater naszych postów. Pytanie w głowie: **„czy to coś dla mnie?"**
-**Mów o:** prostych, natychmiastowych efektach. Zawsze daj pierwszy krok.
-**Nie mów o:** niczego, co wymaga instalacji terminala.
-
-### 4. Programiści
-Chcą **AI w codziennej pracy z kodem**. Oceniają po konkretach technicznych.
-**Mów o:** realne workflow, narzędzia, integracje, ograniczenia.
-**Nie mów o:** motywacyjnych frazesach — cenią fakty.
-
-### 5. Firmy wdrażające AI
-Decydenci. Szukają dowodu, że to się opłaca.
-**Mów o:** ROI, ryzyku, bezpieczeństwie danych, wdrożeniu krok po kroku.
-**Nie mów o:** technologii dla jej własnej nazwy.
-
-## Zasada
-**Domyślnie piszemy do segmentu 3** (człowiek od zera).
-To najszersza i najbardziej wartościowa grupa.
-Jeśli treść jest techniczna — powiedz to wprost w pierwszym zdaniu,
-żeby ktoś nie tracił czasu.
+Sprawdź status, źródło, datę i ważność przed użyciem wartości.

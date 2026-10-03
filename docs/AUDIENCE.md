@@ -1,34 +1,80 @@
-# AUDIENCE — do kogo mówimy
+<!-- GENERATED: COMPANY_BRAIN.md | sha256:1ab182cd56d4f7bc68a252d2157e5867c4a0d7c31d5c29dbde88fff8c57f9240 -->
+# AUDIENCE | widok Company Brain
 
-## 5 segmentów
+Nie edytuj ręcznie. Źródło: [COMPANY_BRAIN.md](../COMPANY_BRAIN.md).
+Wygeneruj ponownie: `python3 scripts/brain.py build`.
 
-### 1. Przedsiębiorcy
-Szukają **przewagi konkurencyjnej**. Nie myślą o AI — myślą o kosztach i przychodach.
-**Mów o:** oszczędności czasu, pieniądze, konkretne zastosowanie w ich branży.
-**Nie mów o:** architekturze, modelach, parametrach.
+<a id="audience"></a>
+## 3. Odbiorcy i potrzeby
 
-### 2. Marketerzy
-Chcą **zautomatyzować powtarzalną pracę**. To nasza najbardziej aktywna grupa.
-**Mów o:** content, kampanie, leady, czas oszczędzony na tygodniu.
-**Nie mów o:** „uczeniu się programowania".
+Poniższe opisy to robocze wskazówki komunikacyjne ze starej dokumentacji,
+nie wyniki badania rynku ani automatyczne reguły kwalifikacji klienta.
 
-### 3. Ludzie wchodzący w AI od zera
-Bohater naszych postów. Pytanie w głowie: **„czy to coś dla mnie?"**
-**Mów o:** prostych, natychmiastowych efektach. Zawsze daj pierwszy krok.
-**Nie mów o:** niczego, co wymaga instalacji terminala.
+| Odbiorca | Sytuacja / potrzeba | Obawa | Pierwszy krok i język |
+|---|---|---|---|
+| osoba zaczynająca | nie wie, do czego użyć AI | trudność i jakość odpowiedzi | jedno proste zadanie, bez żargonu |
+| przedsiębiorca | powtarzalne zadania zajmują czas | koszt i utrata kontroli | wybierz jeden proces; pokaż korzyść i ograniczenia |
+| marketer | potrzebuje spójnego contentu | generyczne wyniki | brief, przykład, korekta i kryteria jakości |
+| programista / osoba budująca | szuka pomocy w pracy z kodem | błędy i bezpieczeństwo | konkretny workflow, testy i zakres uprawnień |
+| zamawiający szkolenie firmowe | chce rozwoju umiejętności zespołu | dopasowanie i poufność | rozpoznaj zadania, poziom, skalę i wymagania |
 
-### 4. Programiści
-Chcą **AI w codziennej pracy z kodem**. Oceniają po konkretach technicznych.
-**Mów o:** realne workflow, narzędzia, integracje, ograniczenia.
-**Nie mów o:** motywacyjnych frazesach — cenią fakty.
+Odbiorca darmowej treści, członek społeczności, kupujący kurs i zamawiający
+szkolenie to różne role. Nie utożsamiaj liczby obserwujących z liczbą klientów.
+Dobierz ścieżkę dopiero po rozpoznaniu potrzeby i sprawdzeniu statusu oferty.
 
-### 5. Firmy wdrażające AI
-Decydenci. Szukają dowodu, że to się opłaca.
-**Mów o:** ROI, ryzyku, bezpieczeństwie danych, wdrożeniu krok po kroku.
-**Nie mów o:** technologii dla jej własnej nazwy.
+Stare pliki wskazują przedsiębiorcę jako główny profil sprzedażowy, a osobę
+początkującą jako domyślnego odbiorcę contentu. To mogą być dwa różne cele,
+niekoniecznie sprzeczność. Zapisz cel konkretnego materiału w briefie.
 
-## Zasada
-**Domyślnie piszemy do segmentu 3** (człowiek od zera).
-To najszersza i najbardziej wartościowa grupa.
-Jeśli treść jest techniczna — powiedz to wprost w pierwszym zdaniu,
-żeby ktoś nie tracił czasu.
+Wykluczenia dotyczące ML/MLOps, dużych organizacji i osób zainteresowanych
+certyfikatem wymagają decyzji właściciela (`DECISION-SCOPE`). Nie obiecuj
+obsługi poza zakresem i nie odrzucaj automatycznie osoby tylko na podstawie
+etykiety. Przy niejasnym dopasowaniu zbierz potrzeby i przekaż do kwalifikacji.
+
+## Statusy i pochodzenie danych
+
+```json
+{
+  "records": [
+    {
+      "id": "DECISION-SCOPE",
+      "topic": "audience",
+      "kind": "decision",
+      "status": "TO_CONFIRM",
+      "value": {
+        "previous_exclusions": [
+          "ML/MLOps",
+          "korporacje 500+",
+          "osoby szukające certyfikatu",
+          "memy promptami"
+        ],
+        "action": "Nie rozszerzaj oferty i nie odrzucaj automatycznie; przekaż niejasne dopasowanie do właściciela."
+      },
+      "sources": [
+        "SRC-STRATEGY",
+        "SRC-CLIENTS"
+      ],
+      "verified_at": null,
+      "review_after": null,
+      "expires_at": null,
+      "publication_allowed": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "SRC-STRATEGY",
+      "kind": "repository_snapshot",
+      "locator": "https://github.com/aievolutionpl/brand-brain/blob/63fcb0cd0ae1bd5e8aff7bc8d86905579931321e/docs/STRATEGY.md",
+      "reviewed_at": "2026-10-03",
+      "scope": "Dowód wcześniejszego zapisu, nie potwierdzenie bieżących danych."
+    },
+    {
+      "id": "SRC-CLIENTS",
+      "kind": "repository_snapshot",
+      "locator": "https://github.com/aievolutionpl/brand-brain/blob/63fcb0cd0ae1bd5e8aff7bc8d86905579931321e/docs/CLIENTS.md",
+      "reviewed_at": "2026-10-03",
+      "scope": "Dowód wcześniejszego zapisu, nie potwierdzenie bieżących danych."
+    }
+  ]
+}
+```

@@ -1,48 +1,77 @@
-# TOOLS — narzędzia, o których mówimy
+<!-- GENERATED: COMPANY_BRAIN.md | sha256:1ab182cd56d4f7bc68a252d2157e5867c4a0d7c31d5c29dbde88fff8c57f9240 -->
+# TOOLS | widok Company Brain
 
-Używaj **nazw produktowych**, nie ogólnych kategorii typu „narzędzie AI".
+Nie edytuj ręcznie. Źródło: [COMPANY_BRAIN.md](../COMPANY_BRAIN.md).
+Wygeneruj ponownie: `python3 scripts/brain.py build`.
 
-## Modele i rozmowa
+<a id="operations"></a>
+## 9. Cele, narzędzia i odpowiedzialność
 
-| Narzędzie | Kiedy mówimy o nim |
-|---|---|
-| **Claude** | długie, złożone zadania, praca ze źródłami, pisanie |
-| **ChatGPT** | codzienność, szybkie pytania, obraz, multimedia |
-| **Gemini** | ekosystem Google, duży kontekst, integracje z Google |
+Kierunki zachowane z wcześniejszej strategii: edukacja, rozwój społeczności,
+przejście od darmowych treści do pogłębionej nauki i zapytań o szkolenia.
+Aktualnych wyników, budżetów, celów liczbowych i terminów nie potwierdzono.
 
-## Kodowanie
+Proponowane, nie zatwierdzone wskaźniki: ukończone zadania edukacyjne,
+kwalifikowane zapytania, zapis do newslettera i jakość przygotowanego contentu.
+Nie dopisuj wartości bazowej, docelowej ani obietnicy wzrostu.
 
-| Narzędzie | Kiedy mówimy o nim |
-|---|---|
-| **Codex** | programowanie z AI — od pomysłu, przez kod, po testy |
-| **Cursor** | praca z kodem w środowisku IDE |
-| **Lovable** | aplikacje bez kodowania — dla osób nietechnicznych |
+Dotychczasowa lista tematów: ChatGPT, Claude, Gemini, Codex, Cursor, Lovable,
+n8n, Apify, Resend, Apollo.io, Instantly, Figma i Notion.
+Jest to katalog nazw, nie rekomendacja określonej wersji i nie dowód,
+że firma ma połączone konto, aktywny abonament lub działającą integrację.
+Dla bieżącego zadania sprawdź zastosowanie, dostęp i ograniczenia w źródle
+producenta. Rejestr narzędzi rozróżnia `UNKNOWN`, `CONSIDERED`, `TESTED`, `IN_USE`.
+Obecny stan wdrożeń to `UNKNOWN`. Nie uzupełniaj go z pamięci modelu.
 
-## Automatyzacja
+Nie zapisuj danych logowania, kluczy API i szczegółów prywatnej infrastruktury.
+Właściciel potwierdza ofertę i decyzje biznesowe; agent przygotowuje materiały
+oraz ujawnia ograniczenia. Zakres upoważnienia ustalaj dla konkretnego zadania.
 
-| Narzędzie | Kiedy mówimy o nim |
-|---|---|
-| **n8n** | łączenie narzędzi, automatyzacja procesów, roboty |
-| **Apify** | zbieranie danych i treści w skali, scraping |
-| **Resend** | wysyłka maili transakcyjnych |
+## Statusy i pochodzenie danych
 
-## Sprzedaż B2B
-
-| Narzędzie | Kiedy mówimy o nim |
-|---|---|
-| **Apollo.io** | baza firm i kontaktów, research |
-| **Instantly** | wysyłka cold emaili w skali |
-
-## Praca i wiedza
-
-| Narzędzie | Kiedy mówimy o nim |
-|---|---|
-| **Figma** | projektowanie |
-| **Notion** | baza wiedzy, dokumentacja |
-
----
-
-## Zasada
-> **Nie obiecuj narzędzia, którego nie sprawdziłeś.**
-> Przed postem o funkcji — potwierdź, że ona działa.
-> Funkcje AI zmieniają się z tygodnia na tydzień; nazwa narzędzia zostaje.
+```json
+{
+  "records": [
+    {
+      "id": "TOOLS-DEPLOYMENT",
+      "topic": "operations",
+      "kind": "tools",
+      "status": "TO_CONFIRM",
+      "value": {
+        "deployment_status": "UNKNOWN",
+        "names": [
+          "ChatGPT",
+          "Claude",
+          "Gemini",
+          "Codex",
+          "Cursor",
+          "Lovable",
+          "n8n",
+          "Apify",
+          "Resend",
+          "Apollo.io",
+          "Instantly",
+          "Figma",
+          "Notion"
+        ]
+      },
+      "sources": [
+        "SRC-TOOLS"
+      ],
+      "verified_at": null,
+      "review_after": null,
+      "expires_at": null,
+      "publication_allowed": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "SRC-TOOLS",
+      "kind": "repository_snapshot",
+      "locator": "https://github.com/aievolutionpl/brand-brain/blob/63fcb0cd0ae1bd5e8aff7bc8d86905579931321e/docs/TOOLS.md",
+      "reviewed_at": "2026-10-03",
+      "scope": "Dowód wcześniejszego zapisu, nie potwierdzenie bieżących danych."
+    }
+  ]
+}
+```

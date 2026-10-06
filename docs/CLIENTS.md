@@ -72,7 +72,7 @@ Tu są ludzie, którzy **dopiero zaczynają** — to nasz lejek: darmowy kurs �
 
 ## 🚫 Czego NIGDY nie publikujemy
 
-Repo jest **publiczne**. Nie trań tu:
+Repo jest **publiczne**. Nie trzymaj tu:
 ❌ danych osobowych i nazw klientów bez pisemnej zgody · ❌ umów, faktur, wewnętrznych materiałów · ❌ nazw wewnętrznych projektów i ścieżek w kodzie · ❌ warunków promocji ani niepotwierdzonych terminów
 
 ---

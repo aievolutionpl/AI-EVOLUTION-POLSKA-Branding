@@ -24,7 +24,7 @@ Chcą **AI w codziennej pracy z kodem**. Oceniają po konkretach technicznych.
 
 ### 5. Firmy wdrażające AI
 Decydenci. Szukają dowodu, że to się opłaca.
-**Mów o:** ROI, ryzyku, bezpieczeństwie danych, wdrożeniu krok po kroku.
+**Mów o:** ROI, ryzyku, bezpieczeństwie danych, **EU AI Act** (obowiązek kompetencji AI od 2.02.2025), wdrożeniu krok po kroku w biurze, sprzedaży i administracji.
 **Nie mów o:** technologii dla jej własnej nazwy.
 
 ## Zasada

@@ -1,6 +1,6 @@
 ---
 name: ai-evolution-polska-brand
-description: 'Use when writing content for AI Evolution Polska.'
+description: 'Use when writing any content for AI Evolution Polska (aievolutionpolska.pl) — posts, carousels, reels, emails, offers, landing copy or graphics. Polish AI education brand: brand voice, colors, fonts, prices, hard rules.'
 ---
 
 # AI Evolution Polska — Brand Skill
@@ -12,6 +12,8 @@ Wgrywasz ten plik, żeby agent pisał dla marki **AI Evolution Polska**
 > Źródło: 2 oficjalne **brand booki 2024/2025** (`brand/photos/brand-guidelines.jpg`, `brand-guidelines-2.jpg`)
 
 - **Tagline:** Ucz się AI mądrzej. Buduj szybciej.
+- **Hasło strony:** Sztuczna inteligencja po polsku.
+- **Dowód:** społeczność **10 000+ osób**
 - **Kolory:** Deep Navy `#050505` · Surface `#0B0D10` · Primary Purple `#7C5CFF` · Accent Blue `#00B7FF` · Light Violet `#B18CFF` · Success Green `#29E68C` · Light `#F5F7FA`
 - **Fonty (wszystkie dozwolone):** **Space Grotesk** (nagłówki) · **Inter** (tekst, UI) · **Sora** (alternatywa)
 - Domyślnie: Space Grotesk + Inter. Sora do projektów pasujących do brand booka 2.
@@ -34,7 +36,7 @@ Wgrywasz ten plik, żeby agent pisał dla marki **AI Evolution Polska**
 | Produkt | Cena |
 |---|---|
 | Darmowy kurs AI | **0 zł** |
-| Kurs Premium (PRO) | **1 499 zł** (regularnie 1 999 zł) |
+| Kurs Premium (PRO) | ⚠️ **do weryfikacji** — nie podawaj, odsyłaj na `aievolutionpolska.pl` |
 | Szkolenia dla firm | **od 4 999 zł** |
 | Warsztaty | **od 2 499 zł / osoba** |
 
@@ -43,7 +45,7 @@ Wgrywasz ten plik, żeby agent pisał dla marki **AI Evolution Polska**
 
 ## 🎯 POZYCJONOWANIE (skrót — pełna wersja: `docs/STRATEGY.md`)
 - **Bariera wejścia = 0** — najniższa na polskim rynku
-- **Pełni Polacy** — w 100% po polsku, dla dorosłych po pracy
+- **W 100% po polsku**, dla dorosłych po pracy
 - **Efekt pierwszego dnia** — zadanie w 15 min, nie obietnica
 - **Ścieżka:** darmowe → Premium → szkolenia firm
 - 🚫 **Nie atakuj konkurencji** — pokazuj, kim jesteśmy
@@ -71,13 +73,13 @@ Przyjazny ekspert, nie profesor. Po polsku. Zero żargonu.
 5. **Obcięcia mierzysz kodem**, nie wzrokiem.
 6. **Karuzela: max 30 słów na slajd**, 1080×1350, 5–7 slajdów.
 7. **Dla firm poza IT:** prosty język, zysk i konkret — nie technologia.
-8. **Zero danych klientów, cenników i materiałów wewnętrznych.**
+8. **Zero danych klientów, niepublicznych cenników i materiałów wewnętrznych.**
 
 ## CTA
 Konkretny, z nagrodą:
 > „Napisz **ARGON**, a wyślę ci checklistę wdrożenia AI w firmie."
 
 ## Pełna wiedza
-[`../BRAND.md`](../BRAND.md) · [`../docs/VOICE.md`](../docs/VOICE.md) · [`../docs/AUDIENCE.md`](../docs/AUDIENCE.md)
+[`../BRAND.md`](../BRAND.md) · [`../docs/WEBSITE.md`](../docs/WEBSITE.md) · [`../docs/VOICE.md`](../docs/VOICE.md) · [`../docs/AUDIENCE.md`](../docs/AUDIENCE.md)
 
 *Właściciel: Chris, CEO. Repo publiczne — treści mogą zawierać błędy, weryfikuj fakty.*

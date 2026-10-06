@@ -11,6 +11,7 @@ bez technicznego tła zrozumiał, co zrobić **jutro rano**.
 - Traktujemy rozmówcę jak partnera, nie jak klienta do zainspirowania
 
 ## Zdania, które budują zaufanie
+- „Sztuczna inteligencja po polsku" — nasze hasło, otwiera bio i opisy
 - „Nie musisz być programistą, żeby używać AI"
 - „Pokażę Ci, jak w 5 minut zrobić to, na co wcześniej potrzebowałeś 3 godziny"
 - „Ten tool zmieni sposób, w jaki pracujesz — serio"
@@ -24,6 +25,8 @@ bez technicznego tła zrozumiał, co zrobić **jutro rano**.
 | „leveraging AI capabilities" | „wykorzystujesz AI do…" |
 | „rewolucjonizujemy sposób pracy" | „zaoszczędzisz 3 godziny tygodniowo" |
 | „w dzisiejszym dynamicznym środowisku" | „w 2026 roku" |
+| „tysiące zadowolonych kursantów" | „społeczność 10 000+ osób" |
+| „kompleksowy kurs AI" | „2 godziny, 19 lekcji, 50+ promptów" |
 
 ## Weryfikacja faktów — obowiązkowa
 Przed każdym postem o nowym modelu, narzędziu, cenie lub dacie:

@@ -79,6 +79,8 @@ Szuka realnych workflow, nie zabawek. Narzędzia, integracje, ograniczenia.
 3. **Efekt pierwszego dnia** — zadanie w 15 minut, nie obietnica.
 4. **Ścieżka** — darmowe → Premium → szkolenia firm.
 
+**Dowód, który za tym stoi:** społeczność **10 000+ osób** — tego nie da się kupić certyfikatem.
+
 ---
 
 ## 4. 🧭 Cele

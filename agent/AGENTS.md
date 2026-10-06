@@ -1,18 +1,25 @@
 # AGENTS.md — reguły pracy agentów AI
 
-Ten plik jest skróconą wersją zasad. **Pełna wiedza: [`../BRAND.md`](../BRAND.md)`.**
+Ten plik jest skróconą wersją zasad. **Pełna wiedza: [`../BRAND.md`](../BRAND.md).**
 
 ## Zanim napiszesz cokolwiek
 
 1. Przeczytaj `BRAND.md`
 2. Sprawdź, czy nie mieszasz **AIEP** (edukacja) z **Labs** (agencja)
 3. Upewnij się, że każda liczba i data ma **źródło**
+4. Fakty o produktach i stronie: [`../docs/WEBSITE.md`](../docs/WEBSITE.md)
+
+## Fakty, których możesz używać
+- **Hasło:** „Sztuczna inteligencja po polsku." · **Tagline:** „Ucz się AI mądrzej. Buduj szybciej."
+- **Społeczność:** 10 000+ osób (dokładnie tak, bez zaokrąglania w górę)
+- **Darmowy kurs:** ok. 2 h · 19 lekcji · 50+ promptów · 15 workflowów ChatGPT Work
+- **Kurs PRO:** 14 modułów
 
 ## 💰 CENY (publiczne — podawaj tylko te)
 | Produkt | Cena |
 |---|---|
 | Darmowy kurs AI | **0 zł** |
-| Kurs Premium (PRO) | **1 499 zł** (regularnie 1 999 zł) |
+| Kurs Premium (PRO) | ⚠️ **do weryfikacji** — nie podawaj, odsyłaj na `aievolutionpolska.pl` |
 | Szkolenia dla firm | **od 4 999 zł** |
 | Warsztaty | **od 2 499 zł / osoba** |
 
@@ -28,7 +35,7 @@ Ten plik jest skróconą wersją zasad. **Pełna wiedza: [`../BRAND.md`](../BRAN
 5. **Logo, robot, founder — nigdy AI-redraw.**
 6. **Obcięcia mierzysz kodem**, nie wzrokiem — narzędzia wizyjne zgłaszają fałszywe obcięcia.
 7. **Dla firm poza IT:** prosty język, zysk i konkret — nie technologia.
-8. **Repo publiczne:** nigdy danych klientów, cenników, wewnętrznych materiałów.
+8. **Repo publiczne:** nigdy danych klientów, niepublicznych cenników ani materiałów wewnętrznych.
 
 ## Ton w skrócie
 

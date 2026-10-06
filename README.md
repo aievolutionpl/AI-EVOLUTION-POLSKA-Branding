@@ -7,8 +7,8 @@
 **Kompletna wiedza o firmie dla agentów AI.**
 
 [![License](https://img.shields.io/badge/License-marketing%20use-7C5CFF.svg)](LICENSE.md)
-[![Brand 2024/25](https://img.shields.io/badge/brand-book-2024%2F2025-00B7FF.svg)](brand/photos/brand-guidelines.jpg)
-[![Version](https://img.shields.io/badge/version-2.2-B18CFF.svg)](BRAND.md)
+[![Brand 2024/25](https://img.shields.io/badge/brand%20book-2024%2F2025-00B7FF.svg)](brand/photos/brand-guidelines.jpg)
+[![Version](https://img.shields.io/badge/version-2.3-B18CFF.svg)](BRAND.md)
 [![Language](https://img.shields.io/badge/lang-PL-2FA8FF.svg)](BRAND.md)
 [![For agents](https://img.shields.io/badge/%F0%9F%A4%96-dla%20agent%C3%B3w%20AI-00E7FF.svg)](agent/AGENTS.md)
 
@@ -24,11 +24,12 @@
 
 | | |
 |---|---|
-| **Kto jesteśmy** | polska marka edukacyjna — uczymy AI od zera, bez żargonu |
-| **Co robimy** | kursy online, warsztaty, szkolenia dla firm, społeczność |
-| **Komu uczymy** | przedsiębiorcy, marketerzy, programiści, firmy |
+| **Kto jesteśmy** | polska marka edukacyjna — **sztuczna inteligencja po polsku**, od zera, bez żargonu |
+| **Co robimy** | kursy online, szkolenia dla firm, skille dla agentów AI, społeczność |
+| **Kogo uczymy** | przedsiębiorcy, marketerzy, programiści, firmy |
 | **Obietnica** | każdy zaczyna używać AI **dzisiaj**, nie za rok |
 | **Pozycja** | **najniższa bariera wejścia** w AI w Polsce — 0 zł, po polsku, bez kodowania |
+| **Dowód** | społeczność **10 000+ osób** |
 
 ---
 
@@ -56,6 +57,7 @@ Skill aktywuje się przy każdej prośbie o content dla AI Evolution Polska.
 | Plik | Zawartość |
 |:---:|---|
 | **[`BRAND.md`](BRAND.md)** | ⭐ **zacznij tutaj** — kompletna marka w jednym pliku |
+| **[`docs/WEBSITE.md`](docs/WEBSITE.md)** | 🆕 **co mówi strona** · fakty o produktach · rozbieżności do wyjaśnienia |
 | **[`docs/STRATEGY.md`](docs/STRATEGY.md)** | ⭐ **pozycjonowanie** · konkurencja · ICP · cele |
 | **[`docs/CLIENTS.md`](docs/CLIENTS.md)** | idealny klient · kogo **nie** uczymy · case studies |
 | **[`docs/OFFER.md`](docs/OFFER.md)** | produkty, usługi i **realny cennik** |
@@ -129,8 +131,6 @@ Wszystkie trzy fonty mają polskie diakrytyki i są dozwolone.
 
 ## 📘 Brand book
 
-Oryginalna wytyczna marki, z której pochodzą powyższe kolory, fonty i zasady:
-
 Dwa oficjalne dokumenty — kolory i fonty pochodzą z nich:
 
 <div align="center">
@@ -141,7 +141,7 @@ Dwa oficjalne dokumenty — kolory i fonty pochodzą z nich:
 
 </div>
 
-Oba są z rocznika 2024/2025. Palety **zgodne** (6 kolorów). Fonty ** dopełnione** — wszystkie trzy dozwolone.
+Oba są z rocznika 2024/2025. Palety **zgodne** (6 kolorów). Fonty **się dopełniają** — wszystkie trzy dozwolone.
 
 ---
 
@@ -152,11 +152,11 @@ Oba są z rocznika 2024/2025. Palety **zgodne** (6 kolorów). Fonty ** dopełnio
 Przy wskazaniu źródła i bez deformowania logo. Możesz używać tego w kampaniach,
 projektach dla klientów, prezentacjach i materiałach dla zespołu.
 
-✅ **Wolno** — projekty dla klientów i partnerów · kampanie współbrane · prezentacje · modyfikowanie kolorów i układu · udostępnianie w zespole
+✅ **Wolno** — projekty dla klientów i partnerów · kampanie co-brandingowe · prezentacje · modyfikowanie kolorów i układu · udostępnianie w zespole
 
 ⚠️ **Musisz** — podać źródło („AI Evolution Polska") · nie deformuj logo · nie sugeruj współpracy, której nie ma
 
-❌ **Nie wolno** — podszywanie się pod nas · odsprzedawanie kursów · fałszowanie AI · dane osobowe i finansowe
+❌ **Nie wolno** — podszywanie się pod nas · odsprzedawanie kursów · podrabianie materiałów marki przez AI · dane osobowe i finansowe
 
 📧 Współpraca pisemna: **[kontakt@aievolutionpolska.pl](mailto:kontakt@aievolutionpolska.pl)** · umowa ma pierwszeństwo przed licencją
 

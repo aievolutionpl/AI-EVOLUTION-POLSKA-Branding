@@ -1,7 +1,8 @@
 # BRAND.md — AI Evolution Polska
 
 **Tagline:** Ucz się AI mądrzej. Buduj szybciej.
-**Język:** polski · **Właściciel:** Chris (CEO)
+**Hasło strony:** Sztuczna inteligencja po polsku.
+**Język:** polski · **Właściciel:** Chris (CEO) · **Strona:** [aievolutionpolska.pl](https://aievolutionpolska.pl)
 
 > Agent, który przeczytał ten plik, umie napisać post, karuzelę i ofertę tak, jak chce marka.
 
@@ -9,17 +10,28 @@
 
 ## 1. KIM JESTEŚMY
 
-**Polska marka edukacyjna.** Uczymy AI od zera do zaawansowanego — **bez żargonu i teorii**.
+**Polska marka edukacyjna.** Uczymy AI od zera do zaawansowanego — **w 100% po polsku, bez żargonu i teorii**.
+
+**Jak mówi o nas strona:** AI spotyka się z praktyką — **narzędzia, wiedza i społeczność w jednym miejscu**.
 
 **Obietnica:** każdy przedsiębiorca, marketer czy programista w Polsce zacznie używać AI **dzisiaj**, nie za rok.
 
-**Filosofia:** AI nie jest straszne — jest **praktyczne**. Każdy temat kończy się konkretnym „zrób to teraz".
+**Filozofia:** AI nie jest straszne — jest **praktyczne**. Każdy temat kończy się konkretnym „zrób to teraz".
 
-Zajmujemy się: kursami AI · kursami online · społecznością (AI Poland, Facebook) · praktyką (demo, case study).
+**Dowód:** społeczność **10 000+ osób**, które codziennie uczą się, testują narzędzia i dzielą się zastosowaniami.
+
+| Filar | Co to jest |
+|---|---|
+| **Kursy AI** | darmowy kurs (2 h · 19 lekcji · 50+ promptów) + Kurs Premium PRO (14 modułów) |
+| **Szkolenia dla firm** | ChatGPT, ChatGPT Work, Codex w biurze, sprzedaży i administracji · ROI · EU AI Act |
+| **Skille dla agentów** | katalog na `aievolutionpolska.pl/skills` + projekty open source (MIT) |
+| **Społeczność** | AI Poland (Facebook) · newsletter · blog · katalog narzędzi |
+
+→ Szczegóły i źródła: [`docs/WEBSITE.md`](docs/WEBSITE.md)
 
 ---
 
-## 2. 🚨 NIE MIESZAJ MARK
+## 2. 🚨 NIE MIESZAJ MAREK
 
 | | **AI Evolution Polska** | **AI Evolution Labs** |
 |---|---|---|
@@ -121,6 +133,7 @@ Post o agencie AI za 20 000 zł **nie pojawi się** na profilu AIEP.
 | **Język** | „prompt engineering", mix PL/EN | **w pełni po polsku** |
 | **Dla kogo** | ML, liderzy, enterprise | **zwykli ludzie po pracy** |
 | **Format** | 40 h wykładów, certyfikat | **zadanie w 15 minut** |
+| **Dowód** | certyfikat | **społeczność 10 000+ osób** |
 
 1. **Wejście 0 zł** — bez konta, bez karty
 2. **Po polsku, dla dorosłych** — 40-latek z pracą, nie nastolatek z IT
@@ -131,13 +144,13 @@ Post o agencie AI za 20 000 zł **nie pojawi się** na profilu AIEP.
 
 ---
 
-## 6. ✍️ JAK PISZEĆ
+## 6. ✍️ JAK PISAĆ
 
 **Ton:** polski, prosty jak przyjazny ekspert — nigdy jak profesor. Z energią, ale konkretnie. Zero korporacyjnego bełkotu. Zawsze z realnym zastosowaniem.
 
 ❌ „innowacyjna platforma edukacyjna" · „cutting edge technology" · „leveraging AI capabilities" · zmyślone liczby, daty, benchmarki · premiery modeli, których jeszcze nie ma
 
-✅ „Pokażę Ci, jak w 5 minut zrobić to, na co wcześniej potrzebowałeś 3 godziny" · „Wklej to do ChatGPT i zobacz, co się stanie" · „Nie musisz być programistą"
+✅ „Sztuczna inteligencja po polsku" · „Pokażę Ci, jak w 5 minut zrobić to, na co wcześniej potrzebowałeś 3 godziny" · „Wklej to do ChatGPT i zobacz, co się stanie" · „Nie musisz być programistą"
 
 > Przed postem o modelu, narzędziu, cenie lub dacie — **sprawdź źródło**. Leaki z Reddit/X/YouTube nie są premierą.
 
@@ -151,9 +164,11 @@ Post o agencie AI za 20 000 zł **nie pojawi się** na profilu AIEP.
 | Produkt | Cena | Uwagi |
 |---|---|---|
 | **Darmowy kurs AI** | **0 zł** | bez konta, bez karty, po polsku |
-| **Kurs Premium (PRO)** | **1 499 zł** (regularnie 1 999 zł) | cena promocyjna |
+| **Kurs Premium (PRO)** | **1 499 zł** (regularnie 1 999 zł) | ⚠️ **do weryfikacji** — patrz niżej |
 | **Szkolenia dla firm** | **od 4 999 zł** | wycena wg zakresu |
 | **Warsztaty** | **od 2 499 zł / osoba** | termin ustalany |
+
+⚠️ **Cena PRO jest niepotwierdzona:** wyniki wyszukiwania strony pokazują 699 zł przedpremierowo (zamiast 1 990 zł). Dopóki Chris nie potwierdzi — **nie podawaj ceny PRO**, napisz „aktualna cena na aievolutionpolska.pl". → [`docs/WEBSITE.md`](docs/WEBSITE.md)
 
 🚫 Nie wymyślaj procenta zniżki, daty końca ani liczby miejsc.
 🚫 Nie mieszaj kursów ze szkoleniami dla firm.
@@ -190,7 +205,8 @@ Używaj **nazw produktowych**, nie kategorii.
 | Kierunek | Przykład |
 |---|---|
 | **Tutorial** | „3 kroki, żeby napisać pierwszy prompt" |
-| **Case study** | „Firma X zaoszczędziła 5 h tygodniowo" |
+| **Case study** | „Firma X zaoszczędziła 5 h tygodniowo" — **tylko prawdziwe, ze zgodą** |
+| **AI w firmie** | EU AI Act w praktyce · ROI · biuro, sprzedaż, administracja |
 | **Newsy AI** | nowe modele — **po weryfikacji** |
 | **Porównania** | „Claude czy ChatGPT do [zadanie]?" |
 | **Bezpieczeństwo AI** | RODO, dane, ryzyka |
@@ -210,10 +226,10 @@ Używaj **nazw produktowych**, nie kategorii.
 5. **Logo, robot i founder — nigdy AI-redraw.**
 6. **Obcięcia mierzysz kodem, nie wzrokiem** — narzędzia wizyjne zgłaszają fałszywe obcięcia.
 7. **Dla firm poza IT:** prosty język, zysk i konkret — **nie technologia**.
-8. **Repo publiczne** — nigdy nie trań danych klientów ani materiałów wewnętrznych.
+8. **Repo publiczne** — nigdy nie trzymaj danych klientów ani materiałów wewnętrznych.
 
 ---
 
-*Wersja 2.1 · 30 września 2026 · Repo publiczne. Treści mogą mieć błędy — weryfikuj fakty.*
+*Wersja 2.3 · 6 października 2026 · Repo publiczne. Treści mogą mieć błędy — weryfikuj fakty.*
 
 Właściciel: Chris, CEO · [aievolutionpolska.pl](https://aievolutionpolska.pl)

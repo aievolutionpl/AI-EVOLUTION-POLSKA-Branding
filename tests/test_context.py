@@ -136,18 +136,23 @@ class ContextTests(unittest.TestCase):
 
     def test_legacy_business_records_are_unchanged(self):
         # Public v3 records; hash guards prices AND all other existing fields.
-        # 3.2.0 deliberately added website scope, sources and the OFFER-PRO conflict.
+        # 3.2.0 added website scope and sources; 3.3.0 added owner decisions (PRO price, routing).
         raw = json.dumps(self.data['records'][:13], ensure_ascii=False, sort_keys=True).encode()
-        self.assertEqual(hashlib.sha256(raw).hexdigest(), '2a330f5d033ca8fb7e9f240b61ac95c916379f21a0d6a99a12c975a961165886')
+        self.assertEqual(hashlib.sha256(raw).hexdigest(), 'c45dab60f4e15b1396c09232b49628c746ff8755140316afaeae9ce9a4ceadb7')
         prices = {r['id']: (r['value']['price'], r['value']['regular_price']) for r in self.data['records'] if r['kind'] == 'offer'}
         self.assertEqual(prices, {'OFFER-FREE': (0, None), 'OFFER-PRO': (1499, 1999),
                                   'OFFER-BUSINESS': (4999, None), 'OFFER-WORKSHOPS': (2499, None)})
 
-    def test_conflicting_pro_price_stays_blocked(self):
+    def test_owner_confirmed_pro_price_and_routing(self):
         r = self.record('OFFER-PRO')
-        self.assertEqual(r['status'], 'CONFLICT')
+        self.assertEqual((r['status'], r['value']['price']), ('CONFIRMED', 1499))
+        self.assertIn('SRC-OWNER-20261006', r['sources'])
+        # Unit and tax basis are still unknown, so the offer must stay unpublished.
         self.assertFalse(r['publication_allowed'])
-        self.assertIn('699', r['value']['conflict_note'])
+        self.assertIn('offer lacks price, unit or tax context',
+                      brain.publication_blockers(dict(r, publication_allowed=True),
+                                                 {s['id']: s for s in self.data['sources']}, TODAY))
+        self.assertEqual(self.record('DECISION-BRAND-ROUTING')['status'], 'CONFIRMED')
         for ident in ('SRC-WEBSITE-SEARCH', 'SRC-SKILLS-SEARCH', 'SRC-ONLINE-SEARCH'):
             source = next(s for s in self.data['sources'] if s['id'] == ident)
             self.assertFalse(source['usable_for_facts'])

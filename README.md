@@ -19,7 +19,7 @@ Przygotuj brief posta dla AI Evolution Polska o porządkowaniu wiedzy firmy.
 Nie wymyślaj wyników. Oddziel szkic od informacji wymagających potwierdzenia.
 ```
 
-## Co zawiera wersja 3.2
+## Co zawiera wersja 3.3
 
 Tożsamość, oferta, odbiorcy, komunikacja, branding i procedury pracy.
 Do tego START/research, mapa strony, content, obsługa zapytań, hipotezy SEO,
@@ -27,8 +27,8 @@ brief reklamowy, mapa systemów, definicje KPI i plan rozwoju.
 
 Wersja 3.2 dodaje dane ze strony aievolutionpolska.pl: hasło „Sztuczna inteligencja
 po polsku”, licznik społeczności 10 000+, zakres kursów i szkoleń oraz katalog
-skilli open source. Wszystko ma status TO_CONFIRM. Cena Kursu PRO ma status
-CONFLICT, dopóki właściciel jej nie potwierdzi.
+skilli open source, ze statusem TO_CONFIRM. Wersja 3.3 dodaje decyzje
+właściciela: Kurs PRO kosztuje 1 499 zł, a wdrożenia dla firm prowadzi AIEP.
 
 To wiedza i procedury, nie uruchomione kampanie, crawler lub integracje.
 Źródła, statusy i braki są jawne. Szablon metody nie jest dowodem faktów o firmie.

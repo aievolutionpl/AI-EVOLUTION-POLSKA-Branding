@@ -2,7 +2,7 @@
 
 <!-- Edytuj tylko COMPANY_BRAIN.md. BRAND.md i agent/references/COMPANY_BRAIN.md są generowanymi kopiami. -->
 
-Wersja struktury: 3.2.0. Aktualizacja dokumentacji: 2026-10-06.
+Wersja struktury: 3.3.0. Aktualizacja dokumentacji: 2026-10-06.
 To nie data potwierdzenia wszystkich danych biznesowych.
 
 Jeden plik do pracy nad treścią, ofertą, stroną, sprzedażą, SEO i automatyzacją.
@@ -36,8 +36,9 @@ Nie dopisuj historii organizacji, zespołu, certyfikatów ani biografii z domys�
 
 AI Evolution Polska pomaga uczyć się AI. AI Evolution Labs to osobna marka
 usługowa, opisywana jako agenci, automatyzacja i usługi B2B. Nie mieszaj ofert,
-cen ani obietnic. Granice szkoleń, konsultacji i wdrożeń rozstrzyga
-DECISION-BRAND-ROUTING. Edukacyjny materiał o agencie nie jest ofertą jego wdrożenia.
+cen ani obietnic. Decyzja właściciela z 2026-10-06 (DECISION-BRAND-ROUTING):
+wdrożenia AI dla firm prowadzi AI Evolution Polska. Zakres, cenę i termin
+wdrożenia ustala się indywidualnie; nie obiecuj ich w treściach edukacyjnych.
 
 Ambicja: ułatwiać rozpoczęcie praktycznej pracy z AI. „Najniższa bariera wejścia
 w Polsce” nie jest zweryfikowanym porównaniem rynku. Nie przedstawiaj jej jako
@@ -58,8 +59,9 @@ Zachowano historyczne kwoty i datę deklarowaną w starym docs/OFFER.md.
 Nie potwierdzono tych warunków ponownie u właściciela lub na stronie.
 Fragmenty strony z 2026-10-06 dopisały zakres kursów i szkoleń (OFFER-FREE,
 OFFER-PRO, OFFER-BUSINESS) oraz katalog skilli open source (CLAIM-SKILLS-OPEN-SOURCE).
-Cena OFFER-PRO ma status CONFLICT: repo i strona podają różne kwoty. Nie podawaj
-żadnej z nich; odeślij na stronę, dopóki właściciel nie rozstrzygnie.
+Cenę OFFER-PRO potwierdził właściciel 2026-10-06: 1 499 zł. Kwota 699 zł
+z fragmentu wyszukiwarki jest nieaktualna; nie używaj jej. Rekord nadal nie ma
+zgody na publikację, bo brakuje jednostki i podstawy podatkowej (netto/brutto).
 TO_CONFIRM nie oznacza wycofania produktu, tylko brak aktualnego potwierdzenia.
 
 Karta oferty powinna opisywać: markę, odbiorcę, problem, zakres, dostarczany
@@ -372,8 +374,8 @@ Uzupełnienie 2026-10-06: bezpośredni odczyt strony był zablokowany, więc uż
 fragmentów z indeksu wyszukiwarki (SRC-WEBSITE-SEARCH, SRC-SKILLS-SEARCH,
 SRC-ONLINE-SEARCH). Widoczne sekcje: kursy AI, szkolenia AI (/sztuczna-inteligencja),
 skille dla agentów (/skills), open source na licencji MIT, katalog narzędzi, blog
-i społeczność. Fragment wspomina też „wdrożenia dla firm”, co dotyczy
-DECISION-BRAND-ROUTING. To wciąż nie jest audyt strony.
+i społeczność. Fragment wspomina też „wdrożenia dla firm”; właściciel potwierdził,
+że prowadzi je AIEP (DECISION-BRAND-ROUTING). To wciąż nie jest audyt strony.
 
 | Typ strony | Pytanie odbiorcy | Co ustalić |
 |---|---|---|
@@ -460,13 +462,13 @@ Proponowana ścieżka: treść/polecenie → właściwy kontakt → rozpoznanie 
 ### Kwalifikacja
 Ustal: problem i zadanie, odbiorców i poziom, wielkość grupy, dostępne narzędzia
 oraz oczekiwany rezultat/formę/termin. Nie proś o hasła i poufne dokumenty.
-Rozdziel naukę od gotowego wdrożenia i sprawdź DECISION-BRAND-ROUTING.
+Ustal, czy klient chce szkolenia, czy wdrożenia. Oba prowadzi AIEP (DECISION-BRAND-ROUTING).
 Nie oceniaj dopasowania wyłącznie przez wiek lub rozmiar firmy.
 
 | Obiekcja | Proponowana odpowiedź do dostosowania |
 |---|---|
 | „Nie znamy AI” | „Zacznijmy od zadania, które już wykonujecie, i dobierzmy zakres do omówienia.” |
-| „Czy wdrożycie za nas?” | „Rozdzielmy szkolenie i budowę integracji. Wymagają innego zakresu.” |
+| „Czy wdrożycie za nas?” | „Tak, prowadzimy też wdrożenia. Opiszcie proces, a ustalimy zakres osobno od szkolenia.” |
 | „Ile kosztuje?” | „Cenę potwierdzimy po ustaleniu zakresu. Opisz zespół i oczekiwany efekt.” |
 | „Czy dane będą bezpieczne?” | „W demonstracji użyjmy danych testowych; dostęp do danych firmowych ustalamy osobno.” |
 
@@ -615,7 +617,7 @@ Nie wklejaj treści prywatnego potwierdzenia; użyj zatwierdzonej notatki.
 ```json
 {
   "schema_version": 1,
-  "version": "3.2.0",
+  "version": "3.3.0",
   "updated_at": "2026-10-06",
   "sources": [
     {
@@ -699,6 +701,13 @@ Nie wklejaj treści prywatnego potwierdzenia; użyj zatwierdzonej notatki.
       "reviewed_at": "2026-10-06",
       "scope": "Fragmenty strony z indeksu wyszukiwarki, odczytane 2026-10-06. Bezpośredni odczyt strony był zablokowany w środowisku pracy. Wymaga potwierdzenia na żywej stronie lub u właściciela.",
       "usable_for_facts": false
+    },
+    {
+      "id": "SRC-OWNER-20261006",
+      "kind": "owner_confirmation",
+      "locator": "owner-message:2026-10-06",
+      "reviewed_at": "2026-10-06",
+      "scope": "Wiadomość właściciela w sesji pracy: Kurs PRO kosztuje 1 499 zł; wdrożenia dla firm prowadzi AI Evolution Polska. Nie potwierdza ceny regularnej, jednostki ani podstawy podatkowej."
     }
   ],
   "records": [
@@ -743,7 +752,7 @@ Nie wklejaj treści prywatnego potwierdzenia; użyj zatwierdzonej notatki.
       "id": "OFFER-PRO",
       "topic": "offers",
       "kind": "offer",
-      "status": "CONFLICT",
+      "status": "CONFIRMED",
       "value": {
         "name": "Kurs Premium (PRO)",
         "brand": "AI Evolution Polska",
@@ -764,14 +773,15 @@ Nie wklejaj treści prywatnego potwierdzenia; użyj zatwierdzonej notatki.
         "availability": null,
         "next_step": "Potwierdź zakres i warunki z właścicielem.",
         "destination": null,
-        "conflict_note": "Repo: 1499 PLN (regularnie 1999 PLN). Fragment wyszukiwarki ze strony: 699 PLN przedpremierowo (zamiast 1990 PLN). Nie podawaj ceny PRO, dopóki właściciel nie rozstrzygnie."
+        "price_note": "Właściciel potwierdził 1499 PLN (2026-10-06). Cena regularna 1999 PLN pochodzi z repo i nie została potwierdzona ponownie. 699 PLN z fragmentu wyszukiwarki jest nieaktualne."
       },
       "sources": [
         "SRC-OFFER",
-        "SRC-WEBSITE-SEARCH"
+        "SRC-WEBSITE-SEARCH",
+        "SRC-OWNER-20261006"
       ],
-      "verified_at": null,
-      "review_after": null,
+      "verified_at": "2026-10-06",
+      "review_after": "2026-11-06",
       "expires_at": null,
       "publication_allowed": false,
       "source_claimed_verified_at": "2026-09-30"
@@ -1043,14 +1053,15 @@ Nie wklejaj treści prywatnego potwierdzenia; użyj zatwierdzonej notatki.
       "id": "DECISION-BRAND-ROUTING",
       "topic": "identity",
       "kind": "decision",
-      "status": "CONFLICT",
-      "value": "Potwierdzić granice szkoleń, konsultacji i wdrożeń AIEP / Labs. Fragment strony AIEP z 2026-10-06 wspomina „wdrożenia dla firm” i indywidualne wdrożenia agentów AI.",
+      "status": "CONFIRMED",
+      "value": "Wdrożenia AI dla firm prowadzi AI Evolution Polska (decyzja właściciela 2026-10-06). AI Evolution Labs pozostaje osobną marką; nie mieszaj ich ofert i cen.",
       "sources": [
         "SRC-BRAND",
         "SRC-OFFER",
-        "SRC-WEBSITE-SEARCH"
+        "SRC-WEBSITE-SEARCH",
+        "SRC-OWNER-20261006"
       ],
-      "verified_at": null,
+      "verified_at": "2026-10-06",
       "review_after": null,
       "expires_at": null,
       "publication_allowed": false
@@ -1542,7 +1553,7 @@ Nie wklejaj treści prywatnego potwierdzenia; użyj zatwierdzonej notatki.
   "open_questions": [
     {
       "id": "Q-OFFER",
-      "question": "Która oferta jest priorytetem i jakie ma aktualne warunki? Jaka jest obecna cena Kursu PRO: 1499 zł czy 699 zł?",
+      "question": "Która oferta jest priorytetem i jakie ma aktualne warunki (jednostka, netto/brutto, cena regularna PRO)?",
       "records": [
         "OFFER-BUSINESS",
         "OFFER-PRO"

@@ -1,5 +1,13 @@
 # Historia zmian
 
+## 3.3.0 | 2026-10-06
+
+Decyzje właściciela (SRC-OWNER-20261006): Kurs PRO kosztuje 1 499 zł
+(OFFER-PRO: CONFIRMED, przegląd po 2026-11-06), a wdrożenia AI dla firm
+prowadzi AI Evolution Polska (DECISION-BRAND-ROUTING: CONFIRMED). Kwota 699 zł
+oznaczona jako nieaktualna. PRO nadal bez zgody na publikację: brak jednostki
+i podstawy podatkowej.
+
 ## 3.2.0 | 2026-10-06
 
 Dane ze strony aievolutionpolska.pl, /skills i ai-evolution.online, odczytane

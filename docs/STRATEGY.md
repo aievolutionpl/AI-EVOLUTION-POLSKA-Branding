@@ -1,4 +1,4 @@
-<!-- GENERATED: COMPANY_BRAIN.md | sha256:39cd2338d25dc8a144abb1a10ddcb409968661399d2bbee6fd5736a2f7ea7184 -->
+<!-- GENERATED: COMPANY_BRAIN.md | sha256:e6e649b4064a61eb109bacf25df5af61869b9b4ca78e1eb718b0b7dd07dc9635 -->
 # STRATEGY | indeks Company Brain
 
 Nie edytuj ręcznie. To indeks, nie samodzielna baza faktów.
@@ -9,6 +9,6 @@ Odświeżenie: `python3 scripts/brain.py build`.
 - [9. Cele, narzędzia i odpowiedzialność](../COMPANY_BRAIN.md#operations)
 
 Rekordy: `CLAIM-LOWEST-BARRIER`, `CLAIM-SITE-PROMISE`, `TOOLS-DEPLOYMENT`, `DECISION-BRAND-ROUTING`
-Źródła w rejestrze: `SRC-BRAND`, `SRC-OFFER`, `SRC-STRATEGY`, `SRC-TOOLS`, `SRC-WEBSITE-SEARCH`
+Źródła w rejestrze: `SRC-BRAND`, `SRC-OFFER`, `SRC-OWNER-20261006`, `SRC-STRATEGY`, `SRC-TOOLS`, `SRC-WEBSITE-SEARCH`
 
 Sprawdź status, źródło, datę i ważność przed użyciem wartości.

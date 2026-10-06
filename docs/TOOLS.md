@@ -1,4 +1,4 @@
-<!-- GENERATED: COMPANY_BRAIN.md | sha256:39cd2338d25dc8a144abb1a10ddcb409968661399d2bbee6fd5736a2f7ea7184 -->
+<!-- GENERATED: COMPANY_BRAIN.md | sha256:e6e649b4064a61eb109bacf25df5af61869b9b4ca78e1eb718b0b7dd07dc9635 -->
 # TOOLS | indeks Company Brain
 
 Nie edytuj ręcznie. To indeks, nie samodzielna baza faktów.

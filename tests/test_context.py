@@ -12,7 +12,7 @@ spec = importlib.util.spec_from_file_location('brain_v31', ROOT / 'scripts/brain
 brain = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(brain)
 TEXT = (ROOT / 'COMPANY_BRAIN.md').read_text(encoding='utf-8')
-TODAY = date(2026, 10, 6)
+TODAY = date(2026, 10, 17)
 
 
 class ContextTests(unittest.TestCase):

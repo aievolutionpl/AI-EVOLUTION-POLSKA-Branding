@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location('brain', ROOT / 'scripts/brain.py')
 brain = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(brain)
-TODAY = date(2026, 10, 6)
+TODAY = date(2026, 10, 17)
 TEXT = (ROOT / 'COMPANY_BRAIN.md').read_text(encoding='utf-8')
 
 
@@ -22,8 +22,8 @@ class BrainTests(unittest.TestCase):
 
     def synthetic_confirmed(self, kind='claim'):
         record = deepcopy(self.data['records'][0])
-        record.update(kind=kind, status='CONFIRMED', verified_at='2026-10-06',
-                      review_after='2026-10-07', publication_allowed=True,
+        record.update(kind=kind, status='CONFIRMED', verified_at='2026-10-17',
+                      review_after='2026-10-18', publication_allowed=True,
                       sources=['SRC-TEST'])
         source = {'SRC-TEST': {'kind': 'official_page', 'locator': 'https://example.org/synthetic-test'}}
         return record, source
@@ -88,17 +88,17 @@ class BrainTests(unittest.TestCase):
 
     def test_future_verification_is_blocked(self):
         record, sources = self.synthetic_confirmed()
-        record['verified_at'] = '2026-10-07'
+        record['verified_at'] = '2026-10-18'
         self.assertTrue(brain.publication_blockers(record, sources, TODAY))
 
     def test_overdue_review_is_blocked(self):
         record, sources = self.synthetic_confirmed()
-        record['review_after'] = '2026-10-05'
+        record['review_after'] = '2026-10-16'
         self.assertIn('review overdue', brain.publication_blockers(record, sources, TODAY))
 
     def test_expired_record_is_blocked(self):
         record, sources = self.synthetic_confirmed()
-        record['expires_at'] = '2026-10-05'
+        record['expires_at'] = '2026-10-16'
         self.assertIn('expired', brain.publication_blockers(record, sources, TODAY))
 
     def test_dynamic_record_needs_review_date(self):

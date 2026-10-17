@@ -65,6 +65,9 @@ eksporty i hashe assetów, nie prawdziwość biznesowych danych.
 [adaptacja szablonu](docs/TEMPLATE_IMPLEMENTATION.md) · [testy](tests/README.md) ·
 [zmiany](CHANGELOG.md).
 
+Wersja 3.4 wprowadza Brand System 2026 v2: [podgląd](brand/brand-system-2026.html),
+sekcja [branding](COMPANY_BRAIN.md#visual).
+
 Logo, baner i [licencja](LICENSE.md) pozostają bez zmian. Nie przenoś do
 publicznego repo prywatnych danych klientów, sekretów i wewnętrznych wycen.
 Niepotwierdzone warunki oferty nie są nowym publicznym cennikiem.

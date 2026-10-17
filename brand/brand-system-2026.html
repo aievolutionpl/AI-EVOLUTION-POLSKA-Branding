@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AIEP Brand System</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Serif:ital@0;1&family=Geist:wght@400..700&family=Geist+Mono:wght@400..600&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* AIEP Brand 2026 v2 "Ścieżka Ewolucji" */
+  --void:#08070E; --graphite:#12111C; --slate:#1C1A2B; --line:#2E2B45;
+  --bone:#F2EFE8; --mist:#9E9AB8; --void-ink:#0E0C17;
+  --violet:#7B5CFF; --blue:#3D8BFF; --magenta:#E04A9A; --amber:#FFB23E;
+  --aurora:linear-gradient(115deg,#3D8BFF 0%,#7B5CFF 48%,#E04A9A 100%);
+  --display:'Bricolage Grotesque',sans-serif; --serif:'Instrument Serif',serif; --body:'Geist',sans-serif; --mono:'Geist Mono',monospace;
+  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--void);color:var(--bone);font-family:var(--body);line-height:1.55;-webkit-font-smoothing:antialiased}
+body::after{content:"";position:fixed;inset:0;background-image:var(--grain);opacity:.05;pointer-events:none;z-index:50}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px 96px}
+.mono{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase}
+.spec{display:inline-flex;gap:10px;align-items:center;font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--mist);border:1px solid var(--line);border-radius:999px;padding:7px 12px}
+.spec i{width:7px;height:7px;border-radius:50%;background:var(--amber);box-shadow:0 0 12px var(--amber)}
+.it{font-family:var(--serif);font-style:italic;font-weight:400;letter-spacing:0}
+.au{background:var(--aurora);-webkit-background-clip:text;background-clip:text;color:transparent}
+
+.hero{position:relative;margin:20px 0 0;border-radius:28px;overflow:hidden;border:1px solid var(--line);background:
+  radial-gradient(55% 70% at 88% 8%,rgba(123,92,255,.38),transparent 62%),
+  radial-gradient(45% 60% at 4% 96%,rgba(61,139,255,.28),transparent 62%),
+  radial-gradient(35% 45% at 62% 108%,rgba(224,74,154,.26),transparent 62%),var(--graphite);min-height:620px;padding:40px}
+.hero::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(242,239,232,.10) 1px,transparent 1.4px);background-size:28px 28px;-webkit-mask-image:linear-gradient(180deg,transparent,#000 30%,#000 70%,transparent);mask-image:linear-gradient(180deg,transparent,#000 30%,#000 70%,transparent)}
+.hero-top{position:relative;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.hero-top img{height:64px}
+.hero h1{position:relative;font-family:var(--display);font-weight:800;font-size:clamp(46px,8.2vw,112px);line-height:.92;letter-spacing:-.035em;margin-top:84px;max-width:960px;font-variation-settings:"opsz" 96}
+.hero h1 .it{font-size:1.06em;letter-spacing:-.01em}
+.hero p{position:relative;max-width:560px;color:var(--mist);font-size:18px;margin-top:26px}
+.path{position:absolute;right:28px;bottom:26px;width:min(520px,60%);height:auto}
+.stamps{position:relative;display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}
+
+h2{font-family:var(--display);font-weight:700;font-size:clamp(30px,4vw,46px);letter-spacing:-.03em;line-height:1.02;margin-top:6px}
+.sec{margin-top:96px}
+.sec-head{display:grid;grid-template-columns:120px 1fr;gap:24px;align-items:start;border-top:1px solid var(--line);padding-top:22px}
+.sec-head .n{font-family:var(--mono);color:var(--violet);font-size:13px;letter-spacing:.12em}
+.sec-head p{color:var(--mist);max-width:640px;margin-top:12px}
+.grid{display:grid;gap:16px;margin-top:32px}
+.g2{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+.card{background:var(--graphite);border:1px solid var(--line);border-radius:22px;padding:26px;position:relative;overflow:hidden}
+.card h3{font-family:var(--display);font-weight:700;font-size:24px;letter-spacing:-.02em;margin:14px 0 8px}
+.card p{color:var(--mist);font-size:15px}
+.pillar .k{font-family:var(--serif);font-style:italic;font-size:64px;line-height:1}
+.pillar:nth-child(1) .k{color:#9FC4FF}.pillar:nth-child(2) .k{color:#B4A3FF}.pillar:nth-child(3) .k{color:#F29BC9}
+.logo-tile{border-radius:22px;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;aspect-ratio:4/3;padding:28px}
+.logo-tile img{max-width:72%;max-height:80%}
+.lt-dark{background:var(--void)} .lt-bone{background:var(--bone)}
+.cap{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--mist);margin-top:10px}
+.sw{border-radius:22px;overflow:hidden;border:1px solid var(--line);background:var(--graphite)}
+.sw .c{height:150px;position:relative}
+.sw .c span{position:absolute;left:14px;bottom:12px;font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;opacity:.85}
+.sw .m{padding:14px 16px 16px}.sw b{font-family:var(--display);font-weight:700;font-size:17px;letter-spacing:-.01em;display:block}
+.sw code{font-family:var(--mono);font-size:13px;color:var(--mist)}.sw p{font-size:13px;color:var(--mist);margin-top:4px}
+.aurora-bar{margin-top:16px;border-radius:22px;height:120px;background:var(--aurora);position:relative;overflow:hidden;display:flex;align-items:flex-end;justify-content:space-between;padding:16px 20px;font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase}
+.aurora-bar::after{content:"";position:absolute;inset:0;background-image:var(--grain);opacity:.18;mix-blend-mode:overlay}
+.ratio{display:flex;height:34px;border-radius:12px;overflow:hidden;margin-top:16px;font-family:var(--mono);font-size:11px;letter-spacing:.08em}
+.ratio div{display:flex;align-items:center;padding-left:12px}
+.t-display{font-family:var(--display);font-weight:800;font-size:clamp(54px,7vw,92px);line-height:.92;letter-spacing:-.04em}
+.t-serif{font-family:var(--serif);font-style:italic;font-size:clamp(48px,6vw,80px);line-height:1}
+.t-body{font-size:20px;line-height:1.5}
+.t-mono{font-family:var(--mono);font-size:16px;color:#9FC4FF}
+.scale{display:flex;flex-direction:column;gap:10px;margin-top:8px}
+.scale div{display:flex;align-items:baseline;gap:20px;border-bottom:1px dashed var(--line);padding:10px 0}
+.scale span{font-family:var(--mono);font-size:11px;color:var(--mist);width:120px;flex:0 0 120px;letter-spacing:.08em}
+.dev{min-height:260px;display:flex;flex-direction:column}
+.dev .vis{flex:1;display:flex;align-items:center;justify-content:center;margin:18px 0 6px}
+.btn{display:inline-flex;align-items:center;gap:12px;font-family:var(--body);font-weight:600;font-size:15px;padding:15px 22px;border-radius:999px;border:0}
+.btn-amber{background:var(--amber);color:var(--void-ink)}
+.btn-aur{background:var(--aurora);color:#fff}
+.btn-ghost{border:1px solid var(--line);color:var(--bone);background:rgba(242,239,232,.03)}
+.btn .ar{width:26px;height:26px;border-radius:50%;background:rgba(14,12,23,.12);display:inline-flex;align-items:center;justify-content:center}
+.chip{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;padding:7px 11px;border-radius:8px;border:1px solid var(--line);color:var(--mist)}
+.chip.v{color:#C8BCFF;border-color:rgba(123,92,255,.45);background:rgba(123,92,255,.10)}
+.trust{display:flex;border:1px solid var(--line);border-radius:18px;overflow:hidden;margin-top:18px}
+.trust div{flex:1;padding:18px 20px;border-right:1px solid var(--line)}.trust div:last-child{border-right:0}
+.trust b{font-family:var(--display);font-size:30px;letter-spacing:-.03em;display:block}
+.trust span{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--mist)}
+.post{aspect-ratio:4/5;border-radius:20px;overflow:hidden;position:relative;padding:24px;display:flex;flex-direction:column;border:1px solid var(--line)}
+.post .pt{font-family:var(--display);font-weight:800;font-size:clamp(24px,2.7vw,32px);line-height:.98;letter-spacing:-.035em}
+.post .row{display:flex;justify-content:space-between;align-items:center}
+.post .row img{height:30px}
+.post .ft{margin-top:auto}
+.p-dark{background:radial-gradient(80% 60% at 90% 0%,rgba(123,92,255,.45),transparent 60%),radial-gradient(60% 50% at 0% 100%,rgba(61,139,255,.3),transparent 60%),var(--graphite)}
+.p-aur{background:var(--aurora)}
+.p-bone{background:var(--bone);color:var(--void-ink)}
+.track{display:flex;align-items:center;margin-top:14px}
+.track i{width:7px;height:7px;border-radius:50%;background:rgba(242,239,232,.28)}
+.track b{flex:1;height:1px;background:rgba(242,239,232,.18)}
+.track i.on{width:11px;height:11px;background:var(--amber);box-shadow:0 0 10px var(--amber)}
+ul.r{list-style:none;display:grid;gap:12px}
+ul.r li{padding-left:28px;position:relative;font-size:15px}
+.do li::before{content:"";position:absolute;left:0;top:6px;width:14px;height:8px;border-left:2px solid #7CE0B0;border-bottom:2px solid #7CE0B0;transform:rotate(-45deg)}
+.dont li::before{content:"";position:absolute;left:2px;top:5px;width:12px;height:12px;background:linear-gradient(45deg,transparent 44%,var(--magenta) 44%,var(--magenta) 56%,transparent 56%),linear-gradient(-45deg,transparent 44%,var(--magenta) 44%,var(--magenta) 56%,transparent 56%)}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:11px 10px;border-bottom:1px solid var(--line)}
+th{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--mist);font-weight:500}
+td code{font-family:var(--mono);color:#C8BCFF}
+.dot{display:inline-block;width:14px;height:14px;border-radius:4px;vertical-align:-2px;margin-right:8px;border:1px solid rgba(255,255,255,.15)}
+footer{margin-top:80px;padding-top:22px;border-top:1px solid var(--line);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;color:var(--mist)}
+@media (max-width:900px){.g4{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:1fr 1fr}.sec-head{grid-template-columns:1fr}.path{position:relative;right:auto;bottom:auto;width:100%;margin-top:30px}.hero{padding:28px 22px}}
+@media (max-width:600px){.g2,.g3,.g4{grid-template-columns:1fr}.trust{flex-direction:column}.trust div{border-right:0;border-bottom:1px solid var(--line)}}
+</style>
+</head>
+<body><div class="wrap">
+
+<section class="hero">
+  <div class="hero-top">
+    <img src="logo/ai-evolution-polska-logo.png" alt="AI Evolution Polska">
+    <span class="spec"><i></i>Brand System 2026 · v2.0</span>
+  </div>
+  <h1>Sztuczna inteligencja, <span class="it au">po&nbsp;polsku.</span> Od promptu do agenta.</h1>
+  <p>System marki AI Evolution Polska. Ciemny, spokojny i precyzyjny jak laboratorium, z jednym sygnałem, który prowadzi wzrok: ścieżką ewolucji.</p>
+  <div class="stamps"><span class="spec">Edukacja AI</span><span class="spec">Szkolenia BUR</span><span class="spec">Wdrożenia</span></div>
+  <svg class="path" viewBox="0 0 520 210" fill="none" aria-hidden="true">
+    <defs><linearGradient id="pg" x1="0" x2="1"><stop offset="0" stop-color="#3D8BFF"/><stop offset=".5" stop-color="#7B5CFF"/><stop offset="1" stop-color="#E04A9A"/></linearGradient></defs>
+    <path d="M10 190 H120 L170 140 H280 L330 90 H420 L470 40 H510" stroke="url(#pg)" stroke-width="2.5"/>
+    <g fill="#08070E" stroke-width="2.5"><circle cx="10" cy="190" r="6" stroke="#3D8BFF"/><circle cx="170" cy="140" r="6" stroke="#5D74FF"/><circle cx="330" cy="90" r="6" stroke="#9A55E6"/></g>
+    <circle cx="470" cy="40" r="9" fill="#FFB23E"/><circle cx="470" cy="40" r="18" stroke="#FFB23E" stroke-opacity=".35"/>
+    <g font-family="Geist Mono" font-size="11" letter-spacing="1.4" fill="#9E9AB8"><text x="10" y="172">01 PROMPT</text><text x="150" y="122">02 WORKFLOW</text><text x="312" y="72">03 AGENT</text><text x="390" y="18" fill="#FFB23E">04 TWÓJ BIZNES</text></g>
+  </svg>
+</section>
+
+<section class="sec">
+  <div class="sec-head"><span class="n">01 / IDEA</span><div><h2>Trzy rzeczy, które marka ma <span class="it">czuć</span></h2><p>Stary wizerunek był „neonowym AI”, jakich wiele. Nowy łączy precyzję laboratorium (zaufanie), ludzki, edytorialny akcent (po polsku, dla ludzi) i jeden wyraźny sygnał ruchu do przodu (innowacja).</p></div></div>
+  <div class="grid g3">
+    <div class="card pillar"><div class="k">Zaufanie</div><h3>Precyzja zamiast hype'u</h3><p>Spokojne tło, cienkie linie, etykiety jak w raporcie. Liczby tylko potwierdzone. Ciepła biel kości zamiast ostrego neonu.</p></div>
+    <div class="card pillar"><div class="k">Innowacja</div><h3>Ścieżka ewolucji</h3><p>Schodkowa linia z węzłami: prompt, workflow, agent, biznes. Pokazuje drogę klienta i jest rozpoznawalnym znakiem marki.</p></div>
+    <div class="card pillar"><div class="k">Po polsku</div><h3>Ludzki akcent</h3><p>Jedno słowo w nagłówku pisane kursywą szeryfową. Mówi: tu uczą ludzie, nie generator.</p></div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="sec-head"><span class="n">02 / LOGO</span><div><h2>Logo bez zmian, lepsze tło</h2><p>Logo zostaje (rozpoznawalność). Zawsze z oryginalnego PNG, nigdy generowane. Najlepiej na Void. Na Bone w dokumentach B2B.</p></div></div>
+  <div class="grid g3">
+    <div><div class="logo-tile lt-dark"><img src="logo/ai-evolution-polska-logo.png" alt=""></div><div class="cap">Podstawowe · Void</div></div>
+    <div><div class="logo-tile lt-bone"><img src="logo/ai-evolution-polska-logo.png" alt=""></div><div class="cap">Dokumenty B2B · Bone</div></div>
+    <div><div class="logo-tile" style="background:var(--graphite);flex-direction:column;gap:14px"><div style="font-family:var(--display);font-weight:800;font-size:64px;letter-spacing:-.05em;line-height:1"><span class="au">AI</span><span style="font-family:var(--serif);font-style:italic;font-weight:400;font-size:.62em;color:var(--bone);margin-left:4px">ep</span></div><div class="mono" style="color:var(--mist)">Znak skrócony: avatar, favicon</div></div><div class="cap">Propozycja · do zatwierdzenia</div></div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="sec-head"><span class="n">03 / KOLOR</span><div><h2>Ciemność, ciepła biel i <span class="it">jeden</span> sygnał</h2><p>Gradient Aurora pochodzi z liter logo. Amber jest jedynym ciepłym kolorem: tylko CTA, cena lub aktywny węzeł ścieżki. Bone zamiast czystej bieli daje spokój i „papierowe” zaufanie.</p></div></div>
+  <div class="grid g4">
+    <div class="sw"><div class="c" style="background:var(--void)"><span>Tło 60%</span></div><div class="m"><b>Void</b><code>#08070E</code><p>Tło główne</p></div></div>
+    <div class="sw"><div class="c" style="background:var(--graphite)"><span>Powierzchnie</span></div><div class="m"><b>Graphite</b><code>#12111C</code><p>Karty, sekcje</p></div></div>
+    <div class="sw"><div class="c" style="background:var(--bone);color:var(--void-ink)"><span>Tekst / jasne tło</span></div><div class="m"><b>Bone</b><code>#F2EFE8</code><p>Tekst główny, wersja jasna</p></div></div>
+    <div class="sw"><div class="c" style="background:var(--amber);color:var(--void-ink)"><span>Tylko akcja</span></div><div class="m"><b>Signal Amber</b><code>#FFB23E</code><p>CTA, cena, aktywny węzeł</p></div></div>
+    <div class="sw"><div class="c" style="background:var(--violet)"><span>Marka</span></div><div class="m"><b>Evolution Violet</b><code>#7B5CFF</code><p>Akcenty, linki, ikony</p></div></div>
+    <div class="sw"><div class="c" style="background:var(--blue)"><span>Dane</span></div><div class="m"><b>Pulse Blue</b><code>#3D8BFF</code><p>Wykresy, kod, info</p></div></div>
+    <div class="sw"><div class="c" style="background:var(--magenta)"><span>Energia</span></div><div class="m"><b>Neon Magenta</b><code>#E04A9A</code><p>Koniec gradientu, news</p></div></div>
+    <div class="sw"><div class="c" style="background:var(--mist);color:var(--void-ink)"><span>Drugi plan</span></div><div class="m"><b>Mist</b><code>#9E9AB8</code><p>Tekst pomocniczy, etykiety</p></div></div>
+  </div>
+  <div class="aurora-bar"><span>Aurora · 115° · #3D8BFF → #7B5CFF → #E04A9A</span><span>max 15% kadru</span></div>
+  <div class="ratio">
+    <div style="flex:60;background:var(--void);border:1px solid var(--line)">Void 60</div>
+    <div style="flex:22;background:var(--slate)">Graphite 22</div>
+    <div style="flex:12;background:var(--aurora)">Aurora 12</div>
+    <div style="flex:6;background:var(--amber);color:var(--void-ink);padding-left:6px">6</div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="sec-head"><span class="n">04 / TYPOGRAFIA</span><div><h2>Charakter, kursywa i precyzja</h2><p>Bricolage Grotesque ma „ludzkie” nieregularności i optyczne rozmiary, więc wygląda na zaprojektowany, nie domyślny. Instrument Serif Italic to jedno słowo emocji. Geist i Geist Mono dają porządek. Wszystkie mają pełne polskie znaki.</p></div></div>
+  <div class="grid g2">
+    <div class="card"><span class="mono" style="color:var(--mist)">Display · Bricolage Grotesque 800</span><div class="t-display" style="margin-top:18px">Zażółć gęślą jaźń</div></div>
+    <div class="card"><span class="mono" style="color:var(--mist)">Akcent · Instrument Serif Italic</span><div class="t-serif au" style="margin-top:22px">ewolucja, po polsku</div><p style="margin-top:14px">Maks. 1-3 słowa na kadr. Nigdy w tekście ciągłym.</p></div>
+    <div class="card"><span class="mono" style="color:var(--mist)">Tekst · Geist 400/500/600</span><div class="t-body" style="margin-top:18px">Naucz się AI w 2 godziny. Potem zbuduj własnego agenta w Kursie PRO albo przeszkol zespół na szkoleniu z dofinansowaniem BUR.</div></div>
+    <div class="card"><span class="mono" style="color:var(--mist)">Dane · Geist Mono 500</span><div class="t-mono" style="margin-top:18px">[ 03 / 08 ] · MODUŁ 07 · 20 LEKCJI<br>~/aiep/pro $ start --grudzień-2026</div></div>
+  </div>
+  <div class="card" style="margin-top:16px"><div class="scale">
+    <div><span>H1 · 800 · −4%</span><b style="font-family:var(--display);font-size:56px;letter-spacing:-.04em;line-height:1">Zbuduj agenta</b></div>
+    <div><span>H2 · 700 · −3%</span><b style="font-family:var(--display);font-size:36px;letter-spacing:-.03em">Program kursu PRO</b></div>
+    <div><span>H3 · 700 · −2%</span><b style="font-family:var(--display);font-size:24px;letter-spacing:-.02em">Moduł 05: Hermes Agent</b></div>
+    <div><span>Body · 400 · 1.55</span><span style="width:auto;flex:1;font-family:var(--body);font-size:17px;color:var(--bone);letter-spacing:0">Tekst podstawowy, 16-18 px na ekranie, 30-36 px na grafikach 1080.</span></div>
+    <div><span>Label · Mono · +12%</span><span class="mono" style="width:auto;flex:1;color:var(--violet)">Szkolenie dla firm · BUR</span></div>
+  </div></div>
+</section>
+
+<section class="sec">
+  <div class="sec-head"><span class="n">05 / ZNAKI MARKI</span><div><h2>Cztery elementy, po których nas <span class="it">poznasz</span></h2><p>To one robią markę oryginalną. Używaj ich konsekwentnie w każdym poście, slajdzie i reklamie.</p></div></div>
+  <div class="grid g4">
+    <div class="card dev"><span class="mono" style="color:var(--violet)">A · Ścieżka ewolucji</span><div class="vis"><svg viewBox="0 0 220 110" width="100%" fill="none"><path d="M6 100 H60 L84 76 H136 L160 52 H214" stroke="url(#pg)" stroke-width="2.5"/><circle cx="6" cy="100" r="5" fill="#08070E" stroke="#3D8BFF" stroke-width="2.5"/><circle cx="84" cy="76" r="5" fill="#08070E" stroke="#7B5CFF" stroke-width="2.5"/><circle cx="160" cy="52" r="8" fill="#FFB23E"/></svg></div><p>Schodki w górę, węzły = etapy. Aktywny węzeł zawsze Amber. Pasek postępu w karuzelach.</p></div>
+    <div class="card dev"><span class="mono" style="color:var(--violet)">B · Etykieta spec</span><div class="vis" style="flex-direction:column;gap:10px"><span class="spec"><i></i>Kurs PRO · grudzień</span><span class="spec">[ 02 / 08 ]</span></div><p>Mono, wersaliki, kapsuła. Porządek jak w dokumentacji technicznej.</p></div>
+    <div class="card dev"><span class="mono" style="color:var(--violet)">C · Kursywa emocji</span><div class="vis"><div style="font-family:var(--display);font-weight:800;font-size:34px;letter-spacing:-.04em;line-height:1">Zacznij <span class="it au" style="font-size:1.1em">budować</span></div></div><p>Jedno słowo w Instrument Serif Italic, zwykle w Aurora.</p></div>
+    <div class="card dev"><span class="mono" style="color:var(--violet)">D · Siatka + ziarno</span><div class="vis" style="width:100%;border-radius:14px;background:radial-gradient(rgba(242,239,232,.16) 1px,transparent 1.4px) 0 0/16px 16px,radial-gradient(60% 80% at 80% 0%,rgba(123,92,255,.5),transparent 60%),var(--void);min-height:110px"></div><p>Kropkowa siatka 28 px, ziarno 5%, miękka poświata w jednym rogu. Nigdy płaski kolor.</p></div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="sec-head"><span class="n">06 / KOMPONENTY</span><div><h2>Przyciski, etykiety, dowody</h2><p>Przyciski w kształcie kapsuły. Amber do sprzedaży, Aurora do edukacji, ghost do reszty. Pasek zaufania tylko z potwierdzonymi liczbami.</p></div></div>
+  <div class="card" style="margin-top:32px">
+    <div style="display:flex;flex-wrap:wrap;gap:14px;align-items:center">
+      <span class="btn btn-amber">Zapisz się na Kurs PRO <span class="ar">→</span></span>
+      <span class="btn btn-aur">Zacznij darmowy kurs</span>
+      <span class="btn btn-ghost">Zobacz program</span>
+      <span class="chip v">Nowość</span><span class="chip">20 lekcji</span><span class="chip">BUR</span>
+    </div>
+    <div class="trust">
+      <div><b>10 000+</b><span>osób w społeczności</span></div>
+      <div><b>od 2023</b><span>uczymy AI po polsku</span></div>
+      <div><b>2 dni</b><span>szkolenie w Twojej firmie</span></div>
+      <div><b><span class="it" style="font-weight:400">0 zł</span></b><span>darmowy start</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="sec-head"><span class="n">07 / SOCIAL</span><div><h2>Trzy tryby kadru</h2><p>Dark do edukacji i PRO, Aurora do jednej liczby, Bone do B2B i BUR. Ścieżka ewolucji zawsze na dole jako postęp karuzeli.</p></div></div>
+  <div class="grid g3">
+    <div class="post p-dark"><div class="row"><img src="logo/ai-evolution-polska-logo.png" alt=""><span class="spec" style="font-size:10px;padding:5px 9px"><i></i>Kurs PRO</span></div><div class="ft"><div class="pt">Przestań pisać z AI. Zacznij <span class="it au">budować.</span></div><div class="track"><i class="on"></i><b></b><i></i><b></b><i></i><b></b><i></i></div></div></div>
+    <div class="post p-aur"><div class="row"><span class="mono" style="color:#fff">Darmowy kurs</span><span class="mono" style="color:#fff">[ 01 ]</span></div><div class="ft"><div style="font-family:var(--display);font-weight:800;font-size:clamp(90px,10vw,130px);line-height:.85;letter-spacing:-.06em">2h</div><div class="pt" style="margin-top:10px">i wiesz, jak używać AI <span class="it">w pracy.</span></div></div></div>
+    <div class="post p-bone"><div class="row"><img src="logo/ai-evolution-polska-logo.png" alt=""><span class="mono" style="color:var(--violet)">Szkolenia · BUR</span></div><div class="ft"><div class="pt">2 dni. 14 godzin. <span class="it" style="color:var(--violet)">Wasze</span> zadania.</div><p style="font-size:13px;color:#4B4766;margin-top:8px">Grupy 8-15 osób, w Twojej firmie.</p><span class="btn btn-amber" style="margin-top:14px;padding:10px 16px;font-size:12px">Sprawdź dofinansowanie</span></div></div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="sec-head"><span class="n">08 / ZASADY</span><div><h2>Tak i <span class="it">nie</span></h2></div></div>
+  <div class="grid g2">
+    <div class="card"><span class="mono" style="color:#7CE0B0">Tak</span><ul class="r do" style="margin-top:14px">
+      <li>Jeden komunikat na kadr, nagłówek Bricolage 800</li>
+      <li>Maks. jedno słowo kursywą Instrument Serif</li>
+      <li>Ścieżka ewolucji jako postęp lub ilustracja drogi</li>
+      <li>Amber tylko na jednym elemencie (CTA, cena, węzeł)</li>
+      <li>Bone (#F2EFE8) zamiast czystej bieli</li>
+      <li>Ziarno i kropkowa siatka, poświata w jednym rogu</li>
+      <li>Etykiety spec w Geist Mono, wersaliki</li>
+    </ul></div>
+    <div class="card"><span class="mono" style="color:var(--magenta)">Nie</span><ul class="r dont" style="margin-top:14px">
+      <li>Neon na wszystkim, czysta czerń #000, czysta biel #FFF</li>
+      <li>Limonka #B6FF00 (marka AI Evolution Labs)</li>
+      <li>Kursywa w zdaniach ciągłych, więcej niż 2 fonty na kadr poza Mono</li>
+      <li>Roboty i „mózgi z obwodów” ze stocków</li>
+      <li>Gradient na długim tekście, dwa gradienty obok siebie</li>
+      <li>Em dash, zmyślone liczby, superlatywy bez dowodu</li>
+    </ul></div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="sec-head"><span class="n">09 / TOKENY</span><div><h2>Dla stron, slajdów i agentów</h2></div></div>
+  <div class="card" style="margin-top:32px;overflow-x:auto"><table>
+    <tr><th>Token</th><th>Wartość</th><th>Użycie</th></tr>
+    <tr><td><code>--void</code></td><td><span class="dot" style="background:#08070E"></span>#08070E</td><td>tło główne</td></tr>
+    <tr><td><code>--graphite</code></td><td><span class="dot" style="background:#12111C"></span>#12111C</td><td>karty, sekcje</td></tr>
+    <tr><td><code>--slate</code></td><td><span class="dot" style="background:#1C1A2B"></span>#1C1A2B</td><td>elementy podniesione</td></tr>
+    <tr><td><code>--line</code></td><td><span class="dot" style="background:#2E2B45"></span>#2E2B45</td><td>linie, obramowania</td></tr>
+    <tr><td><code>--bone</code></td><td><span class="dot" style="background:#F2EFE8"></span>#F2EFE8</td><td>tekst, jasne tło</td></tr>
+    <tr><td><code>--mist</code></td><td><span class="dot" style="background:#9E9AB8"></span>#9E9AB8</td><td>tekst pomocniczy</td></tr>
+    <tr><td><code>--violet</code></td><td><span class="dot" style="background:#7B5CFF"></span>#7B5CFF</td><td>kolor marki</td></tr>
+    <tr><td><code>--blue</code></td><td><span class="dot" style="background:#3D8BFF"></span>#3D8BFF</td><td>dane, kod</td></tr>
+    <tr><td><code>--magenta</code></td><td><span class="dot" style="background:#E04A9A"></span>#E04A9A</td><td>energia, koniec gradientu</td></tr>
+    <tr><td><code>--amber</code></td><td><span class="dot" style="background:#FFB23E"></span>#FFB23E</td><td>CTA, cena, aktywny węzeł</td></tr>
+    <tr><td><code>--void-ink</code></td><td><span class="dot" style="background:#0E0C17"></span>#0E0C17</td><td>tekst na Bone i Amber</td></tr>
+    <tr><td><code>--aurora</code></td><td>linear-gradient(115deg, #3D8BFF, #7B5CFF 48%, #E04A9A)</td><td>znak marki, max 15% kadru</td></tr>
+    <tr><td><code>fonty</code></td><td>Bricolage Grotesque · Instrument Serif · Geist · Geist Mono</td><td>Google Fonts, latin-ext</td></tr>
+  </table></div>
+</section>
+
+<footer><span class="mono">AI Evolution Polska · Brand System 2026 v2.0 · 2026-10-17</span><span class="mono">Źródło prawdy: COMPANY_BRAIN.md · sekcja 10</span></footer>
+</div></body>
+</html>

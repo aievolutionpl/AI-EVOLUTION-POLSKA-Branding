@@ -1,5 +1,17 @@
 # Historia zmian
 
+## 3.4.0 | 2026-10-17
+
+Nowa identyfikacja wizualna zatwierdzona przez właściciela (SRC-OWNER-20261017,
+DECISION-BRAND-V2): Brand System 2026 v2 „Ścieżka Ewolucji”. Paleta Void, Bone,
+Aurora (#3D8BFF → #7B5CFF → #E04A9A) i Signal Amber tylko do CTA. Fonty Bricolage
+Grotesque, Instrument Serif Italic, Geist i Geist Mono. Cztery znaki marki: ścieżka
+ewolucji, etykieta spec, kursywa emocji, siatka z ziarnem.
+
+Dodano brand/brand-system-2026.html (podgląd) i brand/brand-system-2026.jpg.
+Logo, zdjęcia, baner i licencja bez zmian. Poprzednia paleta (#050505, #7C5CFF,
+#00B7FF, Space Grotesk/Inter) jest nieaktualna. Oferta i ceny bez zmian.
+
 ## 3.3.0 | 2026-10-06
 
 Decyzje właściciela (SRC-OWNER-20261006): Kurs PRO kosztuje 1 499 zł

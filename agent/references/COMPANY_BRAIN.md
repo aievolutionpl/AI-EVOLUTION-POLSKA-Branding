@@ -2,7 +2,7 @@
 
 <!-- Edytuj tylko COMPANY_BRAIN.md. BRAND.md i agent/references/COMPANY_BRAIN.md są generowanymi kopiami. -->
 
-Wersja struktury: 3.3.0. Aktualizacja dokumentacji: 2026-10-06.
+Wersja struktury: 3.4.0. Aktualizacja dokumentacji: 2026-10-17.
 To nie data potwierdzenia wszystkich danych biznesowych.
 
 Jeden plik do pracy nad treścią, ofertą, stroną, sprzedażą, SEO i automatyzacją.
@@ -166,32 +166,53 @@ deklarację producenta, własną opinię i przewidywanie.
 <a id="visual"></a>
 ## 6. Branding i assety
 
-Migracja nie jest redesignem. Główne logo:
-brand/logo/ai-evolution-polska-logo.png. Materiał merch:
+Obowiązuje Brand System 2026 v2 „Ścieżka Ewolucji”, zatwierdzony przez właściciela
+2026-10-17 (DECISION-BRAND-V2). Zastępuje wcześniejszą paletę repo i strony.
+Podgląd: brand/brand-system-2026.html, zrzut: brand/brand-system-2026.jpg.
+Idea: zaufanie (precyzja laboratorium), innowacja (ścieżka ewolucji) i ludzki,
+polski akcent (jedno słowo kursywą szeryfową). Kolory pochodzą z liter logo.
+
+Logo bez zmian: brand/logo/ai-evolution-polska-logo.png (PNG z przezroczystością),
+najlepiej na tle Void, w dokumentach B2B na Bone. Materiał merch:
 brand/logo/ai-evolution-polska-merch.png nie jest alternatywnym logo.
 Baner: brand/cover.jpg. Referencje: brand/photos/brand-guidelines.jpg
 oraz brand/photos/brand-guidelines-2.jpg. Rejestr zawiera ich niezmienione hashe.
+Znak skrócony „AIep” (avatar, favicon) to propozycja do zatwierdzenia.
 
-| Rola | HEX |
-|---|---|
-| Tło | #050505 |
-| Karty / powierzchnie | #0B0D10 |
-| Fiolet | #7C5CFF |
-| Akcent niebieski | #00B7FF |
-| Jasny fiolet | #B18CFF |
-| Zielony akcent | #29E68C |
-| Jasny tekst | #F5F7FA |
+| Rola | Nazwa | HEX |
+|---|---|---|
+| Tło (ok. 60% kadru) | Void | #08070E |
+| Karty / powierzchnie | Graphite | #12111C |
+| Elementy podniesione | Slate | #1C1A2B |
+| Linie, obramowania | Line | #2E2B45 |
+| Tekst, jasne tło | Bone | #F2EFE8 |
+| Tekst pomocniczy | Mist | #9E9AB8 |
+| Kolor marki | Evolution Violet | #7B5CFF |
+| Dane, kod | Pulse Blue | #3D8BFF |
+| Energia, koniec gradientu | Neon Magenta | #E04A9A |
+| Wyłącznie CTA, cena, aktywny węzeł | Signal Amber | #FFB23E |
+| Tekst na Bone i Amber | Void Ink | #0E0C17 |
 
-Nagłówki: Space Grotesk. Tekst i UI: Inter. Dotychczasowa alternatywa: Sora.
-Nie zmieniaj palety na podstawie próbkowania gradientu. Polskie znaki sprawdzaj
-w faktycznym pliku i wariancie fontu: „Zażółć gęślą jaźń ĄĆĘŁŃÓŚŹŻ”.
-Nie wnioskuj o ich braku na podstawie nazwy rodziny.
+Gradient Aurora: linear-gradient(115deg, #3D8BFF 0%, #7B5CFF 48%, #E04A9A 100%),
+najwyżej ok. 15% kadru. Proporcje: Void 60, Graphite 22, Aurora 12, Amber 6.
+Bez czystej czerni #000, czystej bieli #FFF i limonki #B6FF00 (marka Labs).
 
-Czysty układ, jeden główny komunikat, czytelna hierarchia i wolne miejsce.
-Subtelny gradient i glass UI, gdy pasują. Bez drobnej dekoracyjnej treści,
-losowych statystyk i nadmiaru ikon. Post/karuzela 1080×1350; Reels 1080×1920.
-Baner zachowuje istniejące proporcje. Logo umieszczaj z oryginalnego pliku,
-bez AI-redraw i deformacji. Nie podmieniaj twarzy ze zdjęcia referencyjnego.
+Fonty (Google Fonts, latin-ext): nagłówki Bricolage Grotesque 700/800 (tracking
+od −3% do −4,5%); akcent Instrument Serif Italic, najwyżej 1-3 słowa na kadr,
+nigdy w tekście ciągłym; tekst Geist 400/500/600; etykiety i dane Geist Mono 500,
+wersaliki. Polskie znaki sprawdzaj w faktycznym pliku: „Zażółć gęślą jaźń ĄĆĘŁŃÓŚŹŻ”.
+
+Cztery znaki marki: (A) ścieżka ewolucji, czyli schodkowa linia z węzłami
+01 PROMPT, 02 WORKFLOW, 03 AGENT, 04 TWÓJ BIZNES; aktywny węzeł w Amber, w karuzelach
+jako pasek postępu. (B) Etykieta spec: kapsuła w Geist Mono. (C) Kursywa emocji:
+jedno słowo Instrument Serif w nagłówku. (D) Kropkowa siatka 28-36 px, ziarno 5-6%
+i miękka poświata Aurora w rogu; nigdy płaskie tło.
+
+Tryby kadru: Dark (edukacja, kursy), Aurora (jedna duża liczba), Bone (B2B,
+szkolenia, cena). Post/karuzela 1080×1350; Reels 1080×1920. CTA sprzedażowe
+w kapsule Amber, edukacyjne w Aurora, drugorzędne jako ghost. Logo umieszczaj
+z oryginalnego pliku, bez AI-redraw i deformacji. Nie podmieniaj twarzy ze zdjęć.
+Fotografia: prawdziwi ludzie przy pracy z AI, bez stockowych robotów.
 
 Kontroluj litery, kontrast, wymiary, marginesy i obcięcia programowo oraz wzrokiem.
 Tekst wygenerowany na grafice, data, statystyka i napis „Open Source” nie są
@@ -617,8 +638,8 @@ Nie wklejaj treści prywatnego potwierdzenia; użyj zatwierdzonej notatki.
 ```json
 {
   "schema_version": 1,
-  "version": "3.3.0",
-  "updated_at": "2026-10-06",
+  "version": "3.4.0",
+  "updated_at": "2026-10-17",
   "sources": [
     {
       "id": "SRC-BRAND",
@@ -708,6 +729,13 @@ Nie wklejaj treści prywatnego potwierdzenia; użyj zatwierdzonej notatki.
       "locator": "owner-message:2026-10-06",
       "reviewed_at": "2026-10-06",
       "scope": "Wiadomość właściciela w sesji pracy: Kurs PRO kosztuje 1 499 zł; wdrożenia dla firm prowadzi AI Evolution Polska. Nie potwierdza ceny regularnej, jednostki ani podstawy podatkowej."
+    },
+    {
+      "id": "SRC-OWNER-20261017",
+      "kind": "owner_confirmation",
+      "locator": "owner-message:2026-10-17",
+      "reviewed_at": "2026-10-17",
+      "scope": "Wiadomość właściciela w sesji pracy: akceptacja Brand System 2026 v2 i polecenie aktualizacji repo. Dotyczy wyłącznie identyfikacji wizualnej."
     }
   ],
   "records": [
@@ -1484,6 +1512,20 @@ Nie wklejaj treści prywatnego potwierdzenia; użyj zatwierdzonej notatki.
       "review_after": null,
       "expires_at": null,
       "publication_allowed": false
+    },
+    {
+      "id": "DECISION-BRAND-V2",
+      "topic": "visual",
+      "kind": "decision",
+      "status": "CONFIRMED",
+      "value": "Brand System 2026 v2 „Ścieżka Ewolucji”: paleta Void/Bone/Aurora/Amber, fonty Bricolage Grotesque, Instrument Serif Italic, Geist i Geist Mono, cztery znaki marki. Logo bez zmian. Zastępuje wcześniejszą paletę repo i strony.",
+      "sources": [
+        "SRC-OWNER-20261017"
+      ],
+      "verified_at": "2026-10-17",
+      "review_after": null,
+      "expires_at": null,
+      "publication_allowed": false
     }
   ],
   "assets": [
@@ -1516,6 +1558,18 @@ Nie wklejaj treści prywatnego potwierdzenia; użyj zatwierdzonej notatki.
       "path": "brand/photos/brand-guidelines-2.jpg",
       "role": "referencja wizualna",
       "git_blob_sha": "8ce2ff0cb9d0afc39d74210b2c22ba40935314c7"
+    },
+    {
+      "id": "BRAND-SYSTEM",
+      "path": "brand/brand-system-2026.html",
+      "role": "Brand System 2026 v2, podgląd w przeglądarce",
+      "git_blob_sha": "75f15eb4e61324b47d1ea21e671353119ecd9de7"
+    },
+    {
+      "id": "BRAND-SYSTEM-PREVIEW",
+      "path": "brand/brand-system-2026.jpg",
+      "role": "zrzut Brand System 2026 v2",
+      "git_blob_sha": "d9657d68b63d4f8f052e05bbc56f334114ae69a4"
     }
   ],
   "review_policy": [

@@ -1,0 +1,102 @@
+{
+  "status": "passed",
+  "errors": [],
+  "counts": {
+    "characters": 7,
+    "reference_sheets": 7,
+    "reference_views": 28,
+    "backgrounds": 6,
+    "separate_props": 12,
+    "animation_rgba_frames": 48,
+    "indexed_assets": 144,
+    "all_png_files_including_sources": 163
+  },
+  "checks": {
+    "png_decoding": "passed",
+    "manifest_hashes": "passed",
+    "character_binary_alpha_and_margins": "passed",
+    "native_4x_pixel_integrity": "passed",
+    "background_dimensions_and_grid": "passed",
+    "video_probe_and_full_decode": "passed",
+    "archive_crc": "performed after creation"
+  },
+  "visual_review": [
+    "Seven masters and seven reference sheets inspected.",
+    "Five source faces compared with generated faces.",
+    "Characters checked on daylight and dark office backgrounds.",
+    "Portrait text overflow, blink residue and wave-arm mask corrected after keyframe inspection.",
+    "Small sprites trade lettering detail for strict pixel grid; masters retain official source-composited logos."
+  ],
+  "generation": {
+    "tool": "built-in image_gen",
+    "images": 21,
+    "prompts": "source/prompts"
+  },
+  "animation": {
+    "fps": 12,
+    "duration_seconds": 6,
+    "frames_per_video": 72,
+    "robot": {
+      "count": 24,
+      "unique_frames": 24,
+      "no_clipped_alpha": true,
+      "rgba_transparency": true,
+      "frame_size": [
+        768,
+        768
+      ]
+    },
+    "human": {
+      "count": 24,
+      "unique_frames": 13,
+      "no_clipped_alpha": true,
+      "rgba_transparency": true,
+      "frame_size": [
+        512,
+        768
+      ]
+    },
+    "videos": {
+      "landscape": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "avg_frame_rate": "12/1",
+            "nb_frames": "72"
+          }
+        ],
+        "format": {
+          "duration": "6.000000"
+        }
+      },
+      "portrait": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1080,
+            "height": 1920,
+            "avg_frame_rate": "12/1",
+            "nb_frames": "72"
+          }
+        ],
+        "format": {
+          "duration": "6.000000"
+        }
+      }
+    },
+    "audio": "silent motion proof",
+    "motion": "AIROBOT arm wave + LED blink + head tilt; Chris subtle head idle",
+    "engine": "deterministic Pillow cutout compositing + FFmpeg"
+  },
+  "limitations": [
+    "Side/back views inferred where photographs do not show them.",
+    "Reference sheets are design guides, not temporally registered motion frames.",
+    "Animation is a simple local 2D cutout proof, not a full facial/lip-sync rig."
+  ]
+}

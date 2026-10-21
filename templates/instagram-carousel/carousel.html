@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>Kurs PRO karuzela</title>
+<!--
+  AIEP Brand System 2026 v2 "Ścieżka Ewolucji" · szablony karuzeli IG 1080x1350
+  Layouty (klasa sekcji):  .l-cover  .l-list  .l-pillars  .l-modules  .l-number  .l-check  .l-offer
+  Wspólne: .top (logo + etykieta spec), .body, stopka z "ścieżką ewolucji" generowana z data-step.
+  Zasady: bez em dash · Amber tylko na CTA/cenie/aktywnym węźle · 1 słowo kursywą (.it) · fakty tylko z COMPANY_BRAIN.md
+  Render: python templates/instagram-carousel/render.py slides templates/instagram-carousel/carousel.html out
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Serif:ital@0;1&family=Geist:wght@400..700&family=Geist+Mono:wght@400..600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --void:#08070E; --graphite:#12111C; --slate:#1C1A2B; --line:#2E2B45;
+  --bone:#F2EFE8; --mist:#9E9AB8; --void-ink:#0E0C17;
+  --violet:#7B5CFF; --blue:#3D8BFF; --magenta:#E04A9A; --amber:#FFB23E;
+  --aurora:linear-gradient(115deg,#3D8BFF 0%,#7B5CFF 48%,#E04A9A 100%);
+  --display:'Bricolage Grotesque',sans-serif; --serif:'Instrument Serif',serif; --body:'Geist',sans-serif; --mono:'Geist Mono',monospace;
+  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .6 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#000;display:flex;flex-direction:column;align-items:center;gap:40px;padding:40px 0;-webkit-font-smoothing:antialiased}
+.slide{width:1080px;height:1350px;position:relative;overflow:hidden;background:var(--void);color:var(--bone);font-family:var(--body);padding:88px 92px 80px;display:flex;flex-direction:column}
+.slide::before{content:"";position:absolute;inset:0;background-image:radial-gradient(rgba(242,239,232,.11) 1.3px,transparent 1.8px);background-size:36px 36px;-webkit-mask-image:radial-gradient(120% 90% at 50% 40%,#000 30%,transparent 85%);mask-image:radial-gradient(120% 90% at 50% 40%,#000 30%,transparent 85%);pointer-events:none}
+.slide::after{content:"";position:absolute;inset:0;background-image:var(--grain);opacity:.06;pointer-events:none}
+.glow{position:absolute;border-radius:50%;pointer-events:none}
+.g-v{background:radial-gradient(circle,rgba(123,92,255,.50),transparent 62%)}
+.g-b{background:radial-gradient(circle,rgba(61,139,255,.38),transparent 62%)}
+.g-m{background:radial-gradient(circle,rgba(224,74,154,.34),transparent 62%)}
+.top{position:relative;z-index:2;display:flex;justify-content:space-between;align-items:center}
+.top img{height:84px}
+.spec{display:inline-flex;gap:14px;align-items:center;font-family:var(--mono);font-weight:500;font-size:22px;letter-spacing:.12em;text-transform:uppercase;color:var(--mist);border:1.5px solid var(--line);border-radius:999px;padding:12px 22px;background:rgba(8,7,14,.4)}
+.spec i{width:11px;height:11px;border-radius:50%;background:var(--amber);box-shadow:0 0 16px var(--amber)}
+.body{position:relative;z-index:2;flex:1;display:flex;flex-direction:column;justify-content:center}
+.kicker{font-family:var(--mono);font-weight:500;font-size:24px;letter-spacing:.14em;text-transform:uppercase;color:var(--violet)}
+h1{font-family:var(--display);font-weight:800;font-size:122px;line-height:.9;letter-spacing:-.045em;margin-top:30px;font-variation-settings:"opsz" 96}
+h2{font-family:var(--display);font-weight:800;font-size:84px;line-height:.94;letter-spacing:-.04em;margin-top:24px;font-variation-settings:"opsz" 96}
+.it{font-family:var(--serif);font-style:italic;font-weight:400;letter-spacing:-.01em;font-size:1.08em}
+.au{background:var(--aurora);-webkit-background-clip:text;background-clip:text;color:transparent;padding-right:.06em}
+.sub{font-size:36px;line-height:1.4;color:var(--mist);margin-top:40px;max-width:840px}
+.sub b{color:var(--bone);font-weight:600}
+/* footer track */
+.foot{position:relative;z-index:2;margin-top:auto;padding-top:40px}
+.track{display:flex;align-items:flex-end;height:60px}
+.track .seg{flex:1;height:2px;background:rgba(242,239,232,.16)}
+.track .seg.done{background:var(--aurora)}
+.track .n{width:14px;height:14px;border-radius:50%;border:2px solid rgba(242,239,232,.35);background:var(--void);flex:0 0 auto}
+.track .n.done{border-color:var(--violet);background:var(--violet)}
+.track .n.on{width:22px;height:22px;border:0;background:var(--amber);box-shadow:0 0 0 8px rgba(255,178,62,.18),0 0 24px var(--amber)}
+.meta{display:flex;justify-content:space-between;margin-top:22px;font-family:var(--mono);font-size:22px;letter-spacing:.1em;text-transform:uppercase;color:var(--mist)}
+.meta b{color:var(--bone);font-weight:500}
+/* list */
+.items{margin-top:60px;display:flex;flex-direction:column;gap:20px}
+.item{display:grid;grid-template-columns:70px 1fr;gap:26px;align-items:center;background:linear-gradient(180deg,rgba(242,239,232,.045),rgba(242,239,232,.02));border:1.5px solid var(--line);border-radius:28px;padding:30px 34px;font-size:34px;line-height:1.32}
+.item b{font-weight:600}
+.item .no{font-family:var(--serif);font-style:italic;font-size:64px;line-height:1;color:#B4A3FF}
+/* pillars */
+.pills{margin-top:46px;display:flex;flex-direction:column;gap:18px}
+.pill{display:grid;grid-template-columns:150px 1fr;gap:24px;background:var(--graphite);border:1.5px solid var(--line);border-radius:28px;padding:34px 36px;align-items:start}
+.pill .k{font-family:var(--mono);font-size:20px;letter-spacing:.12em;color:var(--blue);text-transform:uppercase;padding-top:10px}
+.pill h3{font-family:var(--display);font-weight:700;font-size:44px;letter-spacing:-.03em;line-height:1}
+.pill p{font-size:29px;line-height:1.4;color:var(--mist);margin-top:12px}
+/* modules */
+.mods{margin-top:44px;border-top:1.5px solid var(--line)}
+.mod{display:grid;grid-template-columns:86px 1fr;align-items:baseline;padding:22px 0;border-bottom:1.5px solid var(--line);font-size:36px;line-height:1.25;font-weight:500}
+.mod span{font-family:var(--mono);font-weight:500;font-size:26px;color:var(--violet)}
+/* number */
+.big{font-family:var(--display);font-weight:800;font-size:420px;line-height:.82;letter-spacing:-.07em;margin-top:20px;font-variation-settings:"opsz" 96}
+/* check */
+.chks{margin-top:46px;display:flex;flex-direction:column}
+.chk{display:grid;grid-template-columns:64px 1fr;gap:24px;align-items:start;font-size:37px;line-height:1.3;padding:26px 0;border-bottom:1.5px solid var(--line)}
+.chk .c{width:52px;height:52px;border-radius:50%;border:2px solid var(--violet);display:flex;align-items:center;justify-content:center;margin-top:-2px}
+.chk .c svg{width:26px;height:26px;stroke:#C8BCFF;fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+/* offer */
+.l-offer{background:var(--bone);color:var(--void-ink)}
+.l-offer::before{background-image:radial-gradient(rgba(14,12,23,.10) 1.3px,transparent 1.8px)}
+.l-offer::after{opacity:.05;filter:invert(1)}
+.l-offer .spec{color:#4B4766;border-color:#D9D4E6;background:transparent}
+.l-offer .kicker{color:var(--violet)}
+.price-wrap{margin-top:40px;display:flex;align-items:flex-end;gap:28px;flex-wrap:wrap}
+.price{font-family:var(--display);font-weight:800;font-size:200px;line-height:.82;letter-spacing:-.06em}
+.price small{font-size:.38em;letter-spacing:-.02em;margin-left:8px}
+.old{font-family:var(--mono);font-size:30px;color:#6E6990;text-decoration:line-through;margin-bottom:22px}
+.save{display:inline-block;margin-top:30px;font-family:var(--mono);font-weight:500;font-size:24px;letter-spacing:.08em;text-transform:uppercase;background:var(--void-ink);color:var(--amber);border-radius:12px;padding:12px 18px}
+.facts{margin-top:34px;display:grid;grid-template-columns:1fr 1fr;border:1.5px solid #D9D4E6;border-radius:24px;overflow:hidden}
+.facts div{padding:24px 28px;border-right:1.5px solid #D9D4E6}.facts div:last-child{border-right:0}
+.facts span{display:block;font-family:var(--mono);font-size:19px;letter-spacing:.12em;text-transform:uppercase;color:#6E6990}
+.facts b{display:block;font-family:var(--display);font-weight:700;font-size:38px;letter-spacing:-.025em;margin-top:6px}
+.cta{margin-top:40px;display:inline-flex;align-self:flex-start;align-items:center;gap:22px;background:var(--amber);color:var(--void-ink);font-family:var(--body);font-weight:700;font-size:38px;padding:26px 30px 26px 42px;border-radius:999px}
+.cta .ar{width:58px;height:58px;border-radius:50%;background:var(--void-ink);color:var(--amber);display:flex;align-items:center;justify-content:center;font-size:30px}
+.l-offer .track .seg{background:#D9D4E6}.l-offer .track .seg.done{background:var(--aurora)}
+.l-offer .meta{color:#6E6990}.l-offer .meta b{color:var(--void-ink)}
+</style>
+</head>
+<body>
+
+<!-- 01 COVER -->
+<section class="slide l-cover" data-step="1">
+  <div class="glow g-v" style="width:1100px;height:1100px;right:-420px;top:-420px"></div>
+  <div class="glow g-b" style="width:800px;height:800px;left:-360px;bottom:-260px"></div>
+  <div class="glow g-m" style="width:600px;height:600px;right:-160px;bottom:-120px"></div>
+  <div class="top"><img src="../../brand/logo/ai-evolution-polska-logo.png" alt=""><span class="spec"><i></i>Kurs PRO · grudzień</span></div>
+  <div class="body">
+    <div class="kicker">Nowy kurs AI Evolution Polska</div>
+    <h1>Przestań tylko pisać z AI. Zacznij <span class="it au">budować.</span></h1>
+    <p class="sub">Własne <b>agenty, automatyzacje, strony i dashboardy</b>. Krok po kroku, po polsku.</p>
+  </div>
+</section>
+
+<!-- 02 PROBLEM -->
+<section class="slide l-list" data-step="2">
+  <div class="glow g-m" style="width:900px;height:900px;right:-420px;top:-320px"></div>
+  <div class="top"><img src="../../brand/logo/ai-evolution-polska-logo.png" alt=""><span class="spec">Znasz to?</span></div>
+  <div class="body">
+    <div class="kicker">Problem</div>
+    <h2>Umiesz pisać prompty. <span class="it au">I&nbsp;co dalej?</span></h2>
+    <div class="items">
+      <div class="item"><div class="no">1</div><div>Czat odpowiada, ale <b>nie wykonuje pracy</b> za Ciebie.</div></div>
+      <div class="item"><div class="no">2</div><div>Najlepsze materiały o agentach są <b>po angielsku</b>.</div></div>
+      <div class="item"><div class="no">3</div><div>Nie wiesz, jak połączyć narzędzia w <b>działający proces</b>.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 03 PILLARS -->
+<section class="slide l-pillars" data-step="3">
+  <div class="glow g-b" style="width:900px;height:900px;left:-420px;top:-360px"></div>
+  <div class="top"><img src="../../brand/logo/ai-evolution-polska-logo.png" alt=""><span class="spec">Rozwiązanie</span></div>
+  <div class="body">
+    <div class="kicker">Kurs Premium PRO</div>
+    <h2>Od czatu do <span class="it au">własnych</span> rozwiązań</h2>
+    <div class="pills">
+      <div class="pill"><div class="k">01 · Twórca</div><div><h3>Budujesz z Codexem</h3><p>Automatyzacje, dashboardy, aplikacje i strony. Git i GitHub w praktyce.</p></div></div>
+      <div class="pill"><div class="k">02 · System</div><div><h3>Łączysz narzędzia</h3><p>Open source, Hugging Face, modele lokalne. API, MCP i Skille.</p></div></div>
+      <div class="pill"><div class="k">03 · Agent</div><div><h3>Masz swojego agenta</h3><p>Z pamięcią i narzędziami. Plus rozwiązania, które możesz sprzedawać.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 04 MODULES 1 -->
+<section class="slide l-modules" data-step="4">
+  <div class="glow g-v" style="width:900px;height:900px;right:-460px;bottom:-300px"></div>
+  <div class="top"><img src="../../brand/logo/ai-evolution-polska-logo.png" alt=""><span class="spec">Program · 1/2</span></div>
+  <div class="body">
+    <div class="kicker">14 modułów praktyki</div>
+    <h2>Od pracy z AI do <span class="it au">agenta</span></h2>
+    <div class="mods">
+      <div class="mod"><span>01</span>Zaawansowana praca z ChatGPT i Codex</div>
+      <div class="mod"><span>02</span>Tworzenie własnych stron</div>
+      <div class="mod"><span>03</span>Dashboardy i narzędzia biznesowe</div>
+      <div class="mod"><span>04</span>Automatyzacja powtarzalnej pracy</div>
+      <div class="mod"><span>05</span>Hermes Agent: asystent z pamięcią</div>
+      <div class="mod"><span>06</span>Agenci głosowi i obsługa rozmów</div>
+      <div class="mod"><span>07</span>Bazy wiedzy na danych firmy</div>
+    </div>
+  </div>
+</section>
+
+<!-- 05 MODULES 2 -->
+<section class="slide l-modules" data-step="5">
+  <div class="glow g-m" style="width:900px;height:900px;left:-460px;bottom:-300px"></div>
+  <div class="top"><img src="../../brand/logo/ai-evolution-polska-logo.png" alt=""><span class="spec">Program · 2/2</span></div>
+  <div class="body">
+    <div class="kicker">I poziom wyżej</div>
+    <h2>Od agenta do <span class="it au">biznesu</span></h2>
+    <div class="mods">
+      <div class="mod"><span>08</span>AI w sprzedaży i pozyskiwaniu leadów</div>
+      <div class="mod"><span>09</span>GitHub i zarządzanie projektami</div>
+      <div class="mod"><span>10</span>API, MCP i Skills w praktyce</div>
+      <div class="mod"><span>11</span>Open Source AI i własne modele</div>
+      <div class="mod"><span>12</span>SEO i GEO pod wyszukiwarki AI</div>
+      <div class="mod"><span>13</span>Awatary, wideo i kontent z AI</div>
+      <div class="mod"><span>14</span>Zarabianie na umiejętnościach AI</div>
+    </div>
+  </div>
+</section>
+
+<!-- 06 NUMBER -->
+<section class="slide l-number" data-step="6">
+  <div class="glow g-v" style="width:1200px;height:1200px;left:-80px;top:80px"></div>
+  <div class="glow g-b" style="width:700px;height:700px;right:-260px;top:-240px"></div>
+  <div class="top"><img src="../../brand/logo/ai-evolution-polska-logo.png" alt=""><span class="spec"><i></i>Bonus</span></div>
+  <div class="body">
+    <div class="kicker">Skills Pack w cenie kursu</div>
+    <div class="big au">300</div>
+    <h2 style="margin-top:34px">skilli dla Twojego <span class="it">agenta</span></h2>
+    <p class="sub" style="margin-top:28px">Gotowe instrukcje, które od razu rozszerzają możliwości Twojego agenta AI.</p>
+  </div>
+</section>
+
+<!-- 07 CHECK -->
+<section class="slide l-check" data-step="7">
+  <div class="glow g-b" style="width:900px;height:900px;right:-420px;top:-320px"></div>
+  <div class="top"><img src="../../brand/logo/ai-evolution-polska-logo.png" alt=""><span class="spec">Dla kogo</span></div>
+  <div class="body">
+    <div class="kicker">Sprawdź się</div>
+    <h2>To kurs <span class="it au">dla Ciebie</span>, jeśli:</h2>
+    <div class="chks">
+      <div class="chk"><div class="c"><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg></div><div>korzystasz już z ChatGPT i chcesz więcej niż odpowiedzi w oknie czatu</div></div>
+      <div class="chk"><div class="c"><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg></div><div>chcesz zbudować własnego agenta, stronę lub automatyzację</div></div>
+      <div class="chk"><div class="c"><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg></div><div>myślisz o zarabianiu na umiejętnościach AI</div></div>
+      <div class="chk" style="border-bottom:0"><div class="c"><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg></div><div>wolisz uczyć się po polsku, na praktycznych przykładach</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 08 OFFER -->
+<section class="slide l-offer" data-step="8">
+  <div class="glow g-v" style="width:900px;height:900px;right:-480px;top:-420px;opacity:.6"></div>
+  <div class="top"><img src="../../brand/logo/ai-evolution-polska-logo.png" alt=""><span class="spec">Oferta limitowana</span></div>
+  <div class="body">
+    <div class="kicker">Cena dla zapisanych teraz</div>
+    <div class="price-wrap"><div class="price">1<span style="display:inline-block;width:.2em"></span>499<small>zł</small></div><div class="old">1 999 zł</div></div>
+    <span class="save" style="align-self:flex-start">−25% przy zapisie na listę</span>
+    <div class="facts">
+      <div><span>Zapis</span><b>Tylko e-mail, <em class="it" style="color:var(--violet)">bez</em> płatności</b></div>
+      <div><span>Start kursu</span><b>Grudzień 2026</b></div>
+    </div>
+    <div class="cta">Zapisz się: link w bio <span class="ar">→</span></div>
+  </div>
+</section>
+
+<script>
+// Ścieżka ewolucji: pasek postępu + meta w stopce każdego slajdu
+const slides=[...document.querySelectorAll('.slide')], total=slides.length;
+slides.forEach(s=>{
+  const step=+s.dataset.step, last=step===total;
+  let t='';
+  for(let i=1;i<=total;i++){
+    const cls=i<step?'done':(i===step?'on':'');
+    t+=`<span class="n ${cls}"></span>`;
+    if(i<total) t+=`<span class="seg ${i<step?'done':''}"></span>`;
+  }
+  const foot=document.createElement('div'); foot.className='foot';
+  foot.innerHTML=`<div class="track">${t}</div><div class="meta"><span><b>${last?'aievolutionpolska.pl/kursy':'@aievolutionpolska'}</b></span><span>${String(step).padStart(2,'0')} / ${String(total).padStart(2,'0')}${last?'':' · Przesuń →'}</span></div>`;
+  s.appendChild(foot);
+});
+</script>
+</body>
+</html>

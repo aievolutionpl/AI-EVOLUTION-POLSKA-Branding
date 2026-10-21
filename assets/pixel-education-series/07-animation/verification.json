@@ -1,0 +1,62 @@
+{
+  "fps": 12,
+  "duration_seconds": 6,
+  "frames_per_video": 72,
+  "robot": {
+    "count": 24,
+    "unique_frames": 24,
+    "no_clipped_alpha": true,
+    "rgba_transparency": true,
+    "frame_size": [
+      768,
+      768
+    ]
+  },
+  "human": {
+    "count": 24,
+    "unique_frames": 13,
+    "no_clipped_alpha": true,
+    "rgba_transparency": true,
+    "frame_size": [
+      512,
+      768
+    ]
+  },
+  "videos": {
+    "landscape": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "avg_frame_rate": "12/1",
+          "nb_frames": "72"
+        }
+      ],
+      "format": {
+        "duration": "6.000000"
+      }
+    },
+    "portrait": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1080,
+          "height": 1920,
+          "avg_frame_rate": "12/1",
+          "nb_frames": "72"
+        }
+      ],
+      "format": {
+        "duration": "6.000000"
+      }
+    }
+  },
+  "audio": "silent motion proof",
+  "motion": "AIROBOT arm wave + LED blink + head tilt; Chris subtle head idle",
+  "engine": "deterministic Pillow cutout compositing + FFmpeg"
+}

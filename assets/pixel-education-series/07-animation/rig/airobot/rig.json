@@ -1,0 +1,70 @@
+{
+  "canvas": [
+    768,
+    768
+  ],
+  "padding": [
+    128,
+    128
+  ],
+  "source": "02-characters/airobot/airobot_master.png",
+  "source_working_size": [
+    512,
+    512
+  ],
+  "arm_polygon": [
+    [
+      332,
+      264
+    ],
+    [
+      368,
+      264
+    ],
+    [
+      388,
+      306
+    ],
+    [
+      418,
+      352
+    ],
+    [
+      428,
+      392
+    ],
+    [
+      416,
+      434
+    ],
+    [
+      376,
+      444
+    ],
+    [
+      342,
+      430
+    ],
+    [
+      336,
+      388
+    ],
+    [
+      342,
+      350
+    ],
+    [
+      332,
+      316
+    ]
+  ],
+  "arm_pivot": [
+    476,
+    418
+  ],
+  "head_pivot": [
+    384,
+    386
+  ],
+  "note": "Simple 2D cutout rig; no 3D skeleton, lip sync or inferred walk cycle."
+}

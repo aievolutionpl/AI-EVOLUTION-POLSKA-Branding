@@ -1,0 +1,2773 @@
+{
+  "pack": "AIEP Pixel Animation Assets",
+  "version": "1.0.0",
+  "created": "2026-10-21",
+  "style": {
+    "id": "03-32-bit-detail",
+    "selected_by_user": true,
+    "pixel_scale_default": 4,
+    "palette": {
+      "void": "#08070E",
+      "graphite": "#12111C",
+      "bone": "#F2EFE8",
+      "violet": "#7B5CFF",
+      "blue": "#3D8BFF",
+      "magenta": "#E04A9A"
+    }
+  },
+  "characters": [
+    "chris",
+    "matt",
+    "marcin",
+    "ivvan",
+    "jarek",
+    "jarvis",
+    "airobot"
+  ],
+  "branding": {
+    "source": "00-references/brand/official-logo.png",
+    "source_sha256": "aa74a6cac90c16c84133d042e1c298548aee46ee0b91f4b1a1674fd82a297bcc",
+    "master_chest_logos": "composited from actual official source, no generative spelling",
+    "minimum_recommended_human_height_px": 720,
+    "small_sprite_note": "Full logo text cannot remain readable at every miniature scale. Use master or a separate logo overlay for small characters."
+  },
+  "rendering": {
+    "scale_filter": "nearest",
+    "coordinate_origin": "top-left",
+    "pivot_convention": "bottom center on alpha silhouette",
+    "transparent_png_alpha": "binary 0/255 for crisp silhouettes"
+  },
+  "limitations": [
+    "Side/back views inferred where photographs do not show them.",
+    "Reference sheets are design guides, not temporally registered motion frames.",
+    "Animation is a simple local 2D cutout proof, not a full facial/lip-sync rig."
+  ],
+  "assets": [
+    {
+      "id": "chris_master",
+      "type": "character-master",
+      "file": "02-characters/chris/chris_master.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        216,
+        43,
+        818,
+        1512
+      ],
+      "sha256": "58b628809dc3eaeb4fa0240945c87e95d206a55f469e0f7b6631329d83c8822d",
+      "character": "chris",
+      "style": "03-32-bit-detail",
+      "pivot": [
+        512,
+        1512
+      ],
+      "pose": "front-neutral",
+      "identity_reference": "00-references/team/chris.webp",
+      "logo": "source-composited-official"
+    },
+    {
+      "id": "chris_sprite",
+      "type": "character-native-sprite",
+      "file": "02-characters/chris/chris_sprite.png",
+      "width": 256,
+      "height": 384,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        54,
+        11,
+        204,
+        378
+      ],
+      "sha256": "e6e33470c74640cefcf163273f74f5232c7a04532b22e1261df9775eda7a0cc3",
+      "character": "chris",
+      "scale_mode": "nearest",
+      "pivot": [
+        128,
+        378
+      ],
+      "note": "Use master for full three-line chest-logo legibility; native sprite prioritizes a coarse pixel grid."
+    },
+    {
+      "id": "chris_pixel4x",
+      "type": "character-pixel-render",
+      "file": "02-characters/chris/chris_pixel4x.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        216,
+        44,
+        816,
+        1512
+      ],
+      "sha256": "afbb0e0d6876a4f6a9e5fb0d45d7293132e6fef2021819d95b539382171cf3df",
+      "character": "chris",
+      "source": "02-characters/chris/chris_sprite.png",
+      "pixel_scale": 4
+    },
+    {
+      "id": "chris_portrait",
+      "type": "character-portrait",
+      "file": "02-characters/chris/chris_portrait.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        66,
+        32,
+        446,
+        496
+      ],
+      "sha256": "48179b80f23ece9644afb46d835c44ea3f657c083dd7b4f3b6d78ae95afcb5f1",
+      "character": "chris"
+    },
+    {
+      "id": "chris",
+      "type": "logo-proof",
+      "file": "08-preview/logo-details/chris.png",
+      "width": 600,
+      "height": 600,
+      "mode": "RGBA",
+      "has_transparency": false,
+      "alpha_bounds": [
+        0,
+        0,
+        600,
+        600
+      ],
+      "sha256": "c6fe98af5eb96aedf2a28784667b09c0afc3580ef4e439b6212a1ea71a496242",
+      "character": "chris"
+    },
+    {
+      "id": "chris_turnaround",
+      "type": "character-reference-sheet",
+      "file": "03-reference-sheets/chris_turnaround.png",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null,
+      "sha256": "92a9b3b8d8e07d788284ac302b62156c0d6a5f727e5fccb1fa956a8b51c0f626",
+      "character": "chris",
+      "views": [
+        "front",
+        "three-quarter-present",
+        "side",
+        "back"
+      ],
+      "note": "Generated design guidance, not registered animation frames; unphotographed sides/back are inferred."
+    },
+    {
+      "id": "matt_master",
+      "type": "character-master",
+      "file": "02-characters/matt/matt_master.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        211,
+        43,
+        829,
+        1516
+      ],
+      "sha256": "1f84056d4c0d40a9699203720836b716c95f24f01b9a08e95890e8bacfc5719d",
+      "character": "matt",
+      "style": "03-32-bit-detail",
+      "pivot": [
+        512,
+        1516
+      ],
+      "pose": "front-neutral",
+      "identity_reference": "00-references/team/matt.webp",
+      "logo": "source-composited-official"
+    },
+    {
+      "id": "matt_sprite",
+      "type": "character-native-sprite",
+      "file": "02-characters/matt/matt_sprite.png",
+      "width": 256,
+      "height": 384,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        53,
+        11,
+        207,
+        379
+      ],
+      "sha256": "93bae0b7707e74543d4a41e17918295b66795dc329558e2d64adf17790d00fbc",
+      "character": "matt",
+      "scale_mode": "nearest",
+      "pivot": [
+        128,
+        379
+      ],
+      "note": "Use master for full three-line chest-logo legibility; native sprite prioritizes a coarse pixel grid."
+    },
+    {
+      "id": "matt_pixel4x",
+      "type": "character-pixel-render",
+      "file": "02-characters/matt/matt_pixel4x.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        212,
+        44,
+        828,
+        1516
+      ],
+      "sha256": "a0afefff5718915e1df6e95299ebe344f4d491bb83aaa0e59a6c7659c3c1bb91",
+      "character": "matt",
+      "source": "02-characters/matt/matt_sprite.png",
+      "pixel_scale": 4
+    },
+    {
+      "id": "matt_portrait",
+      "type": "character-portrait",
+      "file": "02-characters/matt/matt_portrait.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        74,
+        33,
+        457,
+        496
+      ],
+      "sha256": "07716d027f486fc028d545563b3b6a726b19a43fdcd9d169045f3c9bc151905d",
+      "character": "matt"
+    },
+    {
+      "id": "matt",
+      "type": "logo-proof",
+      "file": "08-preview/logo-details/matt.png",
+      "width": 600,
+      "height": 600,
+      "mode": "RGBA",
+      "has_transparency": false,
+      "alpha_bounds": [
+        0,
+        0,
+        600,
+        600
+      ],
+      "sha256": "73b05084426ee6874e4e54a02529d51eaf613dec13794c18b1f4ec3fa16efdbb",
+      "character": "matt"
+    },
+    {
+      "id": "matt_turnaround",
+      "type": "character-reference-sheet",
+      "file": "03-reference-sheets/matt_turnaround.png",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null,
+      "sha256": "6a9db4820b6ac5177f2c5740662b502caf5d1b6ecc71a8c658bed2d36186de62",
+      "character": "matt",
+      "views": [
+        "front",
+        "three-quarter-present",
+        "side",
+        "back"
+      ],
+      "note": "Generated design guidance, not registered animation frames; unphotographed sides/back are inferred."
+    },
+    {
+      "id": "marcin_master",
+      "type": "character-master",
+      "file": "02-characters/marcin/marcin_master.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        212,
+        39,
+        821,
+        1518
+      ],
+      "sha256": "8343840c0e2256cbf6f43600608befee63bfc21f6c94cab2a1333c4f075b48bf",
+      "character": "marcin",
+      "style": "03-32-bit-detail",
+      "pivot": [
+        512,
+        1518
+      ],
+      "pose": "front-neutral",
+      "identity_reference": "00-references/team/marcin.webp",
+      "logo": "source-composited-official"
+    },
+    {
+      "id": "marcin_sprite",
+      "type": "character-native-sprite",
+      "file": "02-characters/marcin/marcin_sprite.png",
+      "width": 256,
+      "height": 384,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        53,
+        10,
+        205,
+        379
+      ],
+      "sha256": "4b3ec50889d40ba57e9fefda2c295925ae839a2adb6734124b9653a47511d372",
+      "character": "marcin",
+      "scale_mode": "nearest",
+      "pivot": [
+        128,
+        379
+      ],
+      "note": "Use master for full three-line chest-logo legibility; native sprite prioritizes a coarse pixel grid."
+    },
+    {
+      "id": "marcin_pixel4x",
+      "type": "character-pixel-render",
+      "file": "02-characters/marcin/marcin_pixel4x.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        212,
+        40,
+        820,
+        1516
+      ],
+      "sha256": "9fed39f74b44384b9595e8695d09dd3ff78c583f326c5f00a84d43ac14938514",
+      "character": "marcin",
+      "source": "02-characters/marcin/marcin_sprite.png",
+      "pixel_scale": 4
+    },
+    {
+      "id": "marcin_portrait",
+      "type": "character-portrait",
+      "file": "02-characters/marcin/marcin_portrait.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        21,
+        47,
+        496,
+        482
+      ],
+      "sha256": "ce5808a440d5bb6252a332e1cd75bd71c77eb45922bd4d47c580997b305d13db",
+      "character": "marcin"
+    },
+    {
+      "id": "marcin",
+      "type": "logo-proof",
+      "file": "08-preview/logo-details/marcin.png",
+      "width": 600,
+      "height": 600,
+      "mode": "RGBA",
+      "has_transparency": false,
+      "alpha_bounds": [
+        0,
+        0,
+        600,
+        600
+      ],
+      "sha256": "f89f9ac6cb1ee202134329f751f10e6fd0c5cea94f0e34bc392c7306c773de96",
+      "character": "marcin"
+    },
+    {
+      "id": "marcin_turnaround",
+      "type": "character-reference-sheet",
+      "file": "03-reference-sheets/marcin_turnaround.png",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null,
+      "sha256": "752ed11d24d894f94e35fb492f6a31554d9d283b1b6ac151a7148c7573acf439",
+      "character": "marcin",
+      "views": [
+        "front",
+        "three-quarter-present",
+        "side",
+        "back"
+      ],
+      "note": "Generated design guidance, not registered animation frames; unphotographed sides/back are inferred."
+    },
+    {
+      "id": "ivvan_master",
+      "type": "character-master",
+      "file": "02-characters/ivvan/ivvan_master.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        200,
+        55,
+        825,
+        1511
+      ],
+      "sha256": "7d97fd62259c7d82f97c632ad5f85bb86eeca8cbddf7128e31f2d2f6335a2a5c",
+      "character": "ivvan",
+      "style": "03-32-bit-detail",
+      "pivot": [
+        512,
+        1511
+      ],
+      "pose": "front-neutral",
+      "identity_reference": "00-references/team/ivvan.webp",
+      "logo": "source-composited-official"
+    },
+    {
+      "id": "ivvan_sprite",
+      "type": "character-native-sprite",
+      "file": "02-characters/ivvan/ivvan_sprite.png",
+      "width": 256,
+      "height": 384,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        50,
+        14,
+        206,
+        378
+      ],
+      "sha256": "d0ef2d28b1a2a9a99c89f5524ee711def6e755190eaf9bac4a9093137af5276b",
+      "character": "ivvan",
+      "scale_mode": "nearest",
+      "pivot": [
+        128,
+        378
+      ],
+      "note": "Use master for full three-line chest-logo legibility; native sprite prioritizes a coarse pixel grid."
+    },
+    {
+      "id": "ivvan_pixel4x",
+      "type": "character-pixel-render",
+      "file": "02-characters/ivvan/ivvan_pixel4x.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        200,
+        56,
+        824,
+        1512
+      ],
+      "sha256": "c5251b35835b60a8202625f790894db178c9bbe381c278317b41d45f4eaf95ab",
+      "character": "ivvan",
+      "source": "02-characters/ivvan/ivvan_sprite.png",
+      "pixel_scale": 4
+    },
+    {
+      "id": "ivvan_portrait",
+      "type": "character-portrait",
+      "file": "02-characters/ivvan/ivvan_portrait.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        60,
+        48,
+        453,
+        496
+      ],
+      "sha256": "818d56db9953496c1a1714b251b7285fc414038b3ec06362259ecd4cb7d10b87",
+      "character": "ivvan"
+    },
+    {
+      "id": "ivvan",
+      "type": "logo-proof",
+      "file": "08-preview/logo-details/ivvan.png",
+      "width": 600,
+      "height": 600,
+      "mode": "RGBA",
+      "has_transparency": false,
+      "alpha_bounds": [
+        0,
+        0,
+        600,
+        600
+      ],
+      "sha256": "a80feb576183f2fdbb5934221d265b94d9861f9b4d7b2beff4505d07317c7a43",
+      "character": "ivvan"
+    },
+    {
+      "id": "ivvan_turnaround",
+      "type": "character-reference-sheet",
+      "file": "03-reference-sheets/ivvan_turnaround.png",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null,
+      "sha256": "42c8f4a850407f379e7b3164624cfc7734b93499c34087acb2a6882a1e543522",
+      "character": "ivvan",
+      "views": [
+        "front",
+        "three-quarter-present",
+        "side",
+        "back"
+      ],
+      "note": "Generated design guidance, not registered animation frames; unphotographed sides/back are inferred."
+    },
+    {
+      "id": "jarek_master",
+      "type": "character-master",
+      "file": "02-characters/jarek/jarek_master.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        168,
+        37,
+        868,
+        1517
+      ],
+      "sha256": "ecfafdb003cf1eab2c32d8c0a7e2012d3bfd99fafafaa21ca2466fd5b6cd603e",
+      "character": "jarek",
+      "style": "03-32-bit-detail",
+      "pivot": [
+        512,
+        1517
+      ],
+      "pose": "front-neutral",
+      "identity_reference": "00-references/team/jarek.webp",
+      "logo": "source-composited-official"
+    },
+    {
+      "id": "jarek_sprite",
+      "type": "character-native-sprite",
+      "file": "02-characters/jarek/jarek_sprite.png",
+      "width": 256,
+      "height": 384,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        42,
+        9,
+        217,
+        379
+      ],
+      "sha256": "b4df756184d412383d1d950772e579f91070df66c7ff616917e179a634c8ceb3",
+      "character": "jarek",
+      "scale_mode": "nearest",
+      "pivot": [
+        128,
+        379
+      ],
+      "note": "Use master for full three-line chest-logo legibility; native sprite prioritizes a coarse pixel grid."
+    },
+    {
+      "id": "jarek_pixel4x",
+      "type": "character-pixel-render",
+      "file": "02-characters/jarek/jarek_pixel4x.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        168,
+        36,
+        868,
+        1516
+      ],
+      "sha256": "5b4494d78b714d1abe7aa2feb7c9a6a04e75d64636137dfcd508940f05c27178",
+      "character": "jarek",
+      "source": "02-characters/jarek/jarek_sprite.png",
+      "pixel_scale": 4
+    },
+    {
+      "id": "jarek_portrait",
+      "type": "character-portrait",
+      "file": "02-characters/jarek/jarek_portrait.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        50,
+        30,
+        463,
+        496
+      ],
+      "sha256": "0d45f78aac776f0492660d5a2d8a18212a27805701e03691c5f1d22de8a398bb",
+      "character": "jarek"
+    },
+    {
+      "id": "jarek",
+      "type": "logo-proof",
+      "file": "08-preview/logo-details/jarek.png",
+      "width": 600,
+      "height": 600,
+      "mode": "RGBA",
+      "has_transparency": false,
+      "alpha_bounds": [
+        0,
+        0,
+        600,
+        600
+      ],
+      "sha256": "3ee98b9df7b2e1991f3ffe83a155915a989caf1497cf3aedffbd93efeb6fb113",
+      "character": "jarek"
+    },
+    {
+      "id": "jarek_turnaround",
+      "type": "character-reference-sheet",
+      "file": "03-reference-sheets/jarek_turnaround.png",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null,
+      "sha256": "6bee37817f4e5604a8f9868da89d0b43bc8783c69647b195aa1d62442d9896ee",
+      "character": "jarek",
+      "views": [
+        "front",
+        "three-quarter-present",
+        "side",
+        "back"
+      ],
+      "note": "Generated design guidance, not registered animation frames; unphotographed sides/back are inferred."
+    },
+    {
+      "id": "jarvis_master",
+      "type": "character-master",
+      "file": "02-characters/jarvis/jarvis_master.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        206,
+        40,
+        828,
+        1515
+      ],
+      "sha256": "8320461b0190cd2c7c96dea0ba4725ecb5a68f494593ab9cea2cfe1dc5e0e8a4",
+      "character": "jarvis",
+      "style": "03-32-bit-detail",
+      "pivot": [
+        512,
+        1515
+      ],
+      "pose": "front-neutral",
+      "identity_reference": "00-references/team/jarvis.webp",
+      "logo": "none-in-original"
+    },
+    {
+      "id": "jarvis_sprite",
+      "type": "character-native-sprite",
+      "file": "02-characters/jarvis/jarvis_sprite.png",
+      "width": 256,
+      "height": 384,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        51,
+        10,
+        207,
+        379
+      ],
+      "sha256": "1ce58e25879e01edc8190cb624531be2231aacc3bdfc0865b75aa49a43b188ec",
+      "character": "jarvis",
+      "scale_mode": "nearest",
+      "pivot": [
+        128,
+        379
+      ],
+      "note": "Use master for full three-line chest-logo legibility; native sprite prioritizes a coarse pixel grid."
+    },
+    {
+      "id": "jarvis_pixel4x",
+      "type": "character-pixel-render",
+      "file": "02-characters/jarvis/jarvis_pixel4x.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        204,
+        40,
+        828,
+        1516
+      ],
+      "sha256": "eefe90286c1d289d41408c0991f58c64c1ad967efc7dd0792c3958bb42e13327",
+      "character": "jarvis",
+      "source": "02-characters/jarvis/jarvis_sprite.png",
+      "pixel_scale": 4
+    },
+    {
+      "id": "jarvis_portrait",
+      "type": "character-portrait",
+      "file": "02-characters/jarvis/jarvis_portrait.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        73,
+        38,
+        446,
+        496
+      ],
+      "sha256": "80b0bdfeea2a52a6a89b94cfc5ca07d538c0e6c57c8c479d59ee256b73e62c8b",
+      "character": "jarvis"
+    },
+    {
+      "id": "jarvis_turnaround",
+      "type": "character-reference-sheet",
+      "file": "03-reference-sheets/jarvis_turnaround.png",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null,
+      "sha256": "be8e47427b9777b7b3429cc41b61a456f7bab21fc167b1fdb5a696f374614d6b",
+      "character": "jarvis",
+      "views": [
+        "front",
+        "three-quarter-present",
+        "side",
+        "back"
+      ],
+      "note": "Generated design guidance, not registered animation frames; unphotographed sides/back are inferred."
+    },
+    {
+      "id": "airobot_master",
+      "type": "character-master",
+      "file": "02-characters/airobot/airobot_master.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        172,
+        16,
+        845,
+        1004
+      ],
+      "sha256": "40faf1c4151f4e71acd1598191232049e662c9fd9e6f38d6ad1870f294572bfe",
+      "character": "airobot",
+      "style": "03-32-bit-detail",
+      "pivot": [
+        512,
+        1004
+      ],
+      "pose": "front-neutral",
+      "identity_reference": "00-references/robot/AIROBOT_MASTER_FRONT.png",
+      "logo": "source-composited-official"
+    },
+    {
+      "id": "airobot_sprite",
+      "type": "character-native-sprite",
+      "file": "02-characters/airobot/airobot_sprite.png",
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        43,
+        4,
+        211,
+        251
+      ],
+      "sha256": "307b384259c19e59e6c13a9d3ed8410aca0295bf8a5cb777cebf239cf04c904d",
+      "character": "airobot",
+      "scale_mode": "nearest",
+      "pivot": [
+        128,
+        251
+      ],
+      "note": "Use master for full three-line chest-logo legibility; native sprite prioritizes a coarse pixel grid."
+    },
+    {
+      "id": "airobot_pixel4x",
+      "type": "character-pixel-render",
+      "file": "02-characters/airobot/airobot_pixel4x.png",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        172,
+        16,
+        844,
+        1004
+      ],
+      "sha256": "caaa50ef18c696709c1ef8162dc8355cb136fde542ce3a3860de124ae9f3fc3b",
+      "character": "airobot",
+      "source": "02-characters/airobot/airobot_sprite.png",
+      "pixel_scale": 4
+    },
+    {
+      "id": "airobot_portrait",
+      "type": "character-portrait",
+      "file": "02-characters/airobot/airobot_portrait.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        28,
+        86,
+        486,
+        433
+      ],
+      "sha256": "04276fb949adbe2b5f88ad7c34a204c230443cd3d9b7410ecbc6d48ae16566e4",
+      "character": "airobot"
+    },
+    {
+      "id": "airobot",
+      "type": "logo-proof",
+      "file": "08-preview/logo-details/airobot.png",
+      "width": 600,
+      "height": 600,
+      "mode": "RGBA",
+      "has_transparency": false,
+      "alpha_bounds": [
+        0,
+        0,
+        600,
+        600
+      ],
+      "sha256": "041d61e9dc41e111b8ad109293e9510639f177636a9b1a0cdc84c36415f43619",
+      "character": "airobot"
+    },
+    {
+      "id": "airobot_turnaround",
+      "type": "character-reference-sheet",
+      "file": "03-reference-sheets/airobot_turnaround.png",
+      "width": 1774,
+      "height": 887,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null,
+      "sha256": "7d47e799602d4c2085f2cc646d442410cd3ead67c613cecf73733d04335876c0",
+      "character": "airobot",
+      "views": [
+        "front",
+        "three-quarter-present",
+        "side",
+        "back"
+      ],
+      "note": "Generated design guidance, not registered animation frames; unphotographed sides/back are inferred."
+    },
+    {
+      "id": "logo-original",
+      "type": "brand-original",
+      "file": "04-brand/logo-original.png",
+      "width": 600,
+      "height": 469,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        93,
+        15,
+        484,
+        427
+      ],
+      "sha256": "ba70fb0317bb7445c8a8c7bdde4078e34266c5de6303d3b5c1c8180026f3734f",
+      "source": "00-references/brand/official-logo.png"
+    },
+    {
+      "id": "logo-pixel-128",
+      "type": "brand-pixel-native",
+      "file": "04-brand/logo-pixel-128.png",
+      "width": 128,
+      "height": 135,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        1,
+        1,
+        127,
+        134
+      ],
+      "sha256": "1efa9f5087e09324aabf7065fd4b8dbc5cd976e746062a74279d9e5dbdb075eb",
+      "source": "04-brand/logo-original.png",
+      "scale_mode": "nearest"
+    },
+    {
+      "id": "logo-pixel-512",
+      "type": "brand-pixel-render",
+      "file": "04-brand/logo-pixel-512.png",
+      "width": 512,
+      "height": 540,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        4,
+        4,
+        508,
+        536
+      ],
+      "sha256": "438836876420026dfb56016e721d47880b9e912e4b133a588dc404af5b53ad24",
+      "source": "04-brand/logo-pixel-128.png",
+      "pixel_scale": 4
+    },
+    {
+      "id": "logo-pixel-256",
+      "type": "brand-pixel-native",
+      "file": "04-brand/logo-pixel-256.png",
+      "width": 256,
+      "height": 270,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        1,
+        1,
+        254,
+        268
+      ],
+      "sha256": "f74b3d9ef18ac28bd30f7164385beb2a98db1970392fa6929051b2fdd275f478",
+      "source": "04-brand/logo-original.png",
+      "scale_mode": "nearest"
+    },
+    {
+      "id": "logo-pixel-1024",
+      "type": "brand-pixel-render",
+      "file": "04-brand/logo-pixel-1024.png",
+      "width": 1024,
+      "height": 1080,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        4,
+        4,
+        1016,
+        1072
+      ],
+      "sha256": "c8595c8b1dff271de7ed92ada17a8baf1d0d387247ced85233fae3d9d7f18538",
+      "source": "04-brand/logo-pixel-256.png",
+      "pixel_scale": 4
+    },
+    {
+      "id": "office_landscape",
+      "type": "background",
+      "file": "05-backgrounds/office_landscape.png",
+      "width": 1920,
+      "height": 1080,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null,
+      "sha256": "5c3d41ebfd0b2b32ef722df8ec4d312d40b53668470b741c058471f358baa915",
+      "aspect_ratio": "16:9",
+      "pixel_scale": 4,
+      "text_safe_box_normalized": [
+        0.43,
+        0.12,
+        0.88,
+        0.57
+      ],
+      "standing_baseline_normalized": 0.93,
+      "caption_safe_bottom_fraction": 0.12
+    },
+    {
+      "id": "office_portrait",
+      "type": "background",
+      "file": "05-backgrounds/office_portrait.png",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null,
+      "sha256": "324026dd013b33f41d9dc05eebed737bc3c757f7a70155454a416d2c891194a6",
+      "aspect_ratio": "9:16",
+      "pixel_scale": 4,
+      "text_safe_box_normalized": [
+        0.42,
+        0.15,
+        0.86,
+        0.45
+      ],
+      "standing_baseline_normalized": 0.93,
+      "caption_safe_bottom_fraction": 0.18
+    },
+    {
+      "id": "classroom_landscape",
+      "type": "background",
+      "file": "05-backgrounds/classroom_landscape.png",
+      "width": 1920,
+      "height": 1080,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null,
+      "sha256": "f661b81bd8b5b927daf23b1bf0eaf1df3e60e2029eea170e1708700ccaa4f04e",
+      "aspect_ratio": "16:9",
+      "pixel_scale": 4,
+      "text_safe_box_normalized": [
+        0.32,
+        0.14,
+        0.83,
+        0.48
+      ],
+      "standing_baseline_normalized": 0.93,
+      "caption_safe_bottom_fraction": 0.12
+    },
+    {
+      "id": "classroom_portrait",
+      "type": "background",
+      "file": "05-backgrounds/classroom_portrait.png",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null,
+      "sha256": "89fcfa8a505662ae05e0c033dc11dee55036cb6948262cb26bce37a7f061c978",
+      "aspect_ratio": "9:16",
+      "pixel_scale": 4,
+      "text_safe_box_normalized": [
+        0.25,
+        0.13,
+        0.83,
+        0.35
+      ],
+      "standing_baseline_normalized": 0.93,
+      "caption_safe_bottom_fraction": 0.18
+    },
+    {
+      "id": "lab_landscape",
+      "type": "background",
+      "file": "05-backgrounds/lab_landscape.png",
+      "width": 1920,
+      "height": 1080,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null,
+      "sha256": "8664fefb12385bf23abec0a57dc16b8b397a3aba92223d682c4c757e1897ac55",
+      "aspect_ratio": "16:9",
+      "pixel_scale": 4,
+      "text_safe_box_normalized": [
+        0.3,
+        0.12,
+        0.7,
+        0.45
+      ],
+      "standing_baseline_normalized": 0.93,
+      "caption_safe_bottom_fraction": 0.12
+    },
+    {
+      "id": "lab_portrait",
+      "type": "background",
+      "file": "05-backgrounds/lab_portrait.png",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null,
+      "sha256": "8fbf98779c635690d4a466626c66e07da2f3fdb439536c3c13e06cd6132bca9c",
+      "aspect_ratio": "9:16",
+      "pixel_scale": 4,
+      "text_safe_box_normalized": [
+        0.3,
+        0.16,
+        0.69,
+        0.36
+      ],
+      "standing_baseline_normalized": 0.93,
+      "caption_safe_bottom_fraction": 0.18
+    },
+    {
+      "id": "atlas",
+      "type": "prop-atlas",
+      "file": "06-props/atlas.png",
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        36,
+        37,
+        1415,
+        1030
+      ],
+      "sha256": "09430ee63205b997bd7e8100a82ca3c5069551dc7bfcee62e7b7e81b8bbfb25e",
+      "grid": [
+        4,
+        3
+      ],
+      "note": "Use separately exported props; some atlas silhouettes cross nominal cell boundaries."
+    },
+    {
+      "id": "laptop",
+      "type": "prop",
+      "file": "06-props/laptop.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        32,
+        84,
+        480,
+        428
+      ],
+      "sha256": "579cb5c2b20745756de4721e6991d2c003baff2682518ae5cd0b2b657e87ae4e",
+      "pixel_scale": 4,
+      "pivot": [
+        256,
+        480
+      ],
+      "scale_mode": "nearest"
+    },
+    {
+      "id": "whiteboard",
+      "type": "prop",
+      "file": "06-props/whiteboard.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        60,
+        32,
+        452,
+        480
+      ],
+      "sha256": "ba299d8aebc8b414a7d0e98867fa4d43be83ffbbb26269cebf23332e5c397db5",
+      "pixel_scale": 4,
+      "pivot": [
+        256,
+        480
+      ],
+      "scale_mode": "nearest"
+    },
+    {
+      "id": "desk",
+      "type": "prop",
+      "file": "06-props/desk.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        32,
+        128,
+        480,
+        388
+      ],
+      "sha256": "e91b85999410827393009cee41af62c7e8bab8f43a72c04721c8e2e5e646de7e",
+      "pixel_scale": 4,
+      "pivot": [
+        256,
+        480
+      ],
+      "scale_mode": "nearest"
+    },
+    {
+      "id": "chair",
+      "type": "prop",
+      "file": "06-props/chair.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        96,
+        32,
+        412,
+        480
+      ],
+      "sha256": "23ccd2cee308425f8bab8f4fe9deac1c89212f7e1c892d79bd40026c9b096f7a",
+      "pixel_scale": 4,
+      "pivot": [
+        256,
+        480
+      ],
+      "scale_mode": "nearest"
+    },
+    {
+      "id": "server-rack",
+      "type": "prop",
+      "file": "06-props/server-rack.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        88,
+        32,
+        428,
+        480
+      ],
+      "sha256": "5e82e955cc6464c49ffc636205cac5657dbfc3afef64b8c9610d19f824c96500",
+      "pixel_scale": 4,
+      "pivot": [
+        256,
+        480
+      ],
+      "scale_mode": "nearest"
+    },
+    {
+      "id": "books",
+      "type": "prop",
+      "file": "06-props/books.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        32,
+        88,
+        480,
+        420
+      ],
+      "sha256": "be9775256ffb90602cbb09e8e24398c3ea490586a091e801dd9665912fe05cc5",
+      "pixel_scale": 4,
+      "pivot": [
+        256,
+        480
+      ],
+      "scale_mode": "nearest"
+    },
+    {
+      "id": "plant",
+      "type": "prop",
+      "file": "06-props/plant.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        72,
+        32,
+        436,
+        480
+      ],
+      "sha256": "fb731bdca40ac838f9592295a2f4a812874e0175b03f4d5ce47aaff6851a51ca",
+      "pixel_scale": 4,
+      "pivot": [
+        256,
+        480
+      ],
+      "scale_mode": "nearest"
+    },
+    {
+      "id": "microphone",
+      "type": "prop",
+      "file": "06-props/microphone.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        104,
+        32,
+        404,
+        480
+      ],
+      "sha256": "631cefcabea71da913090b65fac015d020c045435d78ad9dcffa8820f3d33f90",
+      "pixel_scale": 4,
+      "pivot": [
+        256,
+        480
+      ],
+      "scale_mode": "nearest"
+    },
+    {
+      "id": "speech-bubble",
+      "type": "prop",
+      "file": "06-props/speech-bubble.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        32,
+        88,
+        480,
+        428
+      ],
+      "sha256": "f05b0ec5012ca3210bbc170928b66ff8dcd2f2aef10445b950e9d8a8b9927de3",
+      "pixel_scale": 4,
+      "pivot": [
+        256,
+        480
+      ],
+      "scale_mode": "nearest"
+    },
+    {
+      "id": "document",
+      "type": "prop",
+      "file": "06-props/document.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        80,
+        32,
+        428,
+        480
+      ],
+      "sha256": "8a3e15e971e7ef1e315388881b4c29454a3b7c382c7b32c4e74248260c5ab804",
+      "pixel_scale": 4,
+      "pivot": [
+        256,
+        480
+      ],
+      "scale_mode": "nearest"
+    },
+    {
+      "id": "gear",
+      "type": "prop",
+      "file": "06-props/gear.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        36,
+        32,
+        476,
+        480
+      ],
+      "sha256": "7443a28aa99295e9292825439013bdc40cdebf263a06435b9b0473cbbbb45dfd",
+      "pixel_scale": 4,
+      "pivot": [
+        256,
+        480
+      ],
+      "scale_mode": "nearest"
+    },
+    {
+      "id": "workflow",
+      "type": "prop",
+      "file": "06-props/workflow.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        32,
+        200,
+        480,
+        316
+      ],
+      "sha256": "820f5287e223eba4c4caf6967326675d9aa68b56fab71243965ed2380a225bde",
+      "pixel_scale": 4,
+      "pivot": [
+        256,
+        480
+      ],
+      "scale_mode": "nearest"
+    },
+    {
+      "id": "likeness-check",
+      "type": "quality-proof",
+      "file": "08-preview/likeness-check.png",
+      "width": 1500,
+      "height": 670,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null,
+      "sha256": "df8e497f8d36a610998b641817caaeecc75aac3312910d5e2347bd1605fe3778"
+    },
+    {
+      "id": "team-overview",
+      "type": "contact-sheet",
+      "file": "08-preview/team-overview.png",
+      "width": 1600,
+      "height": 1080,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null,
+      "sha256": "a0112230ae1e8e1faa5b6a9e2e54e8e491ba93d00764eafa8204eb62589709f0"
+    },
+    {
+      "id": "alpha-and-logo-check",
+      "type": "quality-proof",
+      "file": "08-preview/alpha-and-logo-check.png",
+      "width": 1600,
+      "height": 800,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null,
+      "sha256": "36e0eccc94da86428553a5a20affdd982b28af683f2451380a8185586792cdff"
+    },
+    {
+      "id": "07-animation_airobot-wave-spritesheet_json",
+      "file": "07-animation/airobot-wave-spritesheet.json",
+      "type": "animation",
+      "sha256": "e83a4319e439d94f8ee35ecbc23c7a76e817d3878e9d97695559acf9f743697a"
+    },
+    {
+      "id": "07-animation_airobot-wave-spritesheet_png",
+      "file": "07-animation/airobot-wave-spritesheet.png",
+      "type": "animation",
+      "sha256": "04175319a201f90777a6928c807c738adb75f0ed75d85933d0486f39125b5348",
+      "width": 6144,
+      "height": 2304,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        212,
+        136,
+        5999,
+        2166
+      ]
+    },
+    {
+      "id": "07-animation_chris-idle-spritesheet_json",
+      "file": "07-animation/chris-idle-spritesheet.json",
+      "type": "animation",
+      "sha256": "5976f5f6a8dc214214b65211d18ca855afc5edfc089a241495dd54fca4ee1402"
+    },
+    {
+      "id": "07-animation_chris-idle-spritesheet_png",
+      "file": "07-animation/chris-idle-spritesheet.png",
+      "type": "animation",
+      "sha256": "11d2eea1d08c89affb4268c0a3452c2c9645707bccc20b24a2223cd3d6bc1935",
+      "width": 4096,
+      "height": 2304,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        108,
+        21,
+        3993,
+        2292
+      ]
+    },
+    {
+      "id": "07-animation_frames_airobot_frame-00_png",
+      "file": "07-animation/frames/airobot/frame-00.png",
+      "type": "animation",
+      "sha256": "0d2fe2f2532ffb3a77e764aa375e011d93eaf4229dee76ad343d7467b7994632",
+      "width": 768,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        214,
+        136,
+        550,
+        630
+      ],
+      "character": "airobot",
+      "fps": 12,
+      "pivot": [
+        384,
+        628
+      ]
+    },
+    {
+      "id": "07-animation_frames_airobot_frame-01_png",
+      "file": "07-animation/frames/airobot/frame-01.png",
+      "type": "animation",
+      "sha256": "dc66998c57b90622095bf144ff1ae796452b94bb5f5b73093e1768dd7bdbd0f8",
+      "width": 768,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        213,
+        137,
+        550,
+        630
+      ],
+      "character": "airobot",
+      "fps": 12,
+      "pivot": [
+        384,
+        628
+      ]
+    },
+    {
+      "id": "07-animation_frames_airobot_frame-02_png",
+      "file": "07-animation/frames/airobot/frame-02.png",
+      "type": "animation",
+      "sha256": "700531b5a70b711bb844d134d5dc8ac14a57330dde9bf46c01b9bf8029cea093",
+      "width": 768,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        213,
+        137,
+        559,
+        630
+      ],
+      "character": "airobot",
+      "fps": 12,
+      "pivot": [
+        384,
+        628
+      ]
+    },
+    {
+      "id": "07-animation_frames_airobot_frame-03_png",
+      "file": "07-animation/frames/airobot/frame-03.png",
+      "type": "animation",
+      "sha256": "ab9d77a39f67d38dcef4f362edfa44dad77246863804f2fdc71319923a4df563",
+      "width": 768,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        212,
+        138,
+        570,
+        630
+      ],
+      "character": "airobot",
+      "fps": 12,
+      "pivot": [
+        384,
+        628
+      ]
+    },
+    {
+      "id": "07-animation_frames_airobot_frame-04_png",
+      "file": "07-animation/frames/airobot/frame-04.png",
+      "type": "animation",
+      "sha256": "a01311ac0cc4f6fd1d333b89a520f569bb756c8fc484ceba91fe8a1c284af3a8",
+      "width": 768,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        212,
+        138,
+        582,
+        630
+      ],
+      "character": "airobot",
+      "fps": 12,
+      "pivot": [
+        384,
+        628
+      ]
+    },
+    {
+      "id": "07-animation_frames_airobot_frame-05_png",
+      "file": "07-animation/frames/airobot/frame-05.png",
+      "type": "animation",
+      "sha256": "a56d9cc2948477df068677d2cb7b5f4008b5bf2239bf0136265cc2524a6b79d3",
+      "width": 768,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        211,
+        138,
+        595,
+        630
+      ],
+      "character": "airobot",
+      "fps": 12,
+      "pivot": [
+        384,
+        628
+      ]
+    },
+    {
+      "id": "07-animation_frames_airobot_frame-06_png",
+      "file": "07-animation/frames/airobot/frame-06.png",
+      "type": "animation",
+      "sha256": "e6ca71360f4f8d15ec234aca839aa623bb94ba11bb8115408f4b1ef700462627",
+      "width": 768,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        211,
+        138,
+        610,
+        630
+      ],
+      "character": "airobot",
+      "fps": 12,
+      "pivot": [
+        384,
+        628
+      ]
+    },
+    {
+      "id": "07-animation_frames_airobot_frame-07_png",
+      "file": "07-animation/frames/airobot/frame-07.png",
+      "type": "animation",
+      "sha256": "057d59b97edc1270fa438fb4b12d3e288d458b353bf55578dc9c69392273b1ea",
+      "width": 768,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        211,
+        138,
+        620,
+        630
+      ],
+      "character": "airobot",
+      "fps": 12,
+      "pivot": [
+        384,
+        628
+      ]
+    },
+    {
+      "id": "07-animation_frames_airobot_frame-08_png",
+      "file": "07-animation/frames/airobot/frame-08.png",
+      "type": "animation",
+      "sha256": "f9f887735763735bd6ed289292ba8aedf0ec7cd23eafc6a7e93167448fc38e66",
+      "width": 768,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        212,
+        138,
+        624,
+        630
+      ],
+      "character": "airobot",
+      "fps": 12,
+      "pivot": [
+        384,
+        628
+      ]
+    },
+    {
+      "id": "07-animation_frames_airobot_frame-09_png",
+      "file": "07-animation/frames/airobot/frame-09.png",
+      "type": "animation",
+      "sha256": "825f49c0bb1cd392c485b4cc960e11b84770b7fcb4258699178b991aed8fa1ff",
+      "width": 768,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        212,
+        138,
+        623,
+        630
+      ],
+      "character": "airobot",
+      "fps": 12,
+      "pivot": [
+        384,
+        628
+      ]
+    },
+    {
+      "id": "07-animation_frames_airobot_frame-10_png",
+      "file": "07-animation/frames/airobot/frame-10.png",
+      "type": "animation",
+      "sha256": "122ce3fb381bceddae664f5703dfe86f61af82a721336d2036c522f09313a264",
+      "width": 768,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        213,
+        137,
+        623,
+        630
+      ],
+      "character": "airobot",
+      "fps": 12,
+      "pivot": [
+        384,
+        628
+      ]
+    },
+    {
+      "id": "07-animation_frames_airobot_frame-11_png",
+      "file": "07-animation/frames/airobot/frame-11.png",
+      "type": "animation",
+      "sha256": "f24e102761e7ed6747b2cac0950007506eff683bf162253f61d61e769e4bdfc1",
+      "width": 768,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        213,
+        137,
+        624,
+        630
+      ],
+      "character": "airobot",
+      "fps": 12,
+      "pivot": [
+        384,
+        628
+      ]
+    },
+    {
+      "id": "07-animation_frames_airobot_frame-12_png",
+      "file": "07-animation/frames/airobot/frame-12.png",
+      "type": "animation",
+      "sha256": "6567dbb6f73f3b1b2d2e3a52aa62a512fffc760fa65db3f894980c29312df2f7",
+      "width": 768,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        214,
+        136,
+        624,
+        630
+      ],
+      "character": "airobot",
+      "fps": 12,
+      "pivot": [
+        384,
+        628
+      ]
+    },
+    {
+      "id": "07-animation_frames_airobot_frame-13_png",
+      "file": "07-animation/frames/airobot/frame-13.png",
+      "type": "animation",
+      "sha256": "f9e4f038fc577e53ff00718ce32e7b7885ba590c61cdb60db1d64e75837da739",
+      "width": 768,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        214,
+        135,
+        624,
+        630
+      ],
+      "character": "airobot",
+      "fps": 12,
+      "pivot": [
+        384,
+        628
+      ]
+    },
+    {
+      "id": "07-animation_frames_airobot_frame-14_png",
+      "file": "07-animation/frames/airobot/frame-14.png",
+      "type": "animation",
+      "sha256": "21f4712bf01aba05dc29d1a1cff5a0d01cd3b9891c9347e7fbf8c7f0090f4b45",
+      "width": 768,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        215,
+        135,
+        624,
+        630
+      ],
+      "character": "airobot",
+      "fps": 12,
+      "pivot": [
+        384,
+        628
+      ]
+    },
+    {
+      "id": "07-animation_frames_airobot_frame-15_png",
+      "file": "07-animation/frames/airobot/frame-15.png",
+      "type": "animation",
+      "sha256": "1f356ec17420e3b34d632830f4d70ce89a2f799514ea5db57c480031019bcb07",
+      "width": 768,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        215,
+        134,
+        623,
+        630
+      ],
+      "character": "airobot",
+      "fps": 12,
+      "pivot": [
+        384,
+        628
+      ]
+    },
+    {
+      "id": "07-animation_frames_airobot_frame-16_png",
+      "file": "07-animation/frames/airobot/frame-16.png",
+      "type": "animation",
+      "sha256": "4e25cb2f9732c6d43f6875dba786553d44aef479a7c60761b7645abb9e3dd894",
+      "width": 768,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        216,
+        134,
+        622,
+        630
+      ],
+      "character": "airobot",
+      "fps": 12,
+      "pivot": [
+        384,
+        628
+      ]
+    },
+    {
+      "id": "07-animation_frames_airobot_frame-17_png",
+      "file": "07-animation/frames/airobot/frame-17.png",
+      "type": "animation",
+      "sha256": "60555f829f09577f707024d1501dcca3eede4fb8cd4dcfad9ac6988f2a1b9547",
+      "width": 768,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        216,
+        134,
+        617,
+        630
+      ],
+      "character": "airobot",
+      "fps": 12,
+      "pivot": [
+        384,
+        628
+      ]
+    },
+    {
+      "id": "07-animation_frames_airobot_frame-18_png",
+      "file": "07-animation/frames/airobot/frame-18.png",
+      "type": "animation",
+      "sha256": "7b1f612923c161df5cc01bb7bf1084904864ba44cbb6adc16eb148ac99cc8041",
+      "width": 768,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        216,
+        134,
+        610,
+        630
+      ],
+      "character": "airobot",
+      "fps": 12,
+      "pivot": [
+        384,
+        628
+      ]
+    },
+    {
+      "id": "07-animation_frames_airobot_frame-19_png",
+      "file": "07-animation/frames/airobot/frame-19.png",
+      "type": "animation",
+      "sha256": "328fb5fd1c1a3e4d4acb475b08cc375261a9520585b576bb089eca0fbe4085c5",
+      "width": 768,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        216,
+        134,
+        599,
+        630
+      ],
+      "character": "airobot",
+      "fps": 12,
+      "pivot": [
+        384,
+        628
+      ]
+    },
+    {
+      "id": "07-animation_frames_airobot_frame-20_png",
+      "file": "07-animation/frames/airobot/frame-20.png",
+      "type": "animation",
+      "sha256": "1a9b3edff05b7e93c48a77326ee4425303979b463d11cfe7b8360ac949a07682",
+      "width": 768,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        216,
+        134,
+        586,
+        630
+      ],
+      "character": "airobot",
+      "fps": 12,
+      "pivot": [
+        384,
+        628
+      ]
+    },
+    {
+      "id": "07-animation_frames_airobot_frame-21_png",
+      "file": "07-animation/frames/airobot/frame-21.png",
+      "type": "animation",
+      "sha256": "41524cd4ca20bfffffda13b67d3c0789e4640f424aaae33dffb4f1ade820a474",
+      "width": 768,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        215,
+        134,
+        570,
+        630
+      ],
+      "character": "airobot",
+      "fps": 12,
+      "pivot": [
+        384,
+        628
+      ]
+    },
+    {
+      "id": "07-animation_frames_airobot_frame-22_png",
+      "file": "07-animation/frames/airobot/frame-22.png",
+      "type": "animation",
+      "sha256": "18f1f0e08d8b3b870224ad8ee8408daf5c0ce44658b66759e184c836620d888b",
+      "width": 768,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        215,
+        135,
+        558,
+        630
+      ],
+      "character": "airobot",
+      "fps": 12,
+      "pivot": [
+        384,
+        628
+      ]
+    },
+    {
+      "id": "07-animation_frames_airobot_frame-23_png",
+      "file": "07-animation/frames/airobot/frame-23.png",
+      "type": "animation",
+      "sha256": "2bec3ff7c73257faf9ec6d0f8438a6cf3819d4091b2579bcfb2f608ac1d2e7af",
+      "width": 768,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        214,
+        135,
+        551,
+        630
+      ],
+      "character": "airobot",
+      "fps": 12,
+      "pivot": [
+        384,
+        628
+      ]
+    },
+    {
+      "id": "07-animation_frames_chris_frame-00_png",
+      "file": "07-animation/frames/chris/frame-00.png",
+      "type": "animation",
+      "sha256": "92deca9cd8c5566960c5fa3ab9905615e1721eae74189a630c486191c8cf2483",
+      "width": 512,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        108,
+        21,
+        409,
+        756
+      ],
+      "character": "chris",
+      "fps": 12,
+      "pivot": [
+        256,
+        753
+      ]
+    },
+    {
+      "id": "07-animation_frames_chris_frame-01_png",
+      "file": "07-animation/frames/chris/frame-01.png",
+      "type": "animation",
+      "sha256": "36a063da7188fdce9aaba36c4ca97ab5eebfb7f582df29b48ee3540c41e4d157",
+      "width": 512,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        108,
+        21,
+        409,
+        756
+      ],
+      "character": "chris",
+      "fps": 12,
+      "pivot": [
+        256,
+        753
+      ]
+    },
+    {
+      "id": "07-animation_frames_chris_frame-02_png",
+      "file": "07-animation/frames/chris/frame-02.png",
+      "type": "animation",
+      "sha256": "f174f1066f4166caa36efb1888bda6e58a0b1eb1e8178843db5771d631c5d6c1",
+      "width": 512,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        108,
+        21,
+        409,
+        756
+      ],
+      "character": "chris",
+      "fps": 12,
+      "pivot": [
+        256,
+        753
+      ]
+    },
+    {
+      "id": "07-animation_frames_chris_frame-03_png",
+      "file": "07-animation/frames/chris/frame-03.png",
+      "type": "animation",
+      "sha256": "4292389e84df9994b37920df3062732c97646f3b833db307e99714d36d40e54e",
+      "width": 512,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        108,
+        21,
+        409,
+        756
+      ],
+      "character": "chris",
+      "fps": 12,
+      "pivot": [
+        256,
+        753
+      ]
+    },
+    {
+      "id": "07-animation_frames_chris_frame-04_png",
+      "file": "07-animation/frames/chris/frame-04.png",
+      "type": "animation",
+      "sha256": "27202c4315a07e479bc6f0c80eb42aa4aca5996c7021dfba8325152378e0119f",
+      "width": 512,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        108,
+        21,
+        409,
+        756
+      ],
+      "character": "chris",
+      "fps": 12,
+      "pivot": [
+        256,
+        753
+      ]
+    },
+    {
+      "id": "07-animation_frames_chris_frame-05_png",
+      "file": "07-animation/frames/chris/frame-05.png",
+      "type": "animation",
+      "sha256": "15b84b50383e2acb63f018da5a46adce927634d55b9697176c4bd7bf4b72be17",
+      "width": 512,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        108,
+        21,
+        409,
+        756
+      ],
+      "character": "chris",
+      "fps": 12,
+      "pivot": [
+        256,
+        753
+      ]
+    },
+    {
+      "id": "07-animation_frames_chris_frame-06_png",
+      "file": "07-animation/frames/chris/frame-06.png",
+      "type": "animation",
+      "sha256": "ed1b1f2cd0f4ad187a783ffe545d19edc0d39e83aafb16d4cb0ccbfa6a902b49",
+      "width": 512,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        108,
+        21,
+        409,
+        756
+      ],
+      "character": "chris",
+      "fps": 12,
+      "pivot": [
+        256,
+        753
+      ]
+    },
+    {
+      "id": "07-animation_frames_chris_frame-07_png",
+      "file": "07-animation/frames/chris/frame-07.png",
+      "type": "animation",
+      "sha256": "15b84b50383e2acb63f018da5a46adce927634d55b9697176c4bd7bf4b72be17",
+      "width": 512,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        108,
+        21,
+        409,
+        756
+      ],
+      "character": "chris",
+      "fps": 12,
+      "pivot": [
+        256,
+        753
+      ]
+    },
+    {
+      "id": "07-animation_frames_chris_frame-08_png",
+      "file": "07-animation/frames/chris/frame-08.png",
+      "type": "animation",
+      "sha256": "27202c4315a07e479bc6f0c80eb42aa4aca5996c7021dfba8325152378e0119f",
+      "width": 512,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        108,
+        21,
+        409,
+        756
+      ],
+      "character": "chris",
+      "fps": 12,
+      "pivot": [
+        256,
+        753
+      ]
+    },
+    {
+      "id": "07-animation_frames_chris_frame-09_png",
+      "file": "07-animation/frames/chris/frame-09.png",
+      "type": "animation",
+      "sha256": "4292389e84df9994b37920df3062732c97646f3b833db307e99714d36d40e54e",
+      "width": 512,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        108,
+        21,
+        409,
+        756
+      ],
+      "character": "chris",
+      "fps": 12,
+      "pivot": [
+        256,
+        753
+      ]
+    },
+    {
+      "id": "07-animation_frames_chris_frame-10_png",
+      "file": "07-animation/frames/chris/frame-10.png",
+      "type": "animation",
+      "sha256": "f174f1066f4166caa36efb1888bda6e58a0b1eb1e8178843db5771d631c5d6c1",
+      "width": 512,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        108,
+        21,
+        409,
+        756
+      ],
+      "character": "chris",
+      "fps": 12,
+      "pivot": [
+        256,
+        753
+      ]
+    },
+    {
+      "id": "07-animation_frames_chris_frame-11_png",
+      "file": "07-animation/frames/chris/frame-11.png",
+      "type": "animation",
+      "sha256": "36a063da7188fdce9aaba36c4ca97ab5eebfb7f582df29b48ee3540c41e4d157",
+      "width": 512,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        108,
+        21,
+        409,
+        756
+      ],
+      "character": "chris",
+      "fps": 12,
+      "pivot": [
+        256,
+        753
+      ]
+    },
+    {
+      "id": "07-animation_frames_chris_frame-12_png",
+      "file": "07-animation/frames/chris/frame-12.png",
+      "type": "animation",
+      "sha256": "92deca9cd8c5566960c5fa3ab9905615e1721eae74189a630c486191c8cf2483",
+      "width": 512,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        108,
+        21,
+        409,
+        756
+      ],
+      "character": "chris",
+      "fps": 12,
+      "pivot": [
+        256,
+        753
+      ]
+    },
+    {
+      "id": "07-animation_frames_chris_frame-13_png",
+      "file": "07-animation/frames/chris/frame-13.png",
+      "type": "animation",
+      "sha256": "b58103050c73349252bfe78c9eddd7602fe8474dc5cc8c99754547d5fc178535",
+      "width": 512,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        108,
+        21,
+        409,
+        756
+      ],
+      "character": "chris",
+      "fps": 12,
+      "pivot": [
+        256,
+        753
+      ]
+    },
+    {
+      "id": "07-animation_frames_chris_frame-14_png",
+      "file": "07-animation/frames/chris/frame-14.png",
+      "type": "animation",
+      "sha256": "4ce4980a418172783144fbca6684ea42c62f961cb69eeed4a57fa5b1f469b1f5",
+      "width": 512,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        108,
+        21,
+        409,
+        756
+      ],
+      "character": "chris",
+      "fps": 12,
+      "pivot": [
+        256,
+        753
+      ]
+    },
+    {
+      "id": "07-animation_frames_chris_frame-15_png",
+      "file": "07-animation/frames/chris/frame-15.png",
+      "type": "animation",
+      "sha256": "68808e0e8c3340a1d1b5131eb34309c92f11db16f91c62c98914b1cecc77ac7e",
+      "width": 512,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        108,
+        21,
+        409,
+        756
+      ],
+      "character": "chris",
+      "fps": 12,
+      "pivot": [
+        256,
+        753
+      ]
+    },
+    {
+      "id": "07-animation_frames_chris_frame-16_png",
+      "file": "07-animation/frames/chris/frame-16.png",
+      "type": "animation",
+      "sha256": "ee875815269cedfa6b27a428e6ab2e94a25579d7eba7e630328a4ac39a7001ad",
+      "width": 512,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        108,
+        21,
+        409,
+        756
+      ],
+      "character": "chris",
+      "fps": 12,
+      "pivot": [
+        256,
+        753
+      ]
+    },
+    {
+      "id": "07-animation_frames_chris_frame-17_png",
+      "file": "07-animation/frames/chris/frame-17.png",
+      "type": "animation",
+      "sha256": "d32bc4e4ca5c40f20f97229dded5d0b47ea6f41449c0cf0a80249a247b4cf220",
+      "width": 512,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        108,
+        21,
+        409,
+        756
+      ],
+      "character": "chris",
+      "fps": 12,
+      "pivot": [
+        256,
+        753
+      ]
+    },
+    {
+      "id": "07-animation_frames_chris_frame-18_png",
+      "file": "07-animation/frames/chris/frame-18.png",
+      "type": "animation",
+      "sha256": "99c7cf5b3b87d95669db41c1afc32e2e8c98ac9c56a1bc1e5c0e02b3fa877691",
+      "width": 512,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        108,
+        21,
+        409,
+        756
+      ],
+      "character": "chris",
+      "fps": 12,
+      "pivot": [
+        256,
+        753
+      ]
+    },
+    {
+      "id": "07-animation_frames_chris_frame-19_png",
+      "file": "07-animation/frames/chris/frame-19.png",
+      "type": "animation",
+      "sha256": "d32bc4e4ca5c40f20f97229dded5d0b47ea6f41449c0cf0a80249a247b4cf220",
+      "width": 512,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        108,
+        21,
+        409,
+        756
+      ],
+      "character": "chris",
+      "fps": 12,
+      "pivot": [
+        256,
+        753
+      ]
+    },
+    {
+      "id": "07-animation_frames_chris_frame-20_png",
+      "file": "07-animation/frames/chris/frame-20.png",
+      "type": "animation",
+      "sha256": "ee875815269cedfa6b27a428e6ab2e94a25579d7eba7e630328a4ac39a7001ad",
+      "width": 512,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        108,
+        21,
+        409,
+        756
+      ],
+      "character": "chris",
+      "fps": 12,
+      "pivot": [
+        256,
+        753
+      ]
+    },
+    {
+      "id": "07-animation_frames_chris_frame-21_png",
+      "file": "07-animation/frames/chris/frame-21.png",
+      "type": "animation",
+      "sha256": "68808e0e8c3340a1d1b5131eb34309c92f11db16f91c62c98914b1cecc77ac7e",
+      "width": 512,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        108,
+        21,
+        409,
+        756
+      ],
+      "character": "chris",
+      "fps": 12,
+      "pivot": [
+        256,
+        753
+      ]
+    },
+    {
+      "id": "07-animation_frames_chris_frame-22_png",
+      "file": "07-animation/frames/chris/frame-22.png",
+      "type": "animation",
+      "sha256": "4ce4980a418172783144fbca6684ea42c62f961cb69eeed4a57fa5b1f469b1f5",
+      "width": 512,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        108,
+        21,
+        409,
+        756
+      ],
+      "character": "chris",
+      "fps": 12,
+      "pivot": [
+        256,
+        753
+      ]
+    },
+    {
+      "id": "07-animation_frames_chris_frame-23_png",
+      "file": "07-animation/frames/chris/frame-23.png",
+      "type": "animation",
+      "sha256": "b58103050c73349252bfe78c9eddd7602fe8474dc5cc8c99754547d5fc178535",
+      "width": 512,
+      "height": 768,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        108,
+        21,
+        409,
+        756
+      ],
+      "character": "chris",
+      "fps": 12,
+      "pivot": [
+        256,
+        753
+      ]
+    },
+    {
+      "id": "07-animation_landscape-keyframe-00_png",
+      "file": "07-animation/landscape-keyframe-00.png",
+      "type": "animation",
+      "sha256": "52e2d40aa050f1cd9db1bc279f0269799e6b70bb57e1808f7d220967161c6b53",
+      "width": 1920,
+      "height": 1080,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null
+    },
+    {
+      "id": "07-animation_landscape-keyframe-12_png",
+      "file": "07-animation/landscape-keyframe-12.png",
+      "type": "animation",
+      "sha256": "c049f16ca8b4b624bcc33e9927958f3d7019e40c0923c14ae719425535a7a692",
+      "width": 1920,
+      "height": 1080,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null
+    },
+    {
+      "id": "07-animation_landscape-keyframe-24_png",
+      "file": "07-animation/landscape-keyframe-24.png",
+      "type": "animation",
+      "sha256": "e3b55510b8a36a43eea33567c1d74f53146b963fafff6744dd3ee78805e2c73a",
+      "width": 1920,
+      "height": 1080,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null
+    },
+    {
+      "id": "07-animation_landscape-keyframe-36_png",
+      "file": "07-animation/landscape-keyframe-36.png",
+      "type": "animation",
+      "sha256": "a3d4182a630a7248dbf81cb792ab27a49065ea495c6dbe5b68e0baf94c0c4e75",
+      "width": 1920,
+      "height": 1080,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null
+    },
+    {
+      "id": "07-animation_landscape-keyframe-48_png",
+      "file": "07-animation/landscape-keyframe-48.png",
+      "type": "animation",
+      "sha256": "e29a05f98052fc799957869774cc3ee724e7181c83f109f67e059de4b06c03bc",
+      "width": 1920,
+      "height": 1080,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null
+    },
+    {
+      "id": "07-animation_landscape-keyframe-60_png",
+      "file": "07-animation/landscape-keyframe-60.png",
+      "type": "animation",
+      "sha256": "0dbba89fb88d867c4e20625895a01d4eb934e8b8b1f1f7ba0d6d3918b5f5759b",
+      "width": 1920,
+      "height": 1080,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null
+    },
+    {
+      "id": "07-animation_portrait-keyframe-00_png",
+      "file": "07-animation/portrait-keyframe-00.png",
+      "type": "animation",
+      "sha256": "0cca35d613e4a011d2f61a172318001177b7c9ce140539802492a0021cacd3b8",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null
+    },
+    {
+      "id": "07-animation_portrait-keyframe-12_png",
+      "file": "07-animation/portrait-keyframe-12.png",
+      "type": "animation",
+      "sha256": "18b18236687db46a40d6a77aac2f845a8fcdf15175e9674b2b52a27c76c9616a",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null
+    },
+    {
+      "id": "07-animation_portrait-keyframe-24_png",
+      "file": "07-animation/portrait-keyframe-24.png",
+      "type": "animation",
+      "sha256": "2547881c29b90f3a56ad581e6ab747dab332bbef78be8bd8a15a4a4dc0d269c6",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null
+    },
+    {
+      "id": "07-animation_portrait-keyframe-36_png",
+      "file": "07-animation/portrait-keyframe-36.png",
+      "type": "animation",
+      "sha256": "b43783ef0d6f309c7b5c94bf996c35b78c83fe372224f0278d37cf3d2598fee0",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null
+    },
+    {
+      "id": "07-animation_portrait-keyframe-48_png",
+      "file": "07-animation/portrait-keyframe-48.png",
+      "type": "animation",
+      "sha256": "7133b9eb6881b6a06bc86a23cac38e7654a2a3bcda9ce37b4ae3a4d6ffabac0c",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null
+    },
+    {
+      "id": "07-animation_portrait-keyframe-60_png",
+      "file": "07-animation/portrait-keyframe-60.png",
+      "type": "animation",
+      "sha256": "56fb43a8a96b1e2a5e51541b2d0ec213d210d33206ff7ae554ebe801f37f2927",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null
+    },
+    {
+      "id": "07-animation_rig_airobot_body_png",
+      "file": "07-animation/rig/airobot/body.png",
+      "type": "animation",
+      "sha256": "3c4ed3dedc77b5b87d573381d613592f59e1154f6827c97a66b74233a05c5670",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        92,
+        264,
+        384,
+        502
+      ]
+    },
+    {
+      "id": "07-animation_rig_airobot_head_png",
+      "file": "07-animation/rig/airobot/head.png",
+      "type": "animation",
+      "sha256": "ec967694e4d28409d009020d7321bdb687b9133e5a57af2548f80c45a4d9f691",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        86,
+        8,
+        422,
+        264
+      ]
+    },
+    {
+      "id": "07-animation_rig_airobot_rig_json",
+      "file": "07-animation/rig/airobot/rig.json",
+      "type": "animation",
+      "sha256": "bf6f590ec127d0bf370ef3a2feb325c3daca4e9d88503ba995d1949dda3230d8"
+    },
+    {
+      "id": "07-animation_rig_airobot_wave-arm_png",
+      "file": "07-animation/rig/airobot/wave-arm.png",
+      "type": "animation",
+      "sha256": "7b991b7b6557291a68cb29b14c02dbccf2fef52a4a4ef181f72bef5ab66820a7",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "has_transparency": true,
+      "alpha_bounds": [
+        332,
+        267,
+        419,
+        438
+      ]
+    },
+    {
+      "id": "07-animation_test-landscape_gif",
+      "file": "07-animation/test-landscape.gif",
+      "type": "animation",
+      "sha256": "30867497551e24254eb2ec75613d9fa75e6fed4ae2f27cb424b4a2cdbc82a8e2"
+    },
+    {
+      "id": "07-animation_test-landscape_mp4",
+      "file": "07-animation/test-landscape.mp4",
+      "type": "animation",
+      "sha256": "4206edcb0ac865bb171ac5f978f5d2fd224f3074ca1ec31506474210ac94afad"
+    },
+    {
+      "id": "07-animation_test-portrait_mp4",
+      "file": "07-animation/test-portrait.mp4",
+      "type": "animation",
+      "sha256": "a1c6a3ffdd71e95215ea7ea134928fc5c44123dbcf93f5c277e3b5979e3f1c05"
+    },
+    {
+      "id": "07-animation_verification_json",
+      "file": "07-animation/verification.json",
+      "type": "animation",
+      "sha256": "adddec29461d57adc29da395f2616e9175317f2d5cded3e4dcf57b46839c2ac8"
+    },
+    {
+      "id": "08-preview_animation-landscape-keyframes_png",
+      "file": "08-preview/animation-landscape-keyframes.png",
+      "type": "preview",
+      "sha256": "01dfbccef7623f61a4bccd7330123ff84045c081b4689a86453a997694bea396",
+      "width": 1920,
+      "height": 720,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null
+    },
+    {
+      "id": "08-preview_animation-landscape-poster_png",
+      "file": "08-preview/animation-landscape-poster.png",
+      "type": "preview",
+      "sha256": "e29a05f98052fc799957869774cc3ee724e7181c83f109f67e059de4b06c03bc",
+      "width": 1920,
+      "height": 1080,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null
+    },
+    {
+      "id": "08-preview_animation-portrait-keyframes_png",
+      "file": "08-preview/animation-portrait-keyframes.png",
+      "type": "preview",
+      "sha256": "052172600836d291bdfa0c86406d9bd306babfa5980badb84950a506c0483179",
+      "width": 810,
+      "height": 960,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null
+    },
+    {
+      "id": "08-preview_animation-portrait-poster_png",
+      "file": "08-preview/animation-portrait-poster.png",
+      "type": "preview",
+      "sha256": "7133b9eb6881b6a06bc86a23cac38e7654a2a3bcda9ce37b4ae3a4d6ffabac0c",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB",
+      "has_transparency": false,
+      "alpha_bounds": null
+    }
+  ],
+  "status": "complete",
+  "asset_count": 144,
+  "animation": {
+    "fps": 12,
+    "duration_seconds": 6,
+    "loop_frames": 24,
+    "outputs": [
+      "07-animation/test-landscape.mp4",
+      "07-animation/test-portrait.mp4",
+      "07-animation/test-landscape.gif"
+    ],
+    "indexes": [
+      "07-animation/airobot-wave-spritesheet.json",
+      "07-animation/chris-idle-spritesheet.json"
+    ]
+  }
+}

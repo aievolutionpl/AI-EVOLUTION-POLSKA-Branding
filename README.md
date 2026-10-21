@@ -9,6 +9,8 @@ Kontekst firmy, z którego agent korzysta przed przygotowaniem treści, oferty l
 
 ## Zacznij tutaj
 
+Assety (logo, tokeny, postacie pixel, szablony): [BRAND_KIT.md](BRAND_KIT.md).
+
 Przekaż agentowi [COMPANY_BRAIN.md](COMPANY_BRAIN.md) i oryginalne materiały potrzebne
 do zadania. W repo instrukcją wejścia jest [AGENTS.md](AGENTS.md).
 Sklonowanie repo samo w sobie nie dowodzi przeczytania wiedzy.

@@ -12,7 +12,7 @@ spec = importlib.util.spec_from_file_location('brain_v31', ROOT / 'scripts/brain
 brain = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(brain)
 TEXT = (ROOT / 'COMPANY_BRAIN.md').read_text(encoding='utf-8')
-TODAY = date(2026, 10, 17)
+TODAY = date(2026, 10, 21)
 
 
 class ContextTests(unittest.TestCase):
@@ -136,9 +136,10 @@ class ContextTests(unittest.TestCase):
 
     def test_legacy_business_records_are_unchanged(self):
         # Public v3 records; hash guards prices AND all other existing fields.
-        # 3.2.0 added website scope and sources; 3.3.0 added owner decisions (PRO price, routing).
+        # 3.2.0 added website scope and sources; 3.3.0 added owner decisions (PRO price, routing);
+        # 3.5.0 added owner answers (PRO start, group size 8-15, 20 lessons), prices unchanged.
         raw = json.dumps(self.data['records'][:13], ensure_ascii=False, sort_keys=True).encode()
-        self.assertEqual(hashlib.sha256(raw).hexdigest(), 'c45dab60f4e15b1396c09232b49628c746ff8755140316afaeae9ce9a4ceadb7')
+        self.assertEqual(hashlib.sha256(raw).hexdigest(), 'b674075bd80c6bad2f62f87255c13d4d15aa4e20407b00cf1b2cf4dc8e369406')
         prices = {r['id']: (r['value']['price'], r['value']['regular_price']) for r in self.data['records'] if r['kind'] == 'offer'}
         self.assertEqual(prices, {'OFFER-FREE': (0, None), 'OFFER-PRO': (1499, 1999),
                                   'OFFER-BUSINESS': (4999, None), 'OFFER-WORKSHOPS': (2499, None)})

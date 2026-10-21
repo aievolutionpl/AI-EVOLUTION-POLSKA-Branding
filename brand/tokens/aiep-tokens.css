@@ -1,0 +1,53 @@
+/* AI Evolution Polska · Brand System 2026 v2 „Ścieżka Ewolucji”
+   Tokeny do stron, slajdów, karuzel i aplikacji. Źródło prawdy: COMPANY_BRAIN.md, sekcja 6.
+   Fonty: dołącz w <head>:
+   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Serif:ital@0;1&family=Geist:wght@400..700&family=Geist+Mono:wght@400..600&display=swap" rel="stylesheet">
+*/
+:root {
+  /* tła */
+  --aiep-void: #08070E;      /* tło główne, ~60% kadru */
+  --aiep-graphite: #12111C;  /* karty, sekcje */
+  --aiep-slate: #1C1A2B;     /* elementy podniesione */
+  --aiep-line: #2E2B45;      /* linie, obramowania */
+
+  /* tekst */
+  --aiep-bone: #F2EFE8;      /* tekst główny; jasne tło B2B */
+  --aiep-mist: #9E9AB8;      /* tekst pomocniczy */
+  --aiep-void-ink: #0E0C17;  /* tekst na Bone i Amber */
+
+  /* marka */
+  --aiep-violet: #7B5CFF;    /* kolor marki */
+  --aiep-blue: #3D8BFF;      /* dane, kod */
+  --aiep-magenta: #E04A9A;   /* energia, koniec gradientu */
+  --aiep-amber: #FFB23E;     /* WYŁĄCZNIE CTA, cena, aktywny węzeł */
+
+  --aiep-aurora: linear-gradient(115deg, #3D8BFF 0%, #7B5CFF 48%, #E04A9A 100%); /* max ~15% kadru */
+
+  /* typografia */
+  --aiep-font-display: 'Bricolage Grotesque', sans-serif; /* 700/800, tracking -0.03 do -0.045em */
+  --aiep-font-accent: 'Instrument Serif', serif;          /* italic, 1-3 słowa na kadr */
+  --aiep-font-body: 'Geist', sans-serif;                  /* 400/500/600 */
+  --aiep-font-mono: 'Geist Mono', monospace;              /* etykiety, wersaliki, +0.12em */
+
+  /* kształty */
+  --aiep-radius-card: 22px;
+  --aiep-radius-pill: 999px;
+  --aiep-border: 1.5px solid var(--aiep-line);
+}
+
+/* tekst w gradiencie Aurora (jedno słowo nagłówka) */
+.aiep-aurora-text {
+  background: var(--aiep-aurora);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* kursywa emocji */
+.aiep-accent { font-family: var(--aiep-font-accent); font-style: italic; font-weight: 400; }
+
+/* kropkowa siatka tła */
+.aiep-dot-grid {
+  background-image: radial-gradient(rgba(242, 239, 232, .10) 1px, transparent 1.4px);
+  background-size: 28px 28px;
+}

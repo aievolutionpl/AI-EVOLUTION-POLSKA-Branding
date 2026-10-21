@@ -2,7 +2,7 @@
 
 <!-- Edytuj tylko COMPANY_BRAIN.md. BRAND.md i agent/references/COMPANY_BRAIN.md są generowanymi kopiami. -->
 
-Wersja struktury: 3.4.0. Aktualizacja dokumentacji: 2026-10-17.
+Wersja struktury: 3.5.0. Aktualizacja dokumentacji: 2026-10-21.
 To nie data potwierdzenia wszystkich danych biznesowych.
 
 Jeden plik do pracy nad treścią, ofertą, stroną, sprzedażą, SEO i automatyzacją.
@@ -63,6 +63,9 @@ Cenę OFFER-PRO potwierdził właściciel 2026-10-06: 1 499 zł. Kwota 699 zł
 z fragmentu wyszukiwarki jest nieaktualna; nie używaj jej. Rekord nadal nie ma
 zgody na publikację, bo brakuje jednostki i podstawy podatkowej (netto/brutto).
 TO_CONFIRM nie oznacza wycofania produktu, tylko brak aktualnego potwierdzenia.
+Decyzje właściciela z 2026-10-17 (SRC-OWNER-ANSWERS-20261017): priorytet na najbliższe
+3 miesiące to Kurs PRO (start około grudnia 2026, teraz lista zapisów) i szkolenia BUR;
+szkolenie firmowe to grupy 8-15 osób; darmowe szkolenie ChatGPT, Work i Codex ma 20 lekcji.
 
 Karta oferty powinna opisywać: markę, odbiorcę, problem, zakres, dostarczany
 rezultat, format, czas, wymagania, wyłączenia, cenę, walutę, jednostkę,
@@ -638,8 +641,8 @@ Nie wklejaj treści prywatnego potwierdzenia; użyj zatwierdzonej notatki.
 ```json
 {
   "schema_version": 1,
-  "version": "3.4.0",
-  "updated_at": "2026-10-17",
+  "version": "3.5.0",
+  "updated_at": "2026-10-21",
   "sources": [
     {
       "id": "SRC-BRAND",
@@ -736,6 +739,13 @@ Nie wklejaj treści prywatnego potwierdzenia; użyj zatwierdzonej notatki.
       "locator": "owner-message:2026-10-17",
       "reviewed_at": "2026-10-17",
       "scope": "Wiadomość właściciela w sesji pracy: akceptacja Brand System 2026 v2 i polecenie aktualizacji repo. Dotyczy wyłącznie identyfikacji wizualnej."
+    },
+    {
+      "id": "SRC-OWNER-ANSWERS-20261017",
+      "kind": "owner_confirmation",
+      "locator": "owner-message:2026-10-17",
+      "reviewed_at": "2026-10-17",
+      "scope": "Odpowiedzi właściciela w sesji pracy: cel 3 miesięcy to budowa i sprzedaż Kursu PRO oraz start szkoleń BUR; Kurs PRO startuje około grudnia 2026; grupa szkoleniowa 8-15 osób; darmowe szkolenie ChatGPT/Work/Codex ma 20 lekcji. Nie potwierdza podstawy podatkowej cen."
     }
   ],
   "records": [
@@ -749,7 +759,7 @@ Nie wklejaj treści prywatnego potwierdzenia; użyj zatwierdzonej notatki.
         "brand": "AI Evolution Polska",
         "audience": "osoba zaczynająca",
         "problem": null,
-        "scope": "19 lekcji, 50+ gotowych promptów, 15 workflowów ChatGPT Work; praktyczne podstawy AI w pracy i biznesie",
+        "scope": "20 lekcji, 50+ gotowych promptów, 15 workflowów ChatGPT Work; praktyczne podstawy AI w pracy i biznesie",
         "deliverable": null,
         "format": "kurs",
         "duration": "ok. 2 h",
@@ -768,7 +778,8 @@ Nie wklejaj treści prywatnego potwierdzenia; użyj zatwierdzonej notatki.
       "sources": [
         "SRC-OFFER",
         "SRC-ONLINE-SEARCH",
-        "SRC-WEBSITE-SEARCH"
+        "SRC-WEBSITE-SEARCH",
+        "SRC-OWNER-ANSWERS-20261017"
       ],
       "verified_at": null,
       "review_after": null,
@@ -798,7 +809,7 @@ Nie wklejaj treści prywatnego potwierdzenia; użyj zatwierdzonej notatki.
         "unit": null,
         "price_type": "promotional",
         "tax_basis": null,
-        "availability": null,
+        "availability": "lista zapisów bez płatności; start około grudnia 2026",
         "next_step": "Potwierdź zakres i warunki z właścicielem.",
         "destination": null,
         "price_note": "Właściciel potwierdził 1499 PLN (2026-10-06). Cena regularna 1999 PLN pochodzi z repo i nie została potwierdzona ponownie. 699 PLN z fragmentu wyszukiwarki jest nieaktualne."
@@ -806,7 +817,8 @@ Nie wklejaj treści prywatnego potwierdzenia; użyj zatwierdzonej notatki.
       "sources": [
         "SRC-OFFER",
         "SRC-WEBSITE-SEARCH",
-        "SRC-OWNER-20261006"
+        "SRC-OWNER-20261006",
+        "SRC-OWNER-ANSWERS-20261017"
       ],
       "verified_at": "2026-10-06",
       "review_after": "2026-11-06",
@@ -824,10 +836,10 @@ Nie wklejaj treści prywatnego potwierdzenia; użyj zatwierdzonej notatki.
         "brand": "AI Evolution Polska",
         "audience": "zespoły firmowe",
         "problem": null,
-        "scope": "ChatGPT, ChatGPT Work i Codex w codziennej pracy zespołu; wdrożenie krok po kroku w biurze, sprzedaży i administracji; automatyzacja procesów, kalkulator ROI, kompetencje AI wymagane przez EU AI Act",
+        "scope": "ChatGPT, ChatGPT Work i Codex w codziennej pracy zespołu; wdrożenie krok po kroku w biurze, sprzedaży i administracji; automatyzacja procesów, kalkulator ROI, kompetencje AI wymagane przez EU AI Act; grupy 8-15 osób, stacjonarnie w firmie",
         "deliverable": null,
         "format": "szkolenie",
-        "duration": null,
+        "duration": "2 dni, 14 godzin",
         "prerequisites": null,
         "exclusions": null,
         "price": 4999,
@@ -843,7 +855,8 @@ Nie wklejaj treści prywatnego potwierdzenia; użyj zatwierdzonej notatki.
       "sources": [
         "SRC-OFFER",
         "SRC-WEBSITE-SEARCH",
-        "SRC-ONLINE-SEARCH"
+        "SRC-ONLINE-SEARCH",
+        "SRC-OWNER-ANSWERS-20261017"
       ],
       "verified_at": null,
       "review_after": null,
@@ -1570,6 +1583,36 @@ Nie wklejaj treści prywatnego potwierdzenia; użyj zatwierdzonej notatki.
       "path": "brand/brand-system-2026.jpg",
       "role": "zrzut Brand System 2026 v2",
       "git_blob_sha": "d9657d68b63d4f8f052e05bbc56f334114ae69a4"
+    },
+    {
+      "id": "TOKENS-CSS",
+      "path": "brand/tokens/aiep-tokens.css",
+      "role": "tokeny Brand System v2 (CSS)",
+      "git_blob_sha": "5438fd0b9e1921c66f2effed57fba43484db8acf"
+    },
+    {
+      "id": "TOKENS-JSON",
+      "path": "brand/tokens/aiep-tokens.json",
+      "role": "tokeny Brand System v2 (JSON)",
+      "git_blob_sha": "ed80fbc978d3c15f6298b51a2ba5301dd21003b2"
+    },
+    {
+      "id": "PIXEL-MANIFEST",
+      "path": "assets/pixel-education-series/manifest.json",
+      "role": "manifest pakietu pixel (postacie, tła, animacje)",
+      "git_blob_sha": "f299f255ca82e8447bad0ad4226494aaabd7334c"
+    },
+    {
+      "id": "PIXEL-TEAM",
+      "path": "assets/pixel-education-series/08-preview/team-overview.png",
+      "role": "podgląd postaci pixel",
+      "git_blob_sha": "fa22e497d168dab7ef04ef4b826d2f7b503501df"
+    },
+    {
+      "id": "CAROUSEL-TEMPLATE",
+      "path": "templates/instagram-carousel/carousel.html",
+      "role": "szablon karuzeli IG v2",
+      "git_blob_sha": "f66872524fdd39ea37af42574fc11d2d8d4fc9b2"
     }
   ],
   "review_policy": [

@@ -1,0 +1,36 @@
+{
+  "name": "AI Evolution Polska Brand System",
+  "version": "2026.2",
+  "codename": "Ścieżka Ewolucji",
+  "color": {
+    "void": { "hex": "#08070E", "hsl": "249 33% 4%", "use": "tło główne" },
+    "graphite": { "hex": "#12111C", "hsl": "245 24% 9%", "use": "karty, sekcje" },
+    "slate": { "hex": "#1C1A2B", "hsl": "247 25% 14%", "use": "elementy podniesione" },
+    "line": { "hex": "#2E2B45", "hsl": "247 23% 22%", "use": "linie, obramowania" },
+    "bone": { "hex": "#F2EFE8", "hsl": "42 28% 93%", "use": "tekst główny, jasne tło" },
+    "mist": { "hex": "#9E9AB8", "hsl": "248 17% 66%", "use": "tekst pomocniczy" },
+    "voidInk": { "hex": "#0E0C17", "hsl": "251 31% 7%", "use": "tekst na Bone i Amber" },
+    "violet": { "hex": "#7B5CFF", "hsl": "251 100% 68%", "use": "kolor marki" },
+    "blue": { "hex": "#3D8BFF", "hsl": "216 100% 62%", "use": "dane, kod" },
+    "magenta": { "hex": "#E04A9A", "hsl": "328 71% 58%", "use": "energia, koniec gradientu" },
+    "amber": { "hex": "#FFB23E", "hsl": "36 100% 62%", "use": "wyłącznie CTA, cena, aktywny węzeł" }
+  },
+  "gradient": {
+    "aurora": { "css": "linear-gradient(115deg, #3D8BFF 0%, #7B5CFF 48%, #E04A9A 100%)", "maxShare": 0.15 }
+  },
+  "frameRatio": { "void": 60, "graphite": 22, "aurora": 12, "amber": 6 },
+  "font": {
+    "display": { "family": "Bricolage Grotesque", "weights": [700, 800], "tracking": "-0.03em to -0.045em" },
+    "accent": { "family": "Instrument Serif", "style": "italic", "rule": "1-3 słowa na kadr, nigdy w tekście ciągłym" },
+    "body": { "family": "Geist", "weights": [400, 500, 600] },
+    "mono": { "family": "Geist Mono", "weights": [500], "transform": "uppercase", "tracking": "0.12em" },
+    "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Serif:ital@0;1&family=Geist:wght@400..700&family=Geist+Mono:wght@400..600&display=swap"
+  },
+  "radius": { "card": 22, "pill": 999 },
+  "social": {
+    "instagramPost": [1080, 1350],
+    "reels": [1080, 1920],
+    "modes": { "dark": "edukacja, kursy", "aurora": "jedna wielka liczba", "bone": "B2B, szkolenia, cena" }
+  },
+  "forbidden": ["#000000", "#FFFFFF", "#B6FF00 (AI Evolution Labs)", "em dash", "zmyślone liczby"]
+}

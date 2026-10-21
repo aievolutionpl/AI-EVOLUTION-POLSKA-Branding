@@ -1,0 +1,30 @@
+Use case: stylized-concept / reference-faithful style exploration.
+Create ONE beautiful high-resolution square contact sheet, an EXACT 3 by 3 grid with NINE equally sized numbered cells. This is a pixel-art STYLE SELECTION BOARD for AI EVOLUTION POLSKA educational animation assets. Target a crisp 3072x3072 or comparably large square image.
+
+REFERENCE INPUT ROLES:
+1: chris.webp = exact human identity, face, hairstyle, dark polo and chest logo. He is an adult man with short dark brown side-swept quiff, clean-shaven face, characteristic eyebrows, slight smile. Preserve his recognizable likeness; do not invent a different person.
+2: AIROBOT_MASTER_FRONT.png = exact robot silhouette, head/body proportions, antenna placement, eyes, boots and chest brand.
+3: AIROBOT_TURNAROUND_DETAILS.png = construction consistency reference, NOT a layout to copy.
+4: AIEP_OFFICIAL_LOGO_SOURCE.png = official chest brand artwork, typography and colors.
+5: official-logo.png = original complete official brand logo, same graphic, source for shirt logo.
+
+LAYOUT:
+Very clean professional comparative art-direction board. Three columns, three rows, reading order 01 through 09. Thin graphite dividers and consistent generous gutters. Each cell has a slim dark header with the exact numbered short style title below. The cell artwork area is warm Bone #F2EFE8 so dark clothing and dark robot are easy to judge. Use the SAME warm pale background in ALL 9 cells, no scenery. Outer frame Void #08070E, headings Bone, small violet accents. No large title taking space from characters. Only the nine short headers.
+Every cell depicts the SAME two characters as large, full-body mini figures side by side: Chris on the left at approx 90% available art height, official small AIROBOT on the right at approx 65% Chris height. Both facing toward camera, Chris in relaxed neutral standing pose with arms slightly apart, robot with small friendly gesture. Feet and antenna fully inside cell. Chris wears the reference graphite BLACK POLO with collar and clear violet/blue/pink 'AI / EVOLUTION / POLSKA' logo over his left chest, charcoal trousers and simple dark shoes. Preserve human facial identity even when changing stylization. Reference source logo always visible on robot belly. No other characters.
+Consistent character placement and matched baseline across cells, EXCEPT 07 uses an elevated isometric view. All figures have enough pixels for faces and identifying shirt graphics.
+
+NINE GENUINELY DIFFERENT DESIGN TREATMENTS, not the same rendering recolored:
+01 '01 · 8-BIT RETRO': deliberately chunky square pixel clusters, economical 12-16 color palette, bold stepped silhouette, approximately 64-pixel-tall source-sprite feel enlarged with nearest-neighbor. Recognizable hair/face and readable AI monogram. Simplified lower text acceptable at this coarse scale.
+02 '02 · 16-BIT RPG': classic richly colored 2D RPG character sprites, roughly 110-pixel-tall source feel, three-tone shading, clean pixel contour and natural 4-head mini-figure proportions, crisp square clusters.
+03 '03 · 32-BIT DETAIL': detailed arcade/adventure character sprites, roughly 180-pixel-tall source feel, nuanced recognizable face and dark polo fabric, controlled pixel dithering, realistic 5-head mini-figure proportions. Rich detailed metal highlights rendered as discrete pixel clusters.
+04 '04 · CHIBI PIXEL': cute expressive LARGE heads, short bodies, 2.5-head proportions, big expressive human eyes without losing likeness, compact chunky 2D square-pixel sprites, friendly educational videogame feel.
+05 '05 · PIXEL COMIC': bold thick dark stepped outlines, graphic cel shading, confident mature editorial cartoon proportions, angular block-pixel hair and features, only 2-3 shadow tones, clearly 2D pixel art.
+06 '06 · HD PIXEL': high-definition handcrafted pixel sprites, most recognizable face and most faithful logo of the nine, expressive 4-head proportions, small but plainly visible crisp square pixel clusters, delicate pixel highlights and natural colors. Must still read as PIXEL ART, no smooth painting, no photo filter.
+07 '07 · ISOMETRIC': actual 2:1 isometric pixel art, slight elevated three-quarter camera, clean architectural pixel angles, strong light/shadow planes, recognizable face and front chest logos. Same duo.
+08 '08 · NEON PIXEL': premium dark arcade pixel sprites with controlled violet/cyan rim-light blocks, rich graphite shadows, saturated blue-magenta edge accents, sharp pixels, no blurry bloom. Same pale background for comparison.
+09 '09 · VOXEL 3D': playful miniature 3D cube/voxel-built duo, visibly cubic hair, stepped face and robot curved geometry built from many small cubes, orthographic soft studio lighting, fine voxel resolution sufficient for recognizable face and chest logo. This is the ONLY volumetric voxel cell; other eight are flat 2D pixel-art sprites.
+
+BRAND / IDENTITY CONSTRAINTS:
+Robot keeps gigantic horizontal rounded-rectangle black glass head, cyan dot-matrix ring eyes and smile, single short offset antenna with purple ball over viewer-left crown, two purple ear rings, glossy graphite shell translated into pixel highlights, small segmented arms, chunky feet. Never white robot, never round human head on robot, never second antenna.
+Use official logo shape and stacked wording 'AI', 'EVOLUTION', 'POLSKA'; colors violet #7B5CFF, blue #3D8BFF, magenta #E04A9A plus original cyan. Logo must be recognizable and not replaced with arbitrary icon. It is a concept board, but take special care with typography on 03 and 06.
+No photos or blurred pixelation filters. Build forms using intentionally drawn square pixels with hard stair-stepped edges. No smooth vector shapes except the board typography. NO scanlines, no random pixel-noise texture, no props covering logos, no sunglasses or beard invented for Chris. Clear distinctive differences among all nine cells. Exact 3x3 grid.

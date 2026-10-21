@@ -1,5 +1,16 @@
 # Historia zmian
 
+## 3.5.0 | 2026-10-21
+
+Brand Kit dla zespołu: BRAND_KIT.md (mapa assetów), tokeny Brand System v2
+(brand/tokens/aiep-tokens.css i .json), szablon karuzeli Instagram z przykładem
+(templates/instagram-carousel/) oraz Pixel Animation Pack 1.0
+(assets/pixel-education-series/: 7 postaci, karty, tła, rekwizyty, logo pixel, animacje).
+
+Decyzje właściciela z 2026-10-17 (SRC-OWNER-ANSWERS-20261017): Kurs PRO startuje
+około grudnia 2026, grupy szkoleniowe 8-15 osób, darmowe szkolenie ma 20 lekcji.
+Statusy i blokady publikacji ofert bez zmian. Logo, licencja i ceny bez zmian.
+
 ## 3.4.0 | 2026-10-17
 
 Nowa identyfikacja wizualna zatwierdzona przez właściciela (SRC-OWNER-20261017,
